@@ -1,4 +1,4 @@
-update=Wednesday, January 03, 2018 'AMt' 11:11:26 AM
+update=Wednesday, January 03, 2018 'PMt' 04:27:39 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=libs/symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=libs/symbols/microchip

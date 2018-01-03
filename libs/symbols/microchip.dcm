@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UTC2000-I/MG
+D Basic USB Type-C Controller w/ CC Logic for UFP, -40°C ~ 85°C
+K USB-C, USB Type-C, CC Logic, UFP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pdf
+$ENDCMP
+#
+#End Doc Library
