@@ -288,4 +288,50 @@ F 7 "UTC2000-I/MG-ND" H 5900 2100 60  0001 C CNN "Supplier1PN"
 	1    5900 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Transistor_FET:NTR2101P Q?
+U 1 1 5BE8FFD4
+P 8400 2000
+F 0 "Q?" V 8743 2000 50  0000 C CNN
+F 1 "NTR2101P" V 8652 2000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8600 1925 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF" H 8400 2000 50  0001 L CNN
+	1    8400 2000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6800 3150 8400 3150
+Wire Wire Line
+	6800 3300 8400 3300
+Wire Wire Line
+	8400 3300 8400 3150
+Wire Wire Line
+	8400 3150 8400 2400
+Connection ~ 8400 3150
+Wire Wire Line
+	5900 1900 8100 1900
+Connection ~ 5900 1900
+$Comp
+L Device:R R?
+U 1 1 5BE95889
+P 8100 2150
+F 0 "R?" V 8180 2150 50  0000 C CNN
+F 1 "10k" V 8100 2150 50  0000 C CNN
+F 2 "" V 8030 2150 50  0001 C CNN
+F 3 "" H 8100 2150 50  0001 C CNN
+	1    8100 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 2000 8100 1900
+Connection ~ 8100 1900
+Wire Wire Line
+	8100 1900 8200 1900
+Wire Wire Line
+	8100 2300 8100 2400
+Wire Wire Line
+	8100 2400 8400 2400
+Connection ~ 8400 2400
+Wire Wire Line
+	8400 2400 8400 2200
 $EndSCHEMATC
