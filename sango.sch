@@ -177,7 +177,7 @@ Wire Wire Line
 	4200 3100 4200 5100
 Connection ~ 4350 5100
 Text Notes 4250 1250 0    60   ~ 0
-TODO: button (to GND) as input to OSC#\nOSC# has a Schmitt-triggered input with a pull-up
+TODO: button (to GND) as input to OCS#\nOSC# has a Schmitt-triggered input with a pull-up
 Wire Wire Line
 	4350 3150 4600 3150
 Wire Wire Line
