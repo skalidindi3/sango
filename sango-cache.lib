@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_USB_C_Receptacle_USB2.0
 #
 DEF Connector_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
@@ -77,6 +94,29 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -133,8 +173,8 @@ ENDDEF
 # microchip_UTC2000-I_MG
 #
 DEF microchip_UTC2000-I_MG U 0 40 Y Y 1 F N
-F0 "U" 0 50 50 H V C CNN
-F1 "microchip_UTC2000-I_MG" 0 -50 50 H V C CNN
+F0 "U" 0 100 50 H V C CNN
+F1 "microchip_UTC2000-I_MG" 0 0 50 H V C CNN
 F2 "" -2000 550 50 H I C CIN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pdf" 0 -750 50 H I C CNN
 F4 "Basic USB Type-C Controller" 0 -750 60 H I C CNN "Description"
@@ -159,7 +199,7 @@ X FAULT_IND 4 900 450 100 L 50 50 1 1 O
 X CONNECTED# 5 900 300 100 L 50 50 1 1 C
 X CC2 6 -900 -450 100 R 50 50 1 1 I
 X CC1 7 -900 -300 100 R 50 50 1 1 I
-X LEGACY_IND# 8 900 -150 100 L 50 50 1 1 C
+X LEGACY_IND# 8 900 -100 100 L 50 50 1 1 C
 X 1.5_IND# 9 900 -300 100 L 50 50 1 1 C
 ENDDRAW
 ENDDEF
