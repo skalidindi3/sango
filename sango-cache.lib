@@ -137,10 +137,11 @@ F0 "U" 0 50 50 H V C CNN
 F1 "microchip_UTC2000-I_MG" 0 -50 50 H V C CNN
 F2 "" -2000 550 50 H I C CIN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pdf" 0 -750 50 H I C CNN
-F4 "Microchip Technology" 0 -750 60 H I C CNN "Manufacturer"
-F5 "UTC2000-I/MG" 0 -750 60 H I C CNN "ManufacturerPN"
-F6 "Digi-Key" 0 -750 60 H I C CNN "Supplier1"
-F7 "UTC2000-I/MG-ND" 0 -750 60 H I C CNN "Supplier1PN"
+F4 "Basic USB Type-C Controller" 0 -750 60 H I C CNN "Description"
+F5 "Microchip Technology" 0 -750 60 H I C CNN "Manufacturer"
+F6 "UTC2000-I/MG" 0 -750 60 H I C CNN "ManufacturerPN"
+F7 "Digi-Key" 0 -750 60 H I C CNN "Supplier1"
+F8 "UTC2000-I/MG-ND" 0 -750 60 H I C CNN "Supplier1PN"
 DRAW
 S -800 550 800 -550 0 1 10 f
 X OCS# 1 -900 -100 100 R 50 50 1 1 I

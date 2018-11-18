@@ -281,10 +281,11 @@ F 0 "U?" H 5900 2950 50  0000 C CNN
 F 1 "UTC2000-I_MG" H 5900 2850 50  0000 C CNN
 F 2 "" H 3900 3400 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pdf" H 5900 2100 50  0001 C CNN
-F 4 "Microchip Technology" H 5900 2100 60  0001 C CNN "Manufacturer"
-F 5 "UTC2000-I/MG" H 5900 2100 60  0001 C CNN "ManufacturerPN"
-F 6 "Digi-Key" H 5900 2100 60  0001 C CNN "Supplier1"
-F 7 "UTC2000-I/MG-ND" H 5900 2100 60  0001 C CNN "Supplier1PN"
+F 4 "Basic USB Type-C Controller" H 5900 2100 60  0001 C CNN "Description"
+F 5 "Microchip Technology" H 5900 2100 60  0001 C CNN "Manufacturer"
+F 6 "UTC2000-I/MG" H 5900 2100 60  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 5900 2100 60  0001 C CNN "Supplier"
+F 8 "UTC2000-I/MG-ND" H 5900 2100 60  0001 C CNN "Supplier Part Number"
 	1    5900 2850
 	1    0    0    -1  
 $EndComp
