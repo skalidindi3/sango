@@ -435,7 +435,7 @@ L Device:LED D?
 U 1 1 5BF5E104
 P 7650 3000
 F 0 "D?" H 7650 2800 50  0000 C CNN
-F 1 "LED" H 7650 2900 50  0000 C CNN
+F 1 "YELLOW" H 7650 2900 50  0000 C CNN
 F 2 "" H 7650 3000 50  0001 C CNN
 F 3 "~" H 7650 3000 50  0001 C CNN
 	1    7650 3000
@@ -446,7 +446,7 @@ L Device:LED D?
 U 1 1 5BF5E569
 P 7650 2850
 F 0 "D?" H 7650 2650 50  0000 C CNN
-F 1 "LED" H 7650 2750 50  0000 C CNN
+F 1 "RED" H 7650 2750 50  0000 C CNN
 F 2 "" H 7650 2850 50  0001 C CNN
 F 3 "~" H 7650 2850 50  0001 C CNN
 	1    7650 2850
@@ -463,7 +463,12 @@ P 8000 2350
 F 0 "R?" V 8080 2350 50  0000 C CNN
 F 1 "150" V 8000 2350 50  0000 C CNN
 F 2 "" V 7930 2350 50  0001 C CNN
-F 3 "" H 8000 2350 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8000 2350 50  0001 C CNN
+F 4 "RES SMD 150 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3EKF1500V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "P150HCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    8000 2350
 	-1   0    0    1   
 $EndComp
@@ -492,27 +497,30 @@ P 8150 2350
 F 0 "R?" V 8230 2350 50  0000 C CNN
 F 1 "150" V 8150 2350 50  0000 C CNN
 F 2 "" V 8080 2350 50  0001 C CNN
-F 3 "" H 8150 2350 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8150 2350 50  0001 C CNN
+F 4 "RES SMD 150 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3EKF1500V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "P150HCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    8150 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5BF7A803
-P 9350 2350
-F 0 "D?" H 9350 2150 50  0000 C CNN
-F 1 "LED" H 9350 2250 50  0000 C CNN
-F 2 "" H 9350 2350 50  0001 C CNN
-F 3 "~" H 9350 2350 50  0001 C CNN
-	1    9350 2350
+P 9350 2850
+F 0 "D?" H 9350 2650 50  0000 C CNN
+F 1 "BLUE" H 9350 2750 50  0000 C CNN
+F 2 "" H 9350 2850 50  0001 C CNN
+F 3 "~" H 9350 2850 50  0001 C CNN
+	1    9350 2850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9150 2000 9350 2000
 Wire Wire Line
 	9350 2000 9350 2200
-Wire Wire Line
-	9350 2500 9350 5400
 Wire Wire Line
 	9350 5400 6300 5400
 Connection ~ 6300 5400
@@ -521,4 +529,24 @@ Wire Wire Line
 Connection ~ 6200 5400
 Wire Wire Line
 	6200 5400 6300 5400
+$Comp
+L Device:R R?
+U 1 1 5BF89938
+P 9350 2350
+F 0 "R?" V 9430 2350 50  0000 C CNN
+F 1 "90.9" V 9350 2350 50  0000 C CNN
+F 2 "" V 9280 2350 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 2350 50  0001 C CNN
+F 4 "RES SMD 90.9 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3EKF90R9V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "P90.9HCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+	1    9350 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 2500 9350 2700
+Wire Wire Line
+	9350 3000 9350 5400
 $EndSCHEMATC
