@@ -46,11 +46,11 @@ F 0 "R?" V 4830 3450 50  0000 C CNN
 F 1 "10k" V 4750 3450 50  0000 C CNN
 F 2 "" V 4680 3450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3450 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 4750 3450 50  0001 C CNN "Description"
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 4750 3450 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 3450 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1002V" H 4750 3450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1002V" H 4750 3450 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4750 3450 50  0001 C CNN "Supplier"
-F 8 "P10.0KHCT-ND" H 4750 3450 50  0001 C CNN "Supplier Part Number"
+F 8 "P10.0KCCT-ND" H 4750 3450 50  0001 C CNN "Supplier Part Number"
 	1    4750 3450
 	0    -1   -1   0   
 $EndComp
@@ -62,11 +62,11 @@ F 0 "R?" V 4830 3600 50  0000 C CNN
 F 1 "10k" V 4750 3600 50  0000 C CNN
 F 2 "" V 4680 3600 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3600 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 4750 3600 50  0001 C CNN "Description"
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 4750 3600 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 3600 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1002V" H 4750 3600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1002V" H 4750 3600 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4750 3600 50  0001 C CNN "Supplier"
-F 8 "P10.0KHCT-ND" H 4750 3600 50  0001 C CNN "Supplier Part Number"
+F 8 "P10.0KCCT-ND" H 4750 3600 50  0001 C CNN "Supplier Part Number"
 	1    4750 3600
 	0    1    1    0   
 $EndComp
@@ -82,11 +82,11 @@ F 0 "R?" V 4480 3950 50  0000 C CNN
 F 1 "5.1k" V 4400 3950 50  0000 C CNN
 F 2 "" V 4330 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4400 3950 50  0001 C CNN
-F 4 "RES SMD 5.1K OHM 1% 1/10W 0603" H 4400 3950 50  0001 C CNN "Description"
+F 4 "RES SMD 5.1K OHM 1% 1/8W 0805" H 4400 3950 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4400 3950 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF5101V" H 4400 3950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF5101V" H 4400 3950 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4400 3950 50  0001 C CNN "Supplier"
-F 8 "P5.10KHCT-ND" H 4400 3950 50  0001 C CNN "Supplier Part Number"
+F 8 "P5.10KCCT-ND" H 4400 3950 50  0001 C CNN "Supplier Part Number"
 	1    4400 3950
 	1    0    0    -1  
 $EndComp
@@ -102,11 +102,11 @@ F 0 "R?" V 4330 3950 50  0000 C CNN
 F 1 "5.1k" V 4250 3950 50  0000 C CNN
 F 2 "" V 4180 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4250 3950 50  0001 C CNN
-F 4 "RES SMD 5.1K OHM 1% 1/10W 0603" H 4250 3950 50  0001 C CNN "Description"
+F 4 "RES SMD 5.1K OHM 1% 1/8W 0805" H 4250 3950 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4250 3950 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF5101V" H 4250 3950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF5101V" H 4250 3950 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4250 3950 50  0001 C CNN "Supplier"
-F 8 "P5.10KHCT-ND" H 4250 3950 50  0001 C CNN "Supplier Part Number"
+F 8 "P5.10KCCT-ND" H 4250 3950 50  0001 C CNN "Supplier Part Number"
 	1    4250 3950
 	-1   0    0    1   
 $EndComp
@@ -134,11 +134,11 @@ F 0 "R?" V 5080 2350 50  0000 C CNN
 F 1 "10k" V 5000 2350 50  0000 C CNN
 F 2 "" V 4930 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5000 2350 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 5000 2350 50  0001 C CNN "Description"
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 5000 2350 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 5000 2350 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1002V" H 5000 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1002V" H 5000 2350 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 5000 2350 50  0001 C CNN "Supplier"
-F 8 "P10.0KHCT-ND" H 5000 2350 50  0001 C CNN "Supplier Part Number"
+F 8 "P10.0KCCT-ND" H 5000 2350 50  0001 C CNN "Supplier Part Number"
 	1    5000 2350
 	-1   0    0    1   
 $EndComp
@@ -150,11 +150,11 @@ F 0 "R?" V 5230 2350 50  0000 C CNN
 F 1 "10k" V 5150 2350 50  0000 C CNN
 F 2 "" V 5080 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5150 2350 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 5150 2350 50  0001 C CNN "Description"
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 5150 2350 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 5150 2350 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1002V" H 5150 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1002V" H 5150 2350 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 5150 2350 50  0001 C CNN "Supplier"
-F 8 "P10.0KHCT-ND" H 5150 2350 50  0001 C CNN "Supplier Part Number"
+F 8 "P10.0KCCT-ND" H 5150 2350 50  0001 C CNN "Supplier Part Number"
 	1    5150 2350
 	1    0    0    -1  
 $EndComp
@@ -181,11 +181,11 @@ F 0 "R?" V 4030 3250 50  0000 C CNN
 F 1 "5.1k" V 3950 3250 50  0000 C CNN
 F 2 "" V 3880 3250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 3250 50  0001 C CNN
-F 4 "RES SMD 5.1K OHM 1% 1/10W 0603" H 3950 3250 50  0001 C CNN "Description"
+F 4 "RES SMD 5.1K OHM 1% 1/8W 0805" H 3950 3250 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3950 3250 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF5101V" H 3950 3250 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF5101V" H 3950 3250 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3950 3250 50  0001 C CNN "Supplier"
-F 8 "P5.10KHCT-ND" H 3950 3250 50  0001 C CNN "Supplier Part Number"
+F 8 "P5.10KCCT-ND" H 3950 3250 50  0001 C CNN "Supplier Part Number"
 	1    3950 3250
 	-1   0    0    1   
 $EndComp
@@ -201,11 +201,11 @@ F 0 "R?" V 4030 2850 50  0000 C CNN
 F 1 "35.7k" V 3950 2850 50  0000 C CNN
 F 2 "" V 3880 2850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 2850 50  0001 C CNN
-F 4 "RES SMD 35.7K OHM 1% 1/10W 0603" H 3950 2850 50  0001 C CNN "Description"
+F 4 "RES SMD 35.7K OHM 1% 1/8W 0805" H 3950 2850 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3950 2850 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF3572V" H 3950 2850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF3572V" H 3950 2850 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3950 2850 50  0001 C CNN "Supplier"
-F 8 "P35.7KHCT-ND" H 3950 2850 50  0001 C CNN "Supplier Part Number"
+F 8 "P35.7KCCT-ND" H 3950 2850 50  0001 C CNN "Supplier Part Number"
 	1    3950 2850
 	-1   0    0    1   
 $EndComp
@@ -253,11 +253,11 @@ F 0 "R?" V 2730 5150 50  0000 C CNN
 F 1 "1M" V 2650 5150 50  0000 C CNN
 F 2 "" V 2580 5150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2650 5150 50  0001 C CNN
-F 4 "RES SMD 1M OHM 1% 1/10W 0603" H 2650 5150 50  0001 C CNN "Description"
+F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 2650 5150 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 2650 5150 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1004V" H 2650 5150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1004V" H 2650 5150 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 2650 5150 50  0001 C CNN "Supplier"
-F 8 "P1.00MHCT-ND" H 2650 5150 50  0001 C CNN "Supplier Part Number"
+F 8 "P1.00MCCT-ND" H 2650 5150 50  0001 C CNN "Supplier Part Number"
 	1    2650 5150
 	1    0    0    1   
 $EndComp
@@ -356,11 +356,11 @@ F 0 "R?" V 8630 2350 50  0000 C CNN
 F 1 "10k" V 8550 2350 50  0000 C CNN
 F 2 "" V 8480 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8550 2350 50  0001 C CNN
-F 4 "RES SMD 10K OHM 1% 1/10W 0603" H 8550 2350 50  0001 C CNN "Description"
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 8550 2350 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 8550 2350 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1002V" H 8550 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1002V" H 8550 2350 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 8550 2350 50  0001 C CNN "Supplier"
-F 8 "P10.0KHCT-ND" H 8550 2350 50  0001 C CNN "Supplier Part Number"
+F 8 "P10.0KCCT-ND" H 8550 2350 50  0001 C CNN "Supplier Part Number"
 	1    8550 2350
 	-1   0    0    1   
 $EndComp
@@ -464,11 +464,11 @@ F 0 "R?" V 8080 2350 50  0000 C CNN
 F 1 "150" V 8000 2350 50  0000 C CNN
 F 2 "" V 7930 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8000 2350 50  0001 C CNN
-F 4 "RES SMD 150 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 4 "RES SMD 150 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1500V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1500V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "P150HCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 8 "P150CCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    8000 2350
 	-1   0    0    1   
 $EndComp
@@ -498,11 +498,11 @@ F 0 "R?" V 8230 2350 50  0000 C CNN
 F 1 "150" V 8150 2350 50  0000 C CNN
 F 2 "" V 8080 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8150 2350 50  0001 C CNN
-F 4 "RES SMD 150 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 4 "RES SMD 150 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1500V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1500V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "P150HCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 8 "P150CCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    8150 2350
 	1    0    0    -1  
 $EndComp
@@ -537,11 +537,11 @@ F 0 "R?" V 9430 2350 50  0000 C CNN
 F 1 "90.9" V 9350 2350 50  0000 C CNN
 F 2 "" V 9280 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 2350 50  0001 C CNN
-F 4 "RES SMD 90.9 OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
+F 4 "RES SMD 90.9 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF90R9V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF90R9V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "P90.9HCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 8 "P90.9CCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    9350 2350
 	-1   0    0    1   
 $EndComp
