@@ -44,7 +44,7 @@ U 1 1 5A545653
 P 4750 3450
 F 0 "R?" V 4830 3450 50  0000 C CNN
 F 1 "10k" V 4750 3450 50  0000 C CNN
-F 2 "" V 4680 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 3450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3450 50  0001 C CNN
 F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 4750 3450 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 3450 50  0001 C CNN "Manufacturer"
@@ -60,7 +60,7 @@ U 1 1 5A545694
 P 4750 3600
 F 0 "R?" V 4830 3600 50  0000 C CNN
 F 1 "10k" V 4750 3600 50  0000 C CNN
-F 2 "" V 4680 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 3600 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3600 50  0001 C CNN
 F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 4750 3600 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 3600 50  0001 C CNN "Manufacturer"
@@ -80,7 +80,7 @@ U 1 1 5A545718
 P 4400 3950
 F 0 "R?" V 4480 3950 50  0000 C CNN
 F 1 "5.1k" V 4400 3950 50  0000 C CNN
-F 2 "" V 4330 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4400 3950 50  0001 C CNN
 F 4 "RES SMD 5.1K OHM 1% 1/8W 0805" H 4400 3950 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4400 3950 50  0001 C CNN "Manufacturer"
@@ -100,7 +100,7 @@ U 1 1 5A545776
 P 4250 3950
 F 0 "R?" V 4330 3950 50  0000 C CNN
 F 1 "5.1k" V 4250 3950 50  0000 C CNN
-F 2 "" V 4180 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4250 3950 50  0001 C CNN
 F 4 "RES SMD 5.1K OHM 1% 1/8W 0805" H 4250 3950 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4250 3950 50  0001 C CNN "Manufacturer"
@@ -132,7 +132,7 @@ U 1 1 5A54597B
 P 5000 2350
 F 0 "R?" V 5080 2350 50  0000 C CNN
 F 1 "10k" V 5000 2350 50  0000 C CNN
-F 2 "" V 4930 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5000 2350 50  0001 C CNN
 F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 5000 2350 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 5000 2350 50  0001 C CNN "Manufacturer"
@@ -148,7 +148,7 @@ U 1 1 5A5459D2
 P 5150 2350
 F 0 "R?" V 5230 2350 50  0000 C CNN
 F 1 "10k" V 5150 2350 50  0000 C CNN
-F 2 "" V 5080 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5150 2350 50  0001 C CNN
 F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 5150 2350 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 5150 2350 50  0001 C CNN "Manufacturer"
@@ -179,7 +179,7 @@ U 1 1 5A545D7A
 P 3950 3250
 F 0 "R?" V 4030 3250 50  0000 C CNN
 F 1 "5.1k" V 3950 3250 50  0000 C CNN
-F 2 "" V 3880 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 3250 50  0001 C CNN
 F 4 "RES SMD 5.1K OHM 1% 1/8W 0805" H 3950 3250 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3950 3250 50  0001 C CNN "Manufacturer"
@@ -199,7 +199,7 @@ U 1 1 5A545E3E
 P 3950 2850
 F 0 "R?" V 4030 2850 50  0000 C CNN
 F 1 "35.7k" V 3950 2850 50  0000 C CNN
-F 2 "" V 3880 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 2850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 2850 50  0001 C CNN
 F 4 "RES SMD 35.7K OHM 1% 1/8W 0805" H 3950 2850 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3950 2850 50  0001 C CNN "Manufacturer"
@@ -251,7 +251,7 @@ U 1 1 5BE75FE5
 P 2650 5150
 F 0 "R?" V 2730 5150 50  0000 C CNN
 F 1 "1M" V 2650 5150 50  0000 C CNN
-F 2 "" V 2580 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 5150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2650 5150 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 2650 5150 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 2650 5150 50  0001 C CNN "Manufacturer"
@@ -354,7 +354,7 @@ U 1 1 5BE95889
 P 8550 2350
 F 0 "R?" V 8630 2350 50  0000 C CNN
 F 1 "10k" V 8550 2350 50  0000 C CNN
-F 2 "" V 8480 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8550 2350 50  0001 C CNN
 F 4 "RES SMD 10K OHM 1% 1/8W 0805" H 8550 2350 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 8550 2350 50  0001 C CNN "Manufacturer"
@@ -462,7 +462,7 @@ U 1 1 5BF67E3A
 P 8000 2350
 F 0 "R?" V 8080 2350 50  0000 C CNN
 F 1 "150" V 8000 2350 50  0000 C CNN
-F 2 "" V 7930 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8000 2350 50  0001 C CNN
 F 4 "RES SMD 150 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
@@ -496,7 +496,7 @@ U 1 1 5BF78175
 P 8150 2350
 F 0 "R?" V 8230 2350 50  0000 C CNN
 F 1 "150" V 8150 2350 50  0000 C CNN
-F 2 "" V 8080 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8150 2350 50  0001 C CNN
 F 4 "RES SMD 150 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
@@ -535,7 +535,7 @@ U 1 1 5BF89938
 P 9350 2350
 F 0 "R?" V 9430 2350 50  0000 C CNN
 F 1 "90.9" V 9350 2350 50  0000 C CNN
-F 2 "" V 9280 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 2350 50  0001 C CNN
 F 4 "RES SMD 90.9 OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
