@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5A5454A8
 P 6200 5600
-F 0 "#PWR?" H 6200 5350 50  0001 C CNN
+F 0 "#PWR0101" H 6200 5350 50  0001 C CNN
 F 1 "GND" H 6200 5450 50  0000 C CNN
 F 2 "" H 6200 5600 50  0001 C CNN
 F 3 "" H 6200 5600 50  0001 C CNN
@@ -28,10 +28,10 @@ $EndComp
 Wire Wire Line
 	6100 3800 6100 5400
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5A5454F9
 P 6200 1800
-F 0 "#PWR?" H 6200 1650 50  0001 C CNN
+F 0 "#PWR0102" H 6200 1650 50  0001 C CNN
 F 1 "+5V" H 6200 1940 50  0000 C CNN
 F 2 "" H 6200 1800 50  0001 C CNN
 F 3 "" H 6200 1800 50  0001 C CNN
@@ -39,10 +39,10 @@ F 3 "" H 6200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5A545653
 P 4750 3450
-F 0 "R?" V 4830 3450 50  0000 C CNN
+F 0 "R6" V 4830 3450 50  0000 C CNN
 F 1 "10k" V 4750 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 3450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3450 50  0001 C CNN
@@ -55,10 +55,10 @@ F 8 "P10.0KCCT-ND" H 4750 3450 50  0001 C CNN "Supplier Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5A545694
 P 4750 3600
-F 0 "R?" V 4830 3600 50  0000 C CNN
+F 0 "R7" V 4830 3600 50  0000 C CNN
 F 1 "10k" V 4750 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 3600 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3600 50  0001 C CNN
@@ -75,10 +75,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 3600 5300 3600
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5A545718
 P 4400 3950
-F 0 "R?" V 4480 3950 50  0000 C CNN
+F 0 "R5" V 4480 3950 50  0000 C CNN
 F 1 "5.1k" V 4400 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4400 3950 50  0001 C CNN
@@ -95,10 +95,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 3600 4400 3800
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5A545776
 P 4250 3950
-F 0 "R?" V 4330 3950 50  0000 C CNN
+F 0 "R4" V 4330 3950 50  0000 C CNN
 F 1 "5.1k" V 4250 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4250 3950 50  0001 C CNN
@@ -127,10 +127,10 @@ Wire Wire Line
 	6300 5400 6300 3800
 Connection ~ 6100 5400
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5A54597B
 P 5000 2350
-F 0 "R?" V 5080 2350 50  0000 C CNN
+F 0 "R8" V 5080 2350 50  0000 C CNN
 F 1 "10k" V 5000 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5000 2350 50  0001 C CNN
@@ -143,10 +143,10 @@ F 8 "P10.0KCCT-ND" H 5000 2350 50  0001 C CNN "Supplier Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5A5459D2
 P 5150 2350
-F 0 "R?" V 5230 2350 50  0000 C CNN
+F 0 "R9" V 5230 2350 50  0000 C CNN
 F 1 "10k" V 5150 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5150 2350 50  0001 C CNN
@@ -174,10 +174,10 @@ Wire Wire Line
 	5000 2200 5000 2000
 Connection ~ 5150 2000
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5A545D7A
 P 3950 3250
-F 0 "R?" V 4030 3250 50  0000 C CNN
+F 0 "R3" V 4030 3250 50  0000 C CNN
 F 1 "5.1k" V 3950 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 3250 50  0001 C CNN
@@ -194,10 +194,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 3050 5300 3050
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5A545E3E
 P 3950 2850
-F 0 "R?" V 4030 2850 50  0000 C CNN
+F 0 "R2" V 4030 2850 50  0000 C CNN
 F 1 "35.7k" V 3950 2850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 2850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 2850 50  0001 C CNN
@@ -235,10 +235,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 2500 6200 2000
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5BE75FE5
 P 2650 5150
-F 0 "R?" V 2730 5150 50  0000 C CNN
+F 0 "R1" V 2730 5150 50  0000 C CNN
 F 1 "1M" V 2650 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 5150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2650 5150 50  0001 C CNN
@@ -251,10 +251,10 @@ F 8 "P1.00MCCT-ND" H 2650 5150 50  0001 C CNN "Supplier Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5BE76CD8
 P 2450 5150
-F 0 "C?" H 2335 5104 50  0000 R CNN
+F 0 "C1" H 2335 5104 50  0000 R CNN
 F 1 "4.7n" H 2335 5195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2488 5000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 2450 5150 50  0001 C CNN
@@ -299,10 +299,10 @@ Connection ~ 2850 5400
 Wire Wire Line
 	2850 5400 3950 5400
 $Comp
-L microchip:UTC2000-I_MG U?
+L microchip:UTC2000-I_MG U1
 U 1 1 5BE535AB
 P 6200 3150
-F 0 "U?" H 6200 3250 50  0000 C CNN
+F 0 "U1" H 6200 3250 50  0000 C CNN
 F 1 "UTC2000-I_MG" H 6200 3150 50  0000 C CNN
 F 2 "microchip:UTC2000" H 4200 3700 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pdf" H 6200 2400 50  0001 C CNN
@@ -315,10 +315,10 @@ F 8 "UTC2000-I/MG-ND" H 6200 2400 60  0001 C CNN "Supplier Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:NTR2101P Q?
+L Transistor_FET:NTR2101P Q1
 U 1 1 5BE8FFD4
 P 8950 2100
-F 0 "Q?" V 9293 2100 50  0000 C CNN
+F 0 "Q1" V 9293 2100 50  0000 C CNN
 F 1 "NTR2101P" V 9202 2100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 2025 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF" H 8950 2100 50  0001 L CNN
@@ -334,10 +334,10 @@ Wire Wire Line
 	6200 2000 8000 2000
 Connection ~ 6200 2000
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 5BE95889
 P 8550 2350
-F 0 "R?" V 8630 2350 50  0000 C CNN
+F 0 "R12" V 8630 2350 50  0000 C CNN
 F 1 "10k" V 8550 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8550 2350 50  0001 C CNN
@@ -362,10 +362,10 @@ Connection ~ 8950 3000
 Wire Wire Line
 	8950 3000 8950 2300
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5BF445E0
 P 5100 4100
-F 0 "TP?" H 5042 4127 50  0000 R CNN
+F 0 "TP1" H 5042 4127 50  0000 R CNN
 F 1 "OSC#" H 5042 4218 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5300 4100 50  0001 C CNN
 F 3 "~" H 5300 4100 50  0001 C CNN
@@ -377,10 +377,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 3250 5100 4100
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5BF45B7A
 P 7300 4100
-F 0 "TP?" H 7242 4127 50  0000 R CNN
+F 0 "TP3" H 7242 4127 50  0000 R CNN
 F 1 "LEGACY" H 7242 4218 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7500 4100 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
@@ -401,10 +401,10 @@ Connection ~ 3950 2000
 Wire Wire Line
 	6200 2000 6200 1800
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5BF5A8B0
 P 7300 2500
-F 0 "TP?" H 7242 2620 50  0000 R CNN
+F 0 "TP2" H 7242 2620 50  0000 R CNN
 F 1 "FAULT" H 7242 2529 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7500 2500 50  0001 C CNN
 F 3 "~" H 7500 2500 50  0001 C CNN
@@ -416,10 +416,10 @@ Wire Wire Line
 Wire Wire Line
 	7300 2700 7300 2500
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 5BF5E104
 P 7650 3000
-F 0 "D?" H 7650 2800 50  0000 C CNN
+F 0 "D2" H 7650 2800 50  0000 C CNN
 F 1 "YELLOW" H 7650 2900 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 3000 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150080YS75000.pdf" H 7650 3000 50  0001 C CNN
@@ -432,10 +432,10 @@ F 8 "732-4987-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 5BF5E569
 P 7650 2850
-F 0 "D?" H 7650 2650 50  0000 C CNN
+F 0 "D1" H 7650 2650 50  0000 C CNN
 F 1 "RED" H 7650 2750 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 2850 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 7650 2850 50  0001 C CNN
@@ -452,10 +452,10 @@ Wire Wire Line
 Wire Wire Line
 	7500 3000 7100 3000
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 5BF67E3A
 P 8000 2350
-F 0 "R?" V 8080 2350 50  0000 C CNN
+F 0 "R10" V 8080 2350 50  0000 C CNN
 F 1 "150" V 8000 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8000 2350 50  0001 C CNN
@@ -486,10 +486,10 @@ Wire Wire Line
 	8150 2000 8350 2000
 Connection ~ 8150 2000
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5BF78175
 P 8150 2350
-F 0 "R?" V 8230 2350 50  0000 C CNN
+F 0 "R11" V 8230 2350 50  0000 C CNN
 F 1 "150" V 8150 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8150 2350 50  0001 C CNN
@@ -502,10 +502,10 @@ F 8 "P150CCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 5BF7A803
 P 9350 2850
-F 0 "D?" H 9350 2650 50  0000 C CNN
+F 0 "D3" H 9350 2650 50  0000 C CNN
 F 1 "BLUE" H 9350 2750 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 2850 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 9350 2850 50  0001 C CNN
@@ -530,10 +530,10 @@ Connection ~ 6200 5400
 Wire Wire Line
 	6200 5400 6300 5400
 $Comp
-L Device:R R?
+L Device:R R13
 U 1 1 5BF89938
 P 9350 2350
-F 0 "R?" V 9430 2350 50  0000 C CNN
+F 0 "R13" V 9430 2350 50  0000 C CNN
 F 1 "90.9" V 9350 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 2350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 2350 50  0001 C CNN
@@ -550,11 +550,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 3000 9350 5400
 $Comp
-L stdlibmods:USB_C_Receptacle_USB2.0 J?
+L stdlibmods:USB_C_Receptacle_USB2.0 J1
 U 1 1 5BF5DCD1
 P 2850 3900
-F 0 "J?" H 2955 4767 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 2955 4676 50  0000 C CNN
+F 0 "J1" H 2955 4767 50  0000 C CNN
+F 1 "USB-C" H 2955 4676 50  0000 C CNN
 F 2 "amphenol:USB_C_Receptacle_Amphenol_12401598E4-2A" H 3000 3900 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 3000 3900 50  0001 C CNN
 F 4 "CONN RCPT USB3.1 TYPEC SMD R/A" H 0   0   50  0001 C CNN "Description"
@@ -566,10 +566,10 @@ F 8 "12401598E4#2ACT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L stdlibmods:Conn_02x02_Odd_Even J?
+L stdlibmods:Conn_02x02_Odd_Even J2
 U 1 1 5BF518D2
 P 7600 3450
-F 0 "J?" H 7650 3100 50  0000 C CNN
+F 0 "J2" H 7650 3100 50  0000 C CNN
 F 1 "PFET_GATE" H 7650 3200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7600 3450 50  0001 C CNN
 F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 7600 3450 50  0001 C CNN
@@ -595,10 +595,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 3600 7400 3600
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5BF4E510
 P 8350 4200
-F 0 "C?" H 8235 4154 50  0000 R CNN
+F 0 "C2" H 8235 4154 50  0000 R CNN
 F 1 "0.1u" H 8235 4245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 4050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104MBCNNNC.pdf" H 8350 4200 50  0001 C CNN
