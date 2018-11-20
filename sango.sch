@@ -556,8 +556,13 @@ U 1 1 5BF518D2
 P 7600 3450
 F 0 "J?" H 7650 3100 50  0000 C CNN
 F 1 "PFET_GATE" H 7650 3200 50  0000 C CNN
-F 2 "" H 7600 3450 50  0001 C CNN
-F 3 "~" H 7600 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7600 3450 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 7600 3450 50  0001 C CNN
+F 4 "CONN HEADER .100\" DUAL STR 4POS" H 0   0   50  0001 C CNN "Description"
+F 5 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PRPC002DAAN-RC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "S2011EC-02-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    7600 3450
 	1    0    0    -1  
 $EndComp
