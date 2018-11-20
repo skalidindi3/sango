@@ -232,17 +232,6 @@ Wire Wire Line
 	5000 2000 5150 2000
 Wire Wire Line
 	4250 5400 4400 5400
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
-U 1 1 5BE5705F
-P 2850 3900
-F 0 "J?" H 2955 4767 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 2955 4676 50  0000 C CNN
-F 2 "" H 3000 3900 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3000 3900 50  0001 C CNN
-	1    2850 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 2500 6200 2000
 $Comp
@@ -549,4 +538,15 @@ Wire Wire Line
 	9350 2500 9350 2700
 Wire Wire Line
 	9350 3000 9350 5400
+$Comp
+L stdlibmods:USB_C_Receptacle_USB2.0 J?
+U 1 1 5BF5DCD1
+P 2850 3900
+F 0 "J?" H 2955 4767 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2955 4676 50  0000 C CNN
+F 2 "" H 3000 3900 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3000 3900 50  0001 C CNN
+	1    2850 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name microchip)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/microchip.lib)(options "")(descr ""))
+  (lib (name stdlibmods)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/stdlibmods.lib)(options "")(descr "Modifications to standard library schematic symbols"))
 )
