@@ -421,8 +421,13 @@ U 1 1 5BF5E104
 P 7650 3000
 F 0 "D?" H 7650 2800 50  0000 C CNN
 F 1 "YELLOW" H 7650 2900 50  0000 C CNN
-F 2 "" H 7650 3000 50  0001 C CNN
-F 3 "~" H 7650 3000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 3000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080YS75000.pdf" H 7650 3000 50  0001 C CNN
+F 4 "LED YELLOW CLEAR 0805 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "Wurth Electronics Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "150080YS75000" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "732-4987-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    7650 3000
 	1    0    0    -1  
 $EndComp
@@ -432,8 +437,13 @@ U 1 1 5BF5E569
 P 7650 2850
 F 0 "D?" H 7650 2650 50  0000 C CNN
 F 1 "RED" H 7650 2750 50  0000 C CNN
-F 2 "" H 7650 2850 50  0001 C CNN
-F 3 "~" H 7650 2850 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 2850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 7650 2850 50  0001 C CNN
+F 4 "LED RED CLEAR 0805 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "Wurth Electronics Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "150080RS75000" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "732-4984-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    7650 2850
 	1    0    0    1   
 $EndComp
@@ -497,8 +507,13 @@ U 1 1 5BF7A803
 P 9350 2850
 F 0 "D?" H 9350 2650 50  0000 C CNN
 F 1 "BLUE" H 9350 2750 50  0000 C CNN
-F 2 "" H 9350 2850 50  0001 C CNN
-F 3 "~" H 9350 2850 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 2850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 9350 2850 50  0001 C CNN
+F 4 "LED BLUE CLEAR 0805 SMD" H 0   0   50  0001 C CNN "Description"
+F 5 "Wurth Electronics Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "150080BS75000" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "732-4982-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    9350 2850
 	0    -1   -1   0   
 $EndComp
