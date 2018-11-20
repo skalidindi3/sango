@@ -326,15 +326,6 @@ F 8 "NTR2101PT1GOSCT-ND" H 8950 2100 50  0001 L CNN "Supplier Part Number"
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7100 3450 8950 3450
-Wire Wire Line
-	7100 3600 8950 3600
-Wire Wire Line
-	8950 3600 8950 3450
-Wire Wire Line
-	8950 3450 8950 3000
-Connection ~ 8950 3450
-Wire Wire Line
 	6200 2000 8000 2000
 Connection ~ 6200 2000
 $Comp
@@ -549,4 +540,28 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3000 39
 	1    2850 3900
 	1    0    0    -1  
 $EndComp
+$Comp
+L stdlibmods:Conn_02x02_Odd_Even J?
+U 1 1 5BF518D2
+P 8300 3450
+F 0 "J?" H 8350 3667 50  0000 C CNN
+F 1 "PFET_GATE" H 8350 3576 50  0000 C CNN
+F 2 "" H 8300 3450 50  0001 C CNN
+F 3 "~" H 8300 3450 50  0001 C CNN
+	1    8300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3000 8950 3450
+Wire Wire Line
+	8600 3600 8950 3600
+Wire Wire Line
+	8950 3450 8600 3450
+Connection ~ 8950 3450
+Wire Wire Line
+	8950 3450 8950 3600
+Wire Wire Line
+	8100 3450 7100 3450
+Wire Wire Line
+	7100 3600 8100 3600
 $EndSCHEMATC

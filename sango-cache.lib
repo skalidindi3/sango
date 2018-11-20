@@ -174,6 +174,29 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# stdlibmods_Conn_02x02_Odd_Even
+#
+DEF stdlibmods_Conn_02x02_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "stdlibmods_Conn_02x02_Odd_Even" 50 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -145 0 -155 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 150 -200 1 1 10 f
+S 150 -145 100 -155 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 300 0 150 L 50 50 1 1 P
+X Pin_3 3 -200 -150 150 R 50 50 1 1 P
+X Pin_4 4 300 -150 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # stdlibmods_USB_C_Receptacle_USB2.0
 #
 DEF stdlibmods_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
