@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/kalidindis/Documents/projects/kicad/sango/sango.sch)
-    (date "Tuesday, November 20, 2018 at 04:36:09 PM")
+    (source /Users/chaitu/Documents/projects/kicad/sango/sango.sch)
+    (date "Tuesday, November 20, 2018 at 05:42:12 PM")
     (tool "Eeschema (5.0.1-3-g963ef8bb5)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -206,7 +206,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BF5A8B0))
     (comp (ref D2)
-      (value YELLOW)
+      (value UP/DN)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet https://katalog.we-online.de/led/datasheet/150080YS75000.pdf)
       (fields
@@ -219,7 +219,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BF5E104))
     (comp (ref D1)
-      (value RED)
+      (value CONN)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet https://katalog.we-online.de/led/datasheet/150080RS75000.pdf)
       (fields
@@ -258,7 +258,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BF78175))
     (comp (ref D3)
-      (value BLUE)
+      (value OUT)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet https://katalog.we-online.de/led/datasheet/150080BS75000.pdf)
       (fields
@@ -466,9 +466,9 @@
     (library (logical Transistor_FET)
       (uri "/Library/Application Support/kicad/library/Transistor_FET.lib"))
     (library (logical microchip)
-      (uri /Users/kalidindis/Documents/projects/kicad/sango/libs/symbols/microchip.lib))
+      (uri /Users/chaitu/Documents/projects/kicad/sango/libs/symbols/microchip.lib))
     (library (logical stdlibmods)
-      (uri /Users/kalidindis/Documents/projects/kicad/sango/libs/symbols/stdlibmods.lib)))
+      (uri /Users/chaitu/Documents/projects/kicad/sango/libs/symbols/stdlibmods.lib)))
   (nets
     (net (code 1) (name "Net-(R6-Pad2)")
       (node (ref R6) (pin 2))
