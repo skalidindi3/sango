@@ -304,7 +304,7 @@ U 1 1 5BE535AB
 P 6200 3150
 F 0 "U?" H 6200 3250 50  0000 C CNN
 F 1 "UTC2000-I_MG" H 6200 3150 50  0000 C CNN
-F 2 "" H 4200 3700 50  0001 C CIN
+F 2 "microchip:UTC2000" H 4200 3700 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pdf" H 6200 2400 50  0001 C CNN
 F 4 "Basic USB Type-C Controller" H 6200 2400 60  0001 C CNN "Description"
 F 5 "Microchip Technology" H 6200 2400 60  0001 C CNN "Manufacturer"
