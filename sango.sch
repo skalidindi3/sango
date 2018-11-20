@@ -256,8 +256,13 @@ U 1 1 5BE76CD8
 P 2450 5150
 F 0 "C?" H 2335 5104 50  0000 R CNN
 F 1 "4.7n" H 2335 5195 50  0000 R CNN
-F 2 "" H 2488 5000 50  0001 C CNN
-F 3 "~" H 2450 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2488 5000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 2450 5150 50  0001 C CNN
+F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21C4R7BBANNNC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "1276-1832-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    2450 5150
 	1    0    0    1   
 $EndComp
@@ -468,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2000 8150 2200
 Wire Wire Line
-	8150 2000 8550 2000
+	8150 2000 8350 2000
 Connection ~ 8150 2000
 $Comp
 L Device:R R?
@@ -502,7 +507,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 2000 9350 2200
 Wire Wire Line
-	9350 5400 6300 5400
+	9350 5400 8350 5400
 Connection ~ 6300 5400
 Wire Wire Line
 	6200 5600 6200 5400
@@ -543,25 +548,51 @@ $EndComp
 $Comp
 L stdlibmods:Conn_02x02_Odd_Even J?
 U 1 1 5BF518D2
-P 8300 3450
-F 0 "J?" H 8350 3667 50  0000 C CNN
-F 1 "PFET_GATE" H 8350 3576 50  0000 C CNN
-F 2 "" H 8300 3450 50  0001 C CNN
-F 3 "~" H 8300 3450 50  0001 C CNN
-	1    8300 3450
+P 7600 3450
+F 0 "J?" H 7650 3100 50  0000 C CNN
+F 1 "PFET_GATE" H 7650 3200 50  0000 C CNN
+F 2 "" H 7600 3450 50  0001 C CNN
+F 3 "~" H 7600 3450 50  0001 C CNN
+	1    7600 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8950 3000 8950 3450
 Wire Wire Line
-	8600 3600 8950 3600
+	7900 3600 8950 3600
 Wire Wire Line
-	8950 3450 8600 3450
+	8950 3450 7900 3450
 Connection ~ 8950 3450
 Wire Wire Line
 	8950 3450 8950 3600
 Wire Wire Line
-	8100 3450 7100 3450
+	7400 3450 7100 3450
 Wire Wire Line
-	7100 3600 8100 3600
+	7100 3600 7400 3600
+$Comp
+L Device:C C?
+U 1 1 5BF4E510
+P 8350 4200
+F 0 "C?" H 8235 4154 50  0000 R CNN
+F 1 "0.1u" H 8235 4245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 4050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104MBCNNNC.pdf" H 8350 4200 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21B104MBCNNNC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "1276-2450-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+	1    8350 4200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8350 4050 8350 2000
+Connection ~ 8350 2000
+Wire Wire Line
+	8350 2000 8550 2000
+Wire Wire Line
+	8350 4350 8350 5400
+Connection ~ 8350 5400
+Wire Wire Line
+	8350 5400 6300 5400
 $EndSCHEMATC
