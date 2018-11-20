@@ -540,8 +540,13 @@ U 1 1 5BF5DCD1
 P 2850 3900
 F 0 "J?" H 2955 4767 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2955 4676 50  0000 C CNN
-F 2 "" H 3000 3900 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3000 3900 50  0001 C CNN
+F 2 "amphenol:USB_C_Receptacle_Amphenol_12401598E4-2A" H 3000 3900 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 3000 3900 50  0001 C CNN
+F 4 "CONN RCPT USB3.1 TYPEC SMD R/A" H 0   0   50  0001 C CNN "Description"
+F 5 "Amphenol Commercial Products" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "12401598E4#2A" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "12401598E4#2ACT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    2850 3900
 	1    0    0    -1  
 $EndComp
