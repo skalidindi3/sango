@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L linear_technology:LT1930A U?
-U 1 1 5C903C18
-P 4350 3450
-F 0 "U?" H 4350 3600 50  0000 L CNN
-F 1 "LT1930A" H 4200 3500 50  0000 L CNN
-F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 4350 2850 50  0001 C CNN
-F 3 "https://cds.linear.com/docs/en/datasheet/1930a.pdf" H 4450 3400 50  0001 C CNN
-	1    4350 3450
-	1    0    0    -1  
-$EndComp
 Text HLabel 3200 3050 0    50   Input ~ 0
 5V_IN
 $Comp
@@ -285,4 +274,15 @@ Wire Wire Line
 	3300 3050 3700 3050
 Connection ~ 3300 3050
 Connection ~ 3700 3050
+$Comp
+L linear_technology:LT1930 U?
+U 1 1 5C87A250
+P 4350 3450
+F 0 "U?" H 4350 3500 50  0000 C CNN
+F 1 "LT1930" H 4350 3600 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 4350 2850 50  0001 C CNN
+F 3 "https://cds.linear.com/docs/en/datasheet/1930a.pdf" H 4450 3400 50  0001 C CNN
+	1    4350 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
