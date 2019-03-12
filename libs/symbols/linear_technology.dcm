@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1930A
+D 2.2MHz Step-Up DC/DC Converter, 12V/250mA OUT from 5V IN, SOT-23
+K switched voltage converter regulator
+F https://cds.linear.com/docs/en/datasheet/1930a.pdf
+$ENDCMP
+#
+#End Doc Library
