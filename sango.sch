@@ -19,7 +19,7 @@ S 2000 2750 850  500
 U 5C87B3B6
 F0 "USB-C Power" 50
 F1 "usb-c-power.sch" 50
-F2 "5V_OUT" I R 2850 3000 50 
+F2 "5V_OUT" O R 2850 3000 50 
 $EndSheet
 $Sheet
 S 3400 2750 1150 550 

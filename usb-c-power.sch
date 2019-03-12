@@ -448,7 +448,7 @@ F 3 "~" H 6250 2650 50  0001 C CNN
 	1    6250 2650
 	1    0    0    -1  
 $EndComp
-Text HLabel 9250 2850 2    50   Input ~ 0
+Text HLabel 9250 2850 2    50   Output ~ 0
 5V_OUT
 Wire Wire Line
 	9250 2850 9050 2850
