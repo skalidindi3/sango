@@ -12,4 +12,16 @@ K switched voltage converter regulator
 F https://cds.linear.com/docs/en/datasheet/1930a.pdf
 $ENDCMP
 #
+$CMP LT3045
+D 20V, 500mA, 0.8 uVrms Noise, Ultrahigh PSRR Linear Regulator, MSOP
+K LDO, low noise, high PSRR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf
+$ENDCMP
+#
+$CMP LT3094
+D -20V, 500mA, 0.8 uVrms Noise, Ultrahigh PSRR Negative Linear Regulator, MSOP
+K Negative LDO, low noise, high PSRR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf
+$ENDCMP
+#
 #End Doc Library
