@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -91,7 +91,7 @@ Wire Wire Line
 	6500 3550 6500 3650
 Connection ~ 6500 3550
 Text HLabel 8000 3050 2    50   Output ~ 0
-12V_OUT
++12V_OUT
 Wire Wire Line
 	6500 3150 6500 3050
 Wire Wire Line
