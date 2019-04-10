@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4150 3650 0    50   Input ~ 0
+Text HLabel 3750 3650 0    50   Input ~ 0
 +12V_OUT
 $Comp
 L linear_technology:LT3045 U?
@@ -52,15 +52,6 @@ Wire Wire Line
 Connection ~ 5500 4650
 Wire Wire Line
 	5500 4650 5500 4350
-Wire Wire Line
-	4150 3650 4750 3650
-Wire Wire Line
-	4750 3650 4750 3800
-Wire Wire Line
-	4750 3800 4850 3800
-Connection ~ 4750 3650
-Wire Wire Line
-	4750 3650 4850 3650
 $Comp
 L Device:R R?
 U 1 1 5CA5D410
@@ -68,7 +59,7 @@ P 4550 4400
 AR Path="/5C87B3B6/5CA5D410" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5D410" Ref="R?"  Part="1" 
 F 0 "R?" V 4630 4400 50  0000 C CNN
-F 1 "1M" V 4550 4400 50  0000 C CNN
+F 1 "121k" V 4550 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4550 4400 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 4550 4400 50  0001 C CNN "Description"
@@ -86,7 +77,7 @@ P 4350 4400
 AR Path="/5C87B3B6/5CA5D41C" Ref="C?"  Part="1" 
 AR Path="/5CA59CF7/5CA5D41C" Ref="C?"  Part="1" 
 F 0 "C?" H 4235 4354 50  0000 R CNN
-F 1 "4.7n" H 4235 4445 50  0000 R CNN
+F 1 "10u" H 4235 4445 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 4250 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 4350 4400 50  0001 C CNN
 F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 1900 -750 50  0001 C CNN "Description"
@@ -123,7 +114,7 @@ P 6450 4400
 AR Path="/5C87B3B6/5CA5DD37" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5DD37" Ref="R?"  Part="1" 
 F 0 "R?" V 6530 4400 50  0000 C CNN
-F 1 "1M" V 6450 4400 50  0000 C CNN
+F 1 "49.9k" V 6450 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 4400 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 6450 4400 50  0001 C CNN "Description"
@@ -141,7 +132,7 @@ P 6450 3900
 AR Path="/5C87B3B6/5CA5DDF4" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5DDF4" Ref="R?"  Part="1" 
 F 0 "R?" V 6530 3900 50  0000 C CNN
-F 1 "1M" V 6450 3900 50  0000 C CNN
+F 1 "1.82M" V 6450 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 3900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 3900 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 6450 3900 50  0001 C CNN "Description"
@@ -181,7 +172,7 @@ P 6650 4150
 AR Path="/5C87B3B6/5CA5F77A" Ref="C?"  Part="1" 
 AR Path="/5CA59CF7/5CA5F77A" Ref="C?"  Part="1" 
 F 0 "C?" H 6535 4104 50  0000 R CNN
-F 1 "4.7n" H 6535 4195 50  0000 R CNN
+F 1 "22u" H 6535 4195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 4000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 6650 4150 50  0001 C CNN
 F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 4200 -1000 50  0001 C CNN "Description"
@@ -207,4 +198,67 @@ Text HLabel 6850 3650 2    50   Output ~ 0
 Wire Wire Line
 	6850 3650 6650 3650
 Connection ~ 6650 3650
+Text Notes 3900 5400 0    50   ~ 0
+NOTE: LT3045’s fast start-up circuitry increases the\nSET pin current to ~2mA while PGFB is below 300mV.
+Text Notes 3900 5550 0    50   ~ 0
+R_PG values of 1.13M & 29.4k yield fast start-up lasting ~~50ms 
+$Comp
+L Device:R R?
+U 1 1 5CAC0D09
+P 3950 4400
+AR Path="/5C87B3B6/5CAC0D09" Ref="R?"  Part="1" 
+AR Path="/5CA59CF7/5CAC0D09" Ref="R?"  Part="1" 
+F 0 "R?" V 4030 4400 50  0000 C CNN
+F 1 "49.9k" V 3950 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 4400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 4400 50  0001 C CNN
+F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 3950 4400 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 3950 4400 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF1004V" H 3950 4400 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 3950 4400 50  0001 C CNN "Supplier"
+F 8 "P1.00MCCT-ND" H 3950 4400 50  0001 C CNN "Supplier Part Number"
+	1    3950 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CAC0D15
+P 3950 3900
+AR Path="/5C87B3B6/5CAC0D15" Ref="R?"  Part="1" 
+AR Path="/5CA59CF7/5CAC0D15" Ref="R?"  Part="1" 
+F 0 "R?" V 4030 3900 50  0000 C CNN
+F 1 "432k" V 3950 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 3900 50  0001 C CNN
+F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 3950 3900 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 3950 3900 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF1004V" H 3950 3900 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 3950 3900 50  0001 C CNN "Supplier"
+F 8 "P1.00MCCT-ND" H 3950 3900 50  0001 C CNN "Supplier Part Number"
+	1    3950 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 3650 3950 3750
+Wire Wire Line
+	3950 4550 3950 4650
+Wire Wire Line
+	3950 4050 3950 4150
+Wire Wire Line
+	3750 3650 3950 3650
+Connection ~ 3950 3650
+Wire Wire Line
+	3950 3650 4850 3650
+Wire Wire Line
+	4850 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 4150
+Wire Wire Line
+	4150 4150 3950 4150
+Connection ~ 3950 4150
+Wire Wire Line
+	3950 4150 3950 4250
+Wire Wire Line
+	3950 4650 4350 4650
+Connection ~ 4350 4650
 $EndSCHEMATC

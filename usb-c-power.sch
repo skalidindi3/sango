@@ -468,7 +468,7 @@ F 3 "~" H 9050 2650 50  0001 C CNN
 $EndComp
 NoConn ~ 5350 4100
 Text Notes 2400 2500 0    50   ~ 0
-TODO: Check what to do with OCS#\nTODO: Check that FAULT_IND is active HIGH\nTODO: Add cap on output\nTODO: Check PFET trigger
+TODO: Add cap on output ?
 Wire Wire Line
 	8650 3150 8650 3550
 Wire Wire Line

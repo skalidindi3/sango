@@ -23,7 +23,7 @@ P 3300 3550
 AR Path="/5C87B3B6/5C903F02" Ref="C?"  Part="1" 
 AR Path="/5C903B7C/5C903F02" Ref="C?"  Part="1" 
 F 0 "C?" H 3185 3504 50  0000 R CNN
-F 1 "0.1u" H 3185 3595 50  0000 R CNN
+F 1 "4.7u" H 3185 3595 50  0000 R CNN
 F 2 "" H 3338 3400 50  0001 C CNN
 F 3 "" H 3300 3550 50  0001 C CNN
 	1    3300 3550
@@ -34,7 +34,7 @@ L Device:L_Core_Ferrite L?
 U 1 1 5C904175
 P 4350 3050
 F 0 "L?" V 4575 3050 50  0000 C CNN
-F 1 "L_Core_Ferrite" V 4484 3050 50  0000 C CNN
+F 1 "10u Ferrite" V 4484 3050 50  0000 C CNN
 F 2 "" H 4350 3050 50  0001 C CNN
 F 3 "~" H 4350 3050 50  0001 C CNN
 	1    4350 3050
@@ -66,22 +66,22 @@ L Device:R R?
 U 1 1 5C9043E5
 P 6500 3300
 F 0 "R?" H 6570 3346 50  0000 L CNN
-F 1 "R" H 6570 3255 50  0000 L CNN
+F 1 "124k" H 6570 3255 50  0000 L CNN
 F 2 "" V 6430 3300 50  0001 C CNN
 F 3 "~" H 6500 3300 50  0001 C CNN
 	1    6500 3300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C90441B
 P 6500 3800
 F 0 "R?" H 6570 3846 50  0000 L CNN
-F 1 "R" H 6570 3755 50  0000 L CNN
+F 1 "13.3k" H 6570 3755 50  0000 L CNN
 F 2 "" V 6430 3800 50  0001 C CNN
 F 3 "~" H 6500 3800 50  0001 C CNN
 	1    6500 3800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4800 3550 6500 3550
@@ -95,7 +95,7 @@ Text HLabel 8000 3050 2    50   Output ~ 0
 Wire Wire Line
 	6500 3150 6500 3050
 Wire Wire Line
-	6500 3050 7500 3050
+	6500 3050 6700 3050
 $Comp
 L Device:C C?
 U 1 1 5C90462E
@@ -103,7 +103,7 @@ P 7500 3550
 AR Path="/5C87B3B6/5C90462E" Ref="C?"  Part="1" 
 AR Path="/5C903B7C/5C90462E" Ref="C?"  Part="1" 
 F 0 "C?" H 7385 3504 50  0000 R CNN
-F 1 "0.1u" H 7385 3595 50  0000 R CNN
+F 1 "10u" H 7385 3595 50  0000 R CNN
 F 2 "" H 7538 3400 50  0001 C CNN
 F 3 "" H 7500 3550 50  0001 C CNN
 	1    7500 3550
@@ -121,9 +121,9 @@ L Device:D_Schottky D?
 U 1 1 5C904CFC
 P 5500 3300
 F 0 "D?" V 5454 3379 50  0000 L CNN
-F 1 "D_Schottky" V 5545 3379 50  0000 L CNN
+F 1 "20V/500mA" V 5545 3379 50  0000 L CNN
 F 2 "" H 5500 3300 50  0001 C CNN
-F 3 "~" H 5500 3300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5500 3300 50  0001 C CNN
 	1    5500 3300
 	0    1    1    0   
 $EndComp
@@ -132,9 +132,9 @@ L Device:D_Schottky D?
 U 1 1 5C904DA6
 P 5750 3050
 F 0 "D?" H 5750 2834 50  0000 C CNN
-F 1 "D_Schottky" H 5750 2925 50  0000 C CNN
+F 1 "20V/500mA" H 5750 2925 50  0000 C CNN
 F 2 "" H 5750 3050 50  0001 C CNN
-F 3 "~" H 5750 3050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5750 3050 50  0001 C CNN
 	1    5750 3050
 	-1   0    0    1   
 $EndComp
@@ -145,7 +145,7 @@ P 5250 3050
 AR Path="/5C87B3B6/5C904E21" Ref="C?"  Part="1" 
 AR Path="/5C903B7C/5C904E21" Ref="C?"  Part="1" 
 F 0 "C?" H 5135 3004 50  0000 R CNN
-F 1 "0.1u" H 5135 3095 50  0000 R CNN
+F 1 "1u" H 5135 3095 50  0000 R CNN
 F 2 "" H 5288 2900 50  0001 C CNN
 F 3 "" H 5250 3050 50  0001 C CNN
 	1    5250 3050
@@ -163,9 +163,9 @@ L Device:D_Schottky D?
 U 1 1 5C90530A
 P 5500 4800
 F 0 "D?" V 5454 4721 50  0000 R CNN
-F 1 "D_Schottky" V 5545 4721 50  0000 R CNN
+F 1 "20V/500mA" V 5545 4721 50  0000 R CNN
 F 2 "" H 5500 4800 50  0001 C CNN
-F 3 "~" H 5500 4800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5500 4800 50  0001 C CNN
 	1    5500 4800
 	0    -1   1    0   
 $EndComp
@@ -174,9 +174,9 @@ L Device:D_Schottky D?
 U 1 1 5C905311
 P 5750 5050
 F 0 "D?" H 5750 5250 50  0000 C CNN
-F 1 "D_Schottky" H 5750 5150 50  0000 C CNN
+F 1 "20V/500mA" H 5750 5150 50  0000 C CNN
 F 2 "" H 5750 5050 50  0001 C CNN
-F 3 "~" H 5750 5050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5750 5050 50  0001 C CNN
 	1    5750 5050
 	1    0    0    1   
 $EndComp
@@ -187,7 +187,7 @@ P 5250 5050
 AR Path="/5C87B3B6/5C905318" Ref="C?"  Part="1" 
 AR Path="/5C903B7C/5C905318" Ref="C?"  Part="1" 
 F 0 "C?" H 5135 5004 50  0000 R CNN
-F 1 "0.1u" H 5135 5095 50  0000 R CNN
+F 1 "1u" H 5135 5095 50  0000 R CNN
 F 2 "" H 5288 4900 50  0001 C CNN
 F 3 "" H 5250 5050 50  0001 C CNN
 	1    5250 5050
@@ -226,7 +226,7 @@ P 7500 4550
 AR Path="/5C87B3B6/5C9089A6" Ref="C?"  Part="1" 
 AR Path="/5C903B7C/5C9089A6" Ref="C?"  Part="1" 
 F 0 "C?" H 7385 4504 50  0000 R CNN
-F 1 "0.1u" H 7385 4595 50  0000 R CNN
+F 1 "10u" H 7385 4595 50  0000 R CNN
 F 2 "" H 7538 4400 50  0001 C CNN
 F 3 "" H 7500 4550 50  0001 C CNN
 	1    7500 4550
@@ -285,4 +285,32 @@ F 3 "https://cds.linear.com/docs/en/datasheet/1930a.pdf" H 4450 3400 50  0001 C 
 	1    4350 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 5CA5C6DD
+P 6700 3300
+AR Path="/5C87B3B6/5CA5C6DD" Ref="C?"  Part="1" 
+AR Path="/5C903B7C/5CA5C6DD" Ref="C?"  Part="1" 
+F 0 "C?" H 6585 3254 50  0000 R CNN
+F 1 "0.1u" H 6585 3345 50  0000 R CNN
+F 2 "" H 6738 3150 50  0001 C CNN
+F 3 "" H 6700 3300 50  0001 C CNN
+	1    6700 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 3550 6700 3550
+Wire Wire Line
+	6700 3550 6700 3450
+Wire Wire Line
+	6700 3150 6700 3050
+Connection ~ 6700 3050
+Wire Wire Line
+	6700 3050 7500 3050
+Text Notes 6500 2950 0    50   ~ 0
+1.255V * (1 + (121k/13.3k)) = 12.956V
+Text Notes 6500 5200 0    50   ~ 0
+NOTE: reaches +/- 12.4V in 45ms
+Text Notes 6500 2800 0    50   ~ 0
+Current in the resistor divider chain: 1.255V/13.3k = 94.7µA
 $EndSCHEMATC

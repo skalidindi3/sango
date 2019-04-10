@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4550 4700 0    50   Input ~ 0
+Text HLabel 4150 4700 0    50   Input ~ 0
 -12V_OUT
 NoConn ~ 6550 4350
 $Comp
@@ -23,6 +23,7 @@ U 1 1 5CA61EBE
 P 5900 3600
 AR Path="/5C903B7C/5CA61EBE" Ref="#PWR?"  Part="1" 
 AR Path="/5CA59CF7/5CA61EBE" Ref="#PWR?"  Part="1" 
+AR Path="/5CA59CFA/5CA61EBE" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5900 3350 50  0001 C CNN
 F 1 "GND" H 5905 3427 50  0000 C CNN
 F 2 "" H 5900 3600 50  0001 C CNN
@@ -41,23 +42,15 @@ Wire Wire Line
 Connection ~ 5900 3700
 Wire Wire Line
 	5900 3700 5900 4000
-Wire Wire Line
-	4550 4700 5150 4700
-Wire Wire Line
-	5150 4700 5150 4550
-Wire Wire Line
-	5150 4550 5250 4550
-Connection ~ 5150 4700
-Wire Wire Line
-	5150 4700 5250 4700
 $Comp
 L Device:R R?
 U 1 1 5CA61ED4
 P 4950 3950
 AR Path="/5C87B3B6/5CA61ED4" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA61ED4" Ref="R?"  Part="1" 
+AR Path="/5CA59CFA/5CA61ED4" Ref="R?"  Part="1" 
 F 0 "R?" V 5030 3950 50  0000 C CNN
-F 1 "1M" V 4950 3950 50  0000 C CNN
+F 1 "121k" V 4950 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4880 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4950 3950 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 4950 3950 50  0001 C CNN "Description"
@@ -74,8 +67,9 @@ U 1 1 5CA61EE0
 P 4750 3950
 AR Path="/5C87B3B6/5CA61EE0" Ref="C?"  Part="1" 
 AR Path="/5CA59CF7/5CA61EE0" Ref="C?"  Part="1" 
+AR Path="/5CA59CFA/5CA61EE0" Ref="C?"  Part="1" 
 F 0 "C?" H 4635 3904 50  0000 R CNN
-F 1 "4.7n" H 4635 3995 50  0000 R CNN
+F 1 "10u" H 4635 3995 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 3800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 4750 3950 50  0001 C CNN
 F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 2300 -1200 50  0001 C CNN "Description"
@@ -111,8 +105,9 @@ U 1 1 5CA61EF7
 P 6850 3950
 AR Path="/5C87B3B6/5CA61EF7" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA61EF7" Ref="R?"  Part="1" 
+AR Path="/5CA59CFA/5CA61EF7" Ref="R?"  Part="1" 
 F 0 "R?" V 6930 3950 50  0000 C CNN
-F 1 "1M" V 6850 3950 50  0000 C CNN
+F 1 "49.9k" V 6850 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6780 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6850 3950 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 6850 3950 50  0001 C CNN "Description"
@@ -129,8 +124,9 @@ U 1 1 5CA61F03
 P 6850 4450
 AR Path="/5C87B3B6/5CA61F03" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA61F03" Ref="R?"  Part="1" 
+AR Path="/5CA59CFA/5CA61F03" Ref="R?"  Part="1" 
 F 0 "R?" V 6930 4450 50  0000 C CNN
-F 1 "1M" V 6850 4450 50  0000 C CNN
+F 1 "1.82M" V 6850 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6780 4450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6850 4450 50  0001 C CNN
 F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 6850 4450 50  0001 C CNN "Description"
@@ -169,8 +165,9 @@ U 1 1 5CA61F1B
 P 7050 4200
 AR Path="/5C87B3B6/5CA61F1B" Ref="C?"  Part="1" 
 AR Path="/5CA59CF7/5CA61F1B" Ref="C?"  Part="1" 
+AR Path="/5CA59CFA/5CA61F1B" Ref="C?"  Part="1" 
 F 0 "C?" H 6935 4154 50  0000 R CNN
-F 1 "4.7n" H 6935 4245 50  0000 R CNN
+F 1 "22u" H 6935 4245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 4050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 7050 4200 50  0001 C CNN
 F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 4600 -950 50  0001 C CNN "Description"
@@ -207,4 +204,65 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.
 	1    5900 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5CAC362A
+P 4350 3950
+AR Path="/5C87B3B6/5CAC362A" Ref="R?"  Part="1" 
+AR Path="/5CA59CF7/5CAC362A" Ref="R?"  Part="1" 
+AR Path="/5CA59CFA/5CAC362A" Ref="R?"  Part="1" 
+F 0 "R?" V 4430 3950 50  0000 C CNN
+F 1 "49.9k" V 4350 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 3950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4350 3950 50  0001 C CNN
+F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 4350 3950 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 4350 3950 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF1004V" H 4350 3950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 4350 3950 50  0001 C CNN "Supplier"
+F 8 "P1.00MCCT-ND" H 4350 3950 50  0001 C CNN "Supplier Part Number"
+	1    4350 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CAC3636
+P 4350 4450
+AR Path="/5C87B3B6/5CAC3636" Ref="R?"  Part="1" 
+AR Path="/5CA59CF7/5CAC3636" Ref="R?"  Part="1" 
+AR Path="/5CA59CFA/5CAC3636" Ref="R?"  Part="1" 
+F 0 "R?" V 4430 4450 50  0000 C CNN
+F 1 "402k" V 4350 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 4450 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4350 4450 50  0001 C CNN
+F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 4350 4450 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 4350 4450 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF1004V" H 4350 4450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 4350 4450 50  0001 C CNN "Supplier"
+F 8 "P1.00MCCT-ND" H 4350 4450 50  0001 C CNN "Supplier Part Number"
+	1    4350 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4700 4350 4600
+Wire Wire Line
+	4350 3800 4350 3700
+Wire Wire Line
+	4150 4700 4350 4700
+Wire Wire Line
+	4350 4700 5250 4700
+Connection ~ 4350 4700
+Wire Wire Line
+	4350 4100 4350 4200
+Wire Wire Line
+	5250 4550 4550 4550
+Wire Wire Line
+	4550 4550 4550 4200
+Wire Wire Line
+	4550 4200 4350 4200
+Connection ~ 4350 4200
+Wire Wire Line
+	4350 4200 4350 4300
+Wire Wire Line
+	4350 3700 4750 3700
+Connection ~ 4750 3700
 $EndSCHEMATC
