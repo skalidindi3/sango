@@ -62,7 +62,7 @@ F 0 "R?" V 4630 4400 50  0000 C CNN
 F 1 "121k" V 4550 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4550 4400 50  0001 C CNN
-F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 4550 4400 50  0001 C CNN "Description"
+F 4 "" H 4550 4400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4550 4400 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-6ENF1004V" H 4550 4400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4550 4400 50  0001 C CNN "Supplier"
@@ -80,7 +80,7 @@ F 0 "C?" H 4235 4354 50  0000 R CNN
 F 1 "10u" H 4235 4445 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 4250 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 4350 4400 50  0001 C CNN
-F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 1900 -750 50  0001 C CNN "Description"
+F 4 "" H 1900 -750 50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics" H 1900 -750 50  0001 C CNN "Manufacturer"
 F 6 "CL21C4R7BBANNNC" H 1900 -750 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 1900 -750 50  0001 C CNN "Supplier"
@@ -117,7 +117,7 @@ F 0 "R?" V 6530 4400 50  0000 C CNN
 F 1 "49.9k" V 6450 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 4400 50  0001 C CNN
-F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 6450 4400 50  0001 C CNN "Description"
+F 4 "" H 6450 4400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 6450 4400 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-6ENF1004V" H 6450 4400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 6450 4400 50  0001 C CNN "Supplier"
@@ -135,7 +135,7 @@ F 0 "R?" V 6530 3900 50  0000 C CNN
 F 1 "1.82M" V 6450 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 3900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 3900 50  0001 C CNN
-F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 6450 3900 50  0001 C CNN "Description"
+F 4 "" H 6450 3900 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 6450 3900 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-6ENF1004V" H 6450 3900 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 6450 3900 50  0001 C CNN "Supplier"
@@ -175,7 +175,7 @@ F 0 "C?" H 6535 4104 50  0000 R CNN
 F 1 "22u" H 6535 4195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 4000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 6650 4150 50  0001 C CNN
-F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H 4200 -1000 50  0001 C CNN "Description"
+F 4 "" H 4200 -1000 50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics" H 4200 -1000 50  0001 C CNN "Manufacturer"
 F 6 "CL21C4R7BBANNNC" H 4200 -1000 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4200 -1000 50  0001 C CNN "Supplier"
@@ -212,7 +212,7 @@ F 0 "R?" V 4030 4400 50  0000 C CNN
 F 1 "49.9k" V 3950 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 4400 50  0001 C CNN
-F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 3950 4400 50  0001 C CNN "Description"
+F 4 "" H 3950 4400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3950 4400 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-6ENF1004V" H 3950 4400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3950 4400 50  0001 C CNN "Supplier"
@@ -230,7 +230,7 @@ F 0 "R?" V 4030 3900 50  0000 C CNN
 F 1 "432k" V 3950 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 3900 50  0001 C CNN
-F 4 "RES SMD 1M OHM 1% 1/8W 0805" H 3950 3900 50  0001 C CNN "Description"
+F 4 "" H 3950 3900 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3950 3900 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-6ENF1004V" H 3950 3900 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3950 3900 50  0001 C CNN "Supplier"
