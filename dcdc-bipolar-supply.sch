@@ -123,7 +123,12 @@ P 5500 3300
 F 0 "D?" V 5454 3379 50  0000 L CNN
 F 1 "20V/500mA" V 5545 3379 50  0000 L CNN
 F 2 "" H 5500 3300 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5500 3300 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5500 3300 50  0001 C CNN
+F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
+F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MBR0520L" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "MBR0520LCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5500 3300
 	0    1    1    0   
 $EndComp
@@ -134,7 +139,12 @@ P 5750 3050
 F 0 "D?" H 5750 2834 50  0000 C CNN
 F 1 "20V/500mA" H 5750 2925 50  0000 C CNN
 F 2 "" H 5750 3050 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5750 3050 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5750 3050 50  0001 C CNN
+F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
+F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MBR0520L" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "MBR0520LCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5750 3050
 	-1   0    0    1   
 $EndComp
@@ -165,7 +175,12 @@ P 5500 4800
 F 0 "D?" V 5454 4721 50  0000 R CNN
 F 1 "20V/500mA" V 5545 4721 50  0000 R CNN
 F 2 "" H 5500 4800 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5500 4800 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5500 4800 50  0001 C CNN
+F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
+F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MBR0520L" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "MBR0520LCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5500 4800
 	0    -1   1    0   
 $EndComp
@@ -176,7 +191,12 @@ P 5750 5050
 F 0 "D?" H 5750 5250 50  0000 C CNN
 F 1 "20V/500mA" H 5750 5150 50  0000 C CNN
 F 2 "" H 5750 5050 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 5750 5050 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5750 5050 50  0001 C CNN
+F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
+F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MBR0520L" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "MBR0520LCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5750 5050
 	1    0    0    1   
 $EndComp
@@ -282,6 +302,11 @@ F 0 "U?" H 4350 3500 50  0000 C CNN
 F 1 "LT1930" H 4350 3600 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 4350 2850 50  0001 C CNN
 F 3 "https://cds.linear.com/docs/en/datasheet/1930a.pdf" H 4450 3400 50  0001 C CNN
+F 4 "1A Step-Up DC/DC Switching Regulator" H 0   0   50  0001 C CNN "Description"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LT1930ES5#TRPBF" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "LT1930ES5#TRPBFCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    4350 3450
 	1    0    0    -1  
 $EndComp
