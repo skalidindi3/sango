@@ -91,7 +91,7 @@ Wire Wire Line
 	6500 3550 6500 3650
 Connection ~ 6500 3550
 Text HLabel 8000 3050 2    50   Output ~ 0
-+12V_OUT
++13V_OUT
 Wire Wire Line
 	6500 3150 6500 3050
 Wire Wire Line
@@ -268,7 +268,7 @@ Wire Wire Line
 	5900 3050 6500 3050
 Connection ~ 6500 3050
 Text HLabel 8000 5050 2    50   Output ~ 0
--12V_OUT
+-13V_OUT
 Wire Wire Line
 	7500 5050 8000 5050
 Connection ~ 7500 5050
@@ -333,7 +333,7 @@ Connection ~ 6700 3050
 Wire Wire Line
 	6700 3050 7500 3050
 Text Notes 6500 2950 0    50   ~ 0
-1.255V * (1 + (121k/13.3k)) = 12.956V
+1.255V * (1 + (124k/13.3k)) = 12.956V
 Text Notes 6500 5200 0    50   ~ 0
 NOTE: reaches +/- 12.4V in 45ms
 Text Notes 6500 2800 0    50   ~ 0

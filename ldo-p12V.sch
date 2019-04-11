@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3750 3650 0    50   Input ~ 0
-+12V_OUT
++13V_IN
 $Comp
 L linear_technology:LT3045 U?
 U 1 1 5CA59434

@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 4150 4700 0    50   Input ~ 0
--12V_OUT
+-13V_IN
 NoConn ~ 6550 4350
 $Comp
 L power:GND #PWR?
