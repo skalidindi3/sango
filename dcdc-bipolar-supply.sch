@@ -67,8 +67,13 @@ U 1 1 5C9043E5
 P 6500 3300
 F 0 "R?" H 6570 3346 50  0000 L CNN
 F 1 "124k" H 6570 3255 50  0000 L CNN
-F 2 "" V 6430 3300 50  0001 C CNN
-F 3 "~" H 6500 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6500 3300 50  0001 C CNN
+F 4 "RES SMD 124K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF1243V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "P124KCCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    6500 3300
 	-1   0    0    -1  
 $EndComp
@@ -78,8 +83,13 @@ U 1 1 5C90441B
 P 6500 3800
 F 0 "R?" H 6570 3846 50  0000 L CNN
 F 1 "13.3k" H 6570 3755 50  0000 L CNN
-F 2 "" V 6430 3800 50  0001 C CNN
-F 3 "~" H 6500 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6500 3800 50  0001 C CNN
+F 4 "RES SMD 13.3K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-6ENF1332V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "P13.3KCCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    6500 3800
 	-1   0    0    -1  
 $EndComp
