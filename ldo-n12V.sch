@@ -265,4 +265,10 @@ F 8 "P121KDACT-ND" H 4950 3950 50  0001 C CNN "Supplier Part Number"
 	1    4950 3950
 	1    0    0    1   
 $EndComp
+Text Notes 5350 4950 0    50   ~ 0
+SET resistor is high-precision thin (metal) film
+Text Notes 5350 5300 0    50   ~ 0
+PGFB resistor divider enables fast startup circuitry\nuntil the upper bound threshold set by the divider
+Text Notes 5350 5100 0    50   ~ 0
+EN/UV resistor divider sets IC enable threshold
 $EndSCHEMATC
