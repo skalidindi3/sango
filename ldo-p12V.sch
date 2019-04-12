@@ -61,12 +61,12 @@ AR Path="/5CA59CF7/5CA5D410" Ref="R?"  Part="1"
 F 0 "R?" V 4630 4400 50  0000 C CNN
 F 1 "121k" V 4550 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 4400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4550 4400 50  0001 C CNN
-F 4 "RES SMD 121K OHM 1% 1/8W 0805" H 4550 4400 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4550 4400 50  0001 C CNN
+F 4 "RES SMD 121K OHM 0.1% 1/8W 0805 Thin Film" H 4550 4400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4550 4400 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1213V" H 4550 4400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB1213V" H 4550 4400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4550 4400 50  0001 C CNN "Supplier"
-F 8 "P121KCCT-ND" H 4550 4400 50  0001 C CNN "Supplier Part Number"
+F 8 "P121KDACT-ND" H 4550 4400 50  0001 C CNN "Supplier Part Number"
 	1    4550 4400
 	1    0    0    1   
 $EndComp
