@@ -132,7 +132,7 @@ U 1 1 5C904CFC
 P 5500 3300
 F 0 "D?" V 5454 3379 50  0000 L CNN
 F 1 "20V/500mA" V 5545 3379 50  0000 L CNN
-F 2 "" H 5500 3300 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5500 3300 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5500 3300 50  0001 C CNN
 F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
 F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
@@ -148,7 +148,7 @@ U 1 1 5C904DA6
 P 5750 3050
 F 0 "D?" H 5750 2834 50  0000 C CNN
 F 1 "20V/500mA" H 5750 2925 50  0000 C CNN
-F 2 "" H 5750 3050 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5750 3050 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5750 3050 50  0001 C CNN
 F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
 F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
@@ -184,7 +184,7 @@ U 1 1 5C90530A
 P 5500 4800
 F 0 "D?" V 5454 4721 50  0000 R CNN
 F 1 "20V/500mA" V 5545 4721 50  0000 R CNN
-F 2 "" H 5500 4800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5500 4800 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5500 4800 50  0001 C CNN
 F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
 F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
@@ -200,7 +200,7 @@ U 1 1 5C905311
 P 5750 5050
 F 0 "D?" H 5750 5250 50  0000 C CNN
 F 1 "20V/500mA" H 5750 5150 50  0000 C CNN
-F 2 "" H 5750 5050 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5750 5050 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/MBR0520L-D.pdf" H 5750 5050 50  0001 C CNN
 F 4 "SCHOTTKY 20V 500MA SOD123" H 0   0   50  0001 C CNN "Description"
 F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
