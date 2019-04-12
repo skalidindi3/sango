@@ -163,6 +163,11 @@ F 0 "U?" H 5900 4350 60  0000 C CNN
 F 1 "LT3094" H 5900 4450 60  0000 C CNN
 F 2 "Housings_SSOP:MSOP-12-1EP_3x4mm_Pitch0.65mm" H 5900 3950 60  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf" H 5900 4050 60  0001 C CNN
+F 4 "500mA Negative Linear Voltage Regulator" H 0   0   50  0001 C CNN "Description"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LT3094EMSE#PBF" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "LT3094EMSE#PBF-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5900 4450
 	1    0    0    -1  
 $EndComp

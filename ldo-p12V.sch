@@ -24,6 +24,11 @@ F 0 "U?" H 5500 4000 60  0000 C CNN
 F 1 "LT3045" H 5500 3900 60  0000 C CNN
 F 2 "Housings_SSOP:MSOP-12-1EP_3x4mm_Pitch0.65mm" H 5500 4400 60  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf" H 5500 4300 60  0001 C CNN
+F 4 "500mA Positive Linear Voltage Regulator" H 0   0   50  0001 C CNN "Description"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LT3045EMSE#PBF" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "LT3045EMSE#PBF-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5500 3900
 	1    0    0    -1  
 $EndComp
