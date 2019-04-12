@@ -51,13 +51,13 @@ AR Path="/5CA59CF7/5CA61EE0" Ref="C?"  Part="1"
 AR Path="/5CA59CFA/5CA61EE0" Ref="C?"  Part="1" 
 F 0 "C?" H 4635 3904 50  0000 R CNN
 F 1 "10u" H 4635 3995 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 3800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 4750 3950 50  0001 C CNN
+F 2 "" H 4788 3800 50  0001 C CNN
+F 3 "" H 4750 3950 50  0001 C CNN
 F 4 "" H 2300 -1200 50  0001 C CNN "Description"
-F 5 "Samsung Electro-Mechanics" H 2300 -1200 50  0001 C CNN "Manufacturer"
-F 6 "CL21C4R7BBANNNC" H 2300 -1200 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 2300 -1200 50  0001 C CNN "Supplier"
-F 8 "1276-1832-1-ND" H 2300 -1200 50  0001 C CNN "Supplier Part Number"
+F 5 "" H 2300 -1200 50  0001 C CNN "Manufacturer"
+F 6 "" H 2300 -1200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 2300 -1200 50  0001 C CNN "Supplier"
+F 8 "" H 2300 -1200 50  0001 C CNN "Supplier Part Number"
 	1    4750 3950
 	1    0    0    -1  
 $EndComp
@@ -130,13 +130,13 @@ AR Path="/5CA59CF7/5CA61F1B" Ref="C?"  Part="1"
 AR Path="/5CA59CFA/5CA61F1B" Ref="C?"  Part="1" 
 F 0 "C?" H 6935 4154 50  0000 R CNN
 F 1 "22u" H 6935 4245 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 4050 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 7050 4200 50  0001 C CNN
+F 2 "" H 7088 4050 50  0001 C CNN
+F 3 "" H 7050 4200 50  0001 C CNN
 F 4 "" H 4600 -950 50  0001 C CNN "Description"
-F 5 "Samsung Electro-Mechanics" H 4600 -950 50  0001 C CNN "Manufacturer"
-F 6 "CL21C4R7BBANNNC" H 4600 -950 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 4600 -950 50  0001 C CNN "Supplier"
-F 8 "1276-1832-1-ND" H 4600 -950 50  0001 C CNN "Supplier Part Number"
+F 5 "" H 4600 -950 50  0001 C CNN "Manufacturer"
+F 6 "" H 4600 -950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 4600 -950 50  0001 C CNN "Supplier"
+F 8 "" H 4600 -950 50  0001 C CNN "Supplier Part Number"
 	1    7050 4200
 	-1   0    0    -1  
 $EndComp
