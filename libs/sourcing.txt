@@ -1,0 +1,4 @@
+USB Type-C Receptacle Amphenol 12401610E4-2A
+Footprint: kicad libs
+Model: SnapEDA
+

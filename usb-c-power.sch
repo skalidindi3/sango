@@ -613,13 +613,13 @@ AR Path="/5C87BB4E" Ref="J?"  Part="1"
 AR Path="/5C87B3B6/5C87BB4E" Ref="J?"  Part="1" 
 F 0 "J?" H 2805 4717 50  0000 C CNN
 F 1 "USB-C" H 2805 4626 50  0000 C CNN
-F 2 "amphenol:USB_C_Receptacle_Amphenol_12401598E4-2A" H 2850 3850 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 2850 3850 50  0001 C CNN
-F 4 "CONN RCPT USB3.1 TYPEC SMD R/A" H -150 -50 50  0001 C CNN "Description"
-F 5 "Amphenol Commercial Products" H -150 -50 50  0001 C CNN "Manufacturer"
-F 6 "12401598E4#2A" H -150 -50 50  0001 C CNN "Manufacturer Part Number"
+F 2 "amphenol:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 2850 3850 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401610e4x2a.pdf" H 2850 3850 50  0001 C CNN
+F 4 "CONN RCP USB3.1 TYPEC 24P SMD RA" H -150 -50 50  0001 C CNN "Description"
+F 5 "Amphenol ICC (Commercial Products)" H -150 -50 50  0001 C CNN "Manufacturer"
+F 6 "12401610E4#2A" H -150 -50 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H -150 -50 50  0001 C CNN "Supplier"
-F 8 "12401598E4#2ACT-ND" H -150 -50 50  0001 C CNN "Supplier Part Number"
+F 8 "12401610E4#2ACT-ND" H -150 -50 50  0001 C CNN "Supplier Part Number"
 	1    2700 3850
 	1    0    0    -1  
 $EndComp
