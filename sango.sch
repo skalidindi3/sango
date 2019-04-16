@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -43,5 +43,11 @@ U 5CA59CFA
 F0 "LDO -12V" 50
 F1 "ldo-n12V.sch" 50
 F2 "-13V_IN" I L 4750 3400 50 
+$EndSheet
+$Sheet
+S 5650 2650 550  900 
+U 5CB56C16
+F0 "Audio" 50
+F1 "audio.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -1,0 +1,127 @@
+EESchema Schematic File Version 4
+LIBS:sango-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack3_Switch J?
+U 1 1 5CB56C98
+P 2950 3300
+F 0 "J?" H 2718 3229 50  0000 R CNN
+F 1 "AudioJack3_Switch" H 2718 3320 50  0000 R CNN
+F 2 "" H 2950 3300 50  0001 C CNN
+F 3 "~" H 2950 3300 50  0001 C CNN
+	1    2950 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB56D98
+P 3250 3600
+F 0 "#PWR?" H 3250 3350 50  0001 C CNN
+F 1 "GND" H 3255 3427 50  0000 C CNN
+F 2 "" H 3250 3600 50  0001 C CNN
+F 3 "" H 3250 3600 50  0001 C CNN
+	1    3250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3500 3250 3500
+Wire Wire Line
+	3250 3500 3250 3600
+Wire Wire Line
+	3150 3400 3250 3400
+Wire Wire Line
+	3250 3400 3250 3500
+Connection ~ 3250 3500
+Wire Wire Line
+	3150 3200 3250 3200
+Wire Wire Line
+	3250 3200 3250 3400
+Connection ~ 3250 3400
+Wire Wire Line
+	3150 3000 3250 3000
+Wire Wire Line
+	3250 3000 3250 3200
+Connection ~ 3250 3200
+Wire Wire Line
+	3150 3300 3350 3300
+Wire Wire Line
+	3150 3100 3350 3100
+Text Label 3350 3100 0    50   ~ 0
+L_IN
+Text Label 3350 3300 0    50   ~ 0
+R_IN
+$Comp
+L Connector:AudioJack3_Switch J?
+U 1 1 5CB57002
+P 6750 3300
+F 0 "J?" H 6518 3229 50  0000 R CNN
+F 1 "AudioJack3_Switch" H 6518 3320 50  0000 R CNN
+F 2 "" H 6750 3300 50  0001 C CNN
+F 3 "~" H 6750 3300 50  0001 C CNN
+	1    6750 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB571B2
+P 6450 3600
+F 0 "#PWR?" H 6450 3350 50  0001 C CNN
+F 1 "GND" H 6455 3427 50  0000 C CNN
+F 2 "" H 6450 3600 50  0001 C CNN
+F 3 "" H 6450 3600 50  0001 C CNN
+	1    6450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3500 6450 3500
+Wire Wire Line
+	6450 3500 6450 3600
+Wire Wire Line
+	6550 3400 6450 3400
+Wire Wire Line
+	6450 3400 6450 3500
+Connection ~ 6450 3500
+Wire Wire Line
+	6350 3300 6550 3300
+Wire Wire Line
+	6350 3100 6550 3100
+Text Label 6350 3100 2    50   ~ 0
+L_OUT
+Text Label 6350 3300 2    50   ~ 0
+R_OUT
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5CB5715A
+P 4350 3000
+F 0 "SW?" H 4100 3100 50  0000 L CNN
+F 1 "SW_DPDT_x2" H 4100 3200 50  0000 L CNN
+F 2 "" H 4350 3000 50  0001 C CNN
+F 3 "" H 4350 3000 50  0001 C CNN
+	1    4350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 2 1 5CB57284
+P 4350 3400
+F 0 "SW?" H 4100 3500 50  0000 L CNN
+F 1 "SW_DPDT_x2" H 4100 3600 50  0000 L CNN
+F 2 "" H 4350 3400 50  0001 C CNN
+F 3 "" H 4350 3400 50  0001 C CNN
+	2    4350 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
