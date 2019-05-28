@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NJM2068
+D Low-Noise Dual Operational Amplifier, 0.001% THD, 6V/µs
+K dual supply, low noise, low THD
+F 
+$ENDCMP
+#
+#End Doc Library

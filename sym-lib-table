@@ -2,4 +2,5 @@
   (lib (name microchip)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/microchip.lib)(options "")(descr ""))
   (lib (name stdlibmods)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/stdlibmods.lib)(options "")(descr "Modifications to standard library schematic symbols"))
   (lib (name linear_technology)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/linear_technology.lib)(options "")(descr ""))
+  (lib (name njr)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/njr.lib)(options "")(descr ""))
 )
