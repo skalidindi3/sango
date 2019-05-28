@@ -36,6 +36,7 @@ U 5CA59CF7
 F0 "LDO +12V" 50
 F1 "ldo-p12V.sch" 50
 F2 "+13V_IN" I L 4750 2800 50 
+F3 "+12Vreg" O R 5450 2900 50 
 $EndSheet
 $Sheet
 S 4750 3200 700  400 
@@ -43,11 +44,24 @@ U 5CA59CFA
 F0 "LDO -12V" 50
 F1 "ldo-n12V.sch" 50
 F2 "-13V_IN" I L 4750 3400 50 
+F3 "-12Vreg" O R 5450 3300 50 
 $EndSheet
 $Sheet
 S 5650 2650 550  900 
 U 5CB56C16
 F0 "Audio" 50
 F1 "audio.sch" 50
+F2 "+12Vreg" I L 5650 2900 50 
+F3 "-12Vreg" I L 5650 3300 50 
 $EndSheet
+Wire Wire Line
+	3200 3100 3400 3100
+Wire Wire Line
+	4550 2800 4750 2800
+Wire Wire Line
+	4550 3400 4750 3400
+Wire Wire Line
+	5450 2900 5650 2900
+Wire Wire Line
+	5450 3300 5650 3300
 $EndSCHEMATC
