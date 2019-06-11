@@ -562,7 +562,7 @@ Connection ~ 3700 4000
 Wire Wire Line
 	3700 4000 3700 4300
 Text Notes 3450 2450 0    50   ~ 0
-TODO: pick R/C values & components\nTODO: output stage
+TODO: component selection\nTODO: check wattage on components\nTODO: output connector default contact to pull downs?
 $Comp
 L Amplifier_Operational:NJM4556A U?
 U 3 1 5CE854EA
@@ -765,7 +765,7 @@ F 6 "" H 4450 -1900 50  0001 C CNN "Manufacturer Part Number"
 F 7 "" H 4450 -1900 50  0001 C CNN "Supplier"
 F 8 "" H 4450 -1900 50  0001 C CNN "Supplier Part Number"
 	1    6900 3250
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
@@ -775,7 +775,7 @@ AR Path="/5C87B3B6/5CEDAB07" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEDAB07" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEDAB07" Ref="R?"  Part="1" 
 F 0 "R?" V 7430 3550 50  0000 C CNN
-F 1 "4" V 7350 3550 50  0000 C CNN
+F 1 "20k" V 7350 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 3550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7350 3550 50  0001 C CNN
 F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 7350 3550 50  0001 C CNN "Description"
@@ -784,7 +784,7 @@ F 6 "ERJ-6ENF1824V" H 7350 3550 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7350 3550 50  0001 C CNN "Supplier"
 F 8 "P1.82BTCT-ND" H 7350 3550 50  0001 C CNN "Supplier Part Number"
 	1    7350 3550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7350 3400 7350 3250
@@ -815,7 +815,7 @@ F 6 "" H 4450 -400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "" H 4450 -400 50  0001 C CNN "Supplier"
 F 8 "" H 4450 -400 50  0001 C CNN "Supplier Part Number"
 	1    6900 4750
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R R?
@@ -825,7 +825,7 @@ AR Path="/5C87B3B6/5CEE5E17" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEE5E17" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEE5E17" Ref="R?"  Part="1" 
 F 0 "R?" V 7430 4450 50  0000 C CNN
-F 1 "4" V 7350 4450 50  0000 C CNN
+F 1 "20k" V 7350 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 4450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7350 4450 50  0001 C CNN
 F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 7350 4450 50  0001 C CNN "Description"
@@ -834,7 +834,7 @@ F 6 "ERJ-6ENF1824V" H 7350 4450 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7350 4450 50  0001 C CNN "Supplier"
 F 8 "P1.82BTCT-ND" H 7350 4450 50  0001 C CNN "Supplier Part Number"
 	1    7350 4450
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7350 4600 7350 4750
