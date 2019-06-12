@@ -243,12 +243,12 @@ P 2300 5100
 F 0 "C?" H 2185 5054 50  0000 R CNN
 F 1 "4.7n" H 2185 5145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 4950 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/12/CL21C4R7BBANNNC.pdf" H 2300 5100 50  0001 C CNN
-F 4 "CAP CER 4.7PF 50V C0G/NP0 0805" H -150 -50 50  0001 C CNN "Description"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL21B472JBANNNC.pdf" H 2300 5100 50  0001 C CNN
+F 4 "CAP CER 4700PF 50V X7R 0805" H -150 -50 50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics" H -150 -50 50  0001 C CNN "Manufacturer"
-F 6 "CL21C4R7BBANNNC" H -150 -50 50  0001 C CNN "Manufacturer Part Number"
+F 6 "CL21B472JBANNNC" H -150 -50 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H -150 -50 50  0001 C CNN "Supplier"
-F 8 "1276-1832-1-ND" H -150 -50 50  0001 C CNN "Supplier Part Number"
+F 8 "1276-2519-1-ND" H -150 -50 50  0001 C CNN "Supplier Part Number"
 	1    2300 5100
 	1    0    0    1   
 $EndComp
@@ -428,12 +428,12 @@ P 3700 4900
 F 0 "C?" H 3585 4854 50  0000 R CNN
 F 1 "0.1u" H 3585 4945 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 4750 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104MBCNNNC.pdf" H 3700 4900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104JBCNNNC.pdf" H 3700 4900 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V X7R 0805" H -4650 700 50  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics" H -4650 700 50  0001 C CNN "Manufacturer"
-F 6 "CL21B104MBCNNNC" H -4650 700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "CL21B104JBCNNNC" H -4650 700 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H -4650 700 50  0001 C CNN "Supplier"
-F 8 "1276-2450-1-ND" H -4650 700 50  0001 C CNN "Supplier Part Number"
+F 8 "1276-1090-1-ND" H -4650 700 50  0001 C CNN "Supplier Part Number"
 	1    3700 4900
 	1    0    0    1   
 $EndComp
@@ -519,8 +519,12 @@ U 1 1 5C8B0D5D
 P 7650 4000
 F 0 "J?" H 7700 4300 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7700 3700 50  0000 C CNN
-F 2 "" H 7650 4000 50  0001 C CNN
-F 3 "~" H 7650 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7650 4000 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 7650 4000 50  0001 C CNN
+F 4 "Sullins Connector Solutions" H 7650 4000 50  0001 C CNN "Manufacturer"
+F 5 "PRPC005DAAN-RC" H 7650 4000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 7650 4000 50  0001 C CNN "Supplier"
+F 7 "S2011EC-05-ND" H 7650 4000 50  0001 C CNN "Supplier Part Number"
 	1    7650 4000
 	1    0    0    -1  
 $EndComp
