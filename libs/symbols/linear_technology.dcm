@@ -3,13 +3,13 @@ EESchema-DOCLIB  Version 2.0
 $CMP LT1930A
 D 2.2MHz Step-Up DC/DC Converter, 12V/250mA OUT from 5V IN, SOT-23
 K switched voltage converter regulator
-F https://cds.linear.com/docs/en/datasheet/1930a.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1930f.pdf
 $ENDCMP
 #
 $CMP LT1930
 D 1.2MHz Step-Up DC/DC Converter, 12V/>250mA OUT from 5V IN, SOT-23
 K switched voltage converter regulator
-F https://cds.linear.com/docs/en/datasheet/1930a.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1930f.pdf
 $ENDCMP
 #
 $CMP LT3045

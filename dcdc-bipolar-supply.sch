@@ -24,8 +24,13 @@ AR Path="/5C87B3B6/5C903F02" Ref="C?"  Part="1"
 AR Path="/5C903B7C/5C903F02" Ref="C?"  Part="1" 
 F 0 "C?" H 3185 3504 50  0000 R CNN
 F 1 "4.7u" H 3185 3595 50  0000 R CNN
-F 2 "" H 3338 3400 50  0001 C CNN
-F 3 "" H 3300 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 3400 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" H 3300 3550 50  0001 C CNN
+F 4 "CAP CER 4.7UF 10V X5R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LMK212BJ475KD-T" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "587-1297-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    3300 3550
 	1    0    0    1   
 $EndComp
@@ -35,8 +40,13 @@ U 1 1 5C904175
 P 4350 3050
 F 0 "L?" V 4575 3050 50  0000 C CNN
 F 1 "10u Ferrite" V 4484 3050 50  0000 C CNN
-F 2 "" H 4350 3050 50  0001 C CNN
-F 3 "~" H 4350 3050 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering" H 4350 3050 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf" H 4350 3050 50  0001 C CNN
+F 4 "FIXED IND 10UH 2.4A 59.8 MOHM" H 0   0   50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "NRS6045T100MMGK" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "587-2946-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    4350 3050
 	0    -1   -1   0   
 $EndComp
@@ -114,8 +124,13 @@ AR Path="/5C87B3B6/5C90462E" Ref="C?"  Part="1"
 AR Path="/5C903B7C/5C90462E" Ref="C?"  Part="1" 
 F 0 "C?" H 7385 3504 50  0000 R CNN
 F 1 "10u" H 7385 3595 50  0000 R CNN
-F 2 "" H 7538 3400 50  0001 C CNN
-F 3 "" H 7500 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7538 3400 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc07_e.pdf" H 7500 3550 50  0001 C CNN
+F 4 "CAP CER 10UF 16V X5R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "EMK212ABJ106KD-T" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "587-2980-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    7500 3550
 	1    0    0    1   
 $EndComp
@@ -166,8 +181,13 @@ AR Path="/5C87B3B6/5C904E21" Ref="C?"  Part="1"
 AR Path="/5C903B7C/5C904E21" Ref="C?"  Part="1" 
 F 0 "C?" H 5135 3004 50  0000 R CNN
 F 1 "1u" H 5135 3095 50  0000 R CNN
-F 2 "" H 5288 2900 50  0001 C CNN
-F 3 "" H 5250 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 2900 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc07_e.pdf" H 5250 3050 50  0001 C CNN
+F 4 "CAP CER 1UF 16V X5R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "EMK212BJ105KDHT" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "587-3321-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5250 3050
 	0    -1   1    0   
 $EndComp
@@ -218,8 +238,13 @@ AR Path="/5C87B3B6/5C905318" Ref="C?"  Part="1"
 AR Path="/5C903B7C/5C905318" Ref="C?"  Part="1" 
 F 0 "C?" H 5135 5004 50  0000 R CNN
 F 1 "1u" H 5135 5095 50  0000 R CNN
-F 2 "" H 5288 4900 50  0001 C CNN
-F 3 "" H 5250 5050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 4900 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc07_e.pdf" H 5250 5050 50  0001 C CNN
+F 4 "CAP CER 1UF 16V X5R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "EMK212BJ105KDHT" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "587-3321-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5250 5050
 	0    -1   -1   0   
 $EndComp
@@ -257,8 +282,13 @@ AR Path="/5C87B3B6/5C9089A6" Ref="C?"  Part="1"
 AR Path="/5C903B7C/5C9089A6" Ref="C?"  Part="1" 
 F 0 "C?" H 7385 4504 50  0000 R CNN
 F 1 "10u" H 7385 4595 50  0000 R CNN
-F 2 "" H 7538 4400 50  0001 C CNN
-F 3 "" H 7500 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7538 4400 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc07_e.pdf" H 7500 4550 50  0001 C CNN
+F 4 "CAP CER 10UF 16V X5R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "EMK212ABJ106KD-T" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "587-2980-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    7500 4550
 	1    0    0    1   
 $EndComp
@@ -311,7 +341,7 @@ P 4350 3450
 F 0 "U?" H 4350 3500 50  0000 C CNN
 F 1 "LT1930" H 4350 3600 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 4350 2850 50  0001 C CNN
-F 3 "https://cds.linear.com/docs/en/datasheet/1930a.pdf" H 4450 3400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1930f.pdf" H 4450 3400 50  0001 C CNN
 F 4 "1A Step-Up DC/DC Switching Regulator" H 0   0   50  0001 C CNN "Description"
 F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "LT1930ES5#TRPBF" H 0   0   50  0001 C CNN "Manufacturer Part Number"
@@ -328,8 +358,13 @@ AR Path="/5C87B3B6/5CA5C6DD" Ref="C?"  Part="1"
 AR Path="/5C903B7C/5CA5C6DD" Ref="C?"  Part="1" 
 F 0 "C?" H 6585 3254 50  0000 R CNN
 F 1 "0.1u" H 6585 3345 50  0000 R CNN
-F 2 "" H 6738 3150 50  0001 C CNN
-F 3 "" H 6700 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6738 3150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104JBCNNNC.pdf" H 6700 3300 50  0001 C CNN
+F 4 "1276-1090-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "CL21B104JBCNNNC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
 	1    6700 3300
 	-1   0    0    1   
 $EndComp
