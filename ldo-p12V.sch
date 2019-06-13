@@ -78,20 +78,20 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5CA5D41C
-P 4350 4400
+P 6650 4150
 AR Path="/5C87B3B6/5CA5D41C" Ref="C?"  Part="1" 
 AR Path="/5CA59CF7/5CA5D41C" Ref="C?"  Part="1" 
-F 0 "C?" H 4235 4354 50  0000 R CNN
-F 1 "10u" H 4235 4445 50  0000 R CNN
-F 2 "" H 4388 4250 50  0001 C CNN
-F 3 "" H 4350 4400 50  0001 C CNN
-F 4 "" H 1900 -750 50  0001 C CNN "Description"
-F 5 "" H 1900 -750 50  0001 C CNN "Manufacturer"
-F 6 "" H 1900 -750 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 1900 -750 50  0001 C CNN "Supplier"
-F 8 "" H 1900 -750 50  0001 C CNN "Supplier Part Number"
-	1    4350 4400
-	1    0    0    1   
+F 0 "C?" H 6535 4104 50  0000 R CNN
+F 1 "10u" H 6535 4195 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 4000 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc07_e.pdf" H 6650 4150 50  0001 C CNN
+F 4 "CAP CER 10UF 16V X5R 0805" H 4200 -1000 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 4200 -1000 50  0001 C CNN "Manufacturer"
+F 6 "EMK212ABJ106KD-T" H 4200 -1000 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 4200 -1000 50  0001 C CNN "Supplier"
+F 8 "587-2980-1-ND" H 4200 -1000 50  0001 C CNN "Supplier Part Number"
+	1    6650 4150
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4850 4000 4550 4000
@@ -170,24 +170,6 @@ Wire Wire Line
 	6450 4550 6450 4650
 Wire Wire Line
 	6450 4650 5500 4650
-$Comp
-L Device:C C?
-U 1 1 5CA5F77A
-P 6650 4150
-AR Path="/5C87B3B6/5CA5F77A" Ref="C?"  Part="1" 
-AR Path="/5CA59CF7/5CA5F77A" Ref="C?"  Part="1" 
-F 0 "C?" H 6535 4104 50  0000 R CNN
-F 1 "22u" H 6535 4195 50  0000 R CNN
-F 2 "" H 6688 4000 50  0001 C CNN
-F 3 "" H 6650 4150 50  0001 C CNN
-F 4 "" H 4200 -1000 50  0001 C CNN "Description"
-F 5 "" H 4200 -1000 50  0001 C CNN "Manufacturer"
-F 6 "" H 4200 -1000 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 4200 -1000 50  0001 C CNN "Supplier"
-F 8 "" H 4200 -1000 50  0001 C CNN "Supplier Part Number"
-	1    6650 4150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6450 3650 6650 3650
 Wire Wire Line
@@ -266,4 +248,22 @@ Wire Wire Line
 Wire Wire Line
 	3950 4650 4350 4650
 Connection ~ 4350 4650
+$Comp
+L Device:C C?
+U 1 1 5D0393AC
+P 4350 4400
+AR Path="/5C87B3B6/5D0393AC" Ref="C?"  Part="1" 
+AR Path="/5C903B7C/5D0393AC" Ref="C?"  Part="1" 
+F 0 "C?" H 4235 4354 50  0000 R CNN
+F 1 "4.7u" H 4235 4445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 4250 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" H 4350 4400 50  0001 C CNN
+F 4 "CAP CER 4.7UF 10V X5R 0805" H 1050 850 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 1050 850 50  0001 C CNN "Manufacturer"
+F 6 "LMK212BJ475KD-T" H 1050 850 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 1050 850 50  0001 C CNN "Supplier"
+F 8 "587-1297-1-ND" H 1050 850 50  0001 C CNN "Supplier Part Number"
+	1    4350 4400
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

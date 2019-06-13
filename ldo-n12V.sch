@@ -45,21 +45,21 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5CA61EE0
-P 4750 3950
+P 7050 4200
 AR Path="/5C87B3B6/5CA61EE0" Ref="C?"  Part="1" 
 AR Path="/5CA59CF7/5CA61EE0" Ref="C?"  Part="1" 
 AR Path="/5CA59CFA/5CA61EE0" Ref="C?"  Part="1" 
-F 0 "C?" H 4635 3904 50  0000 R CNN
-F 1 "10u" H 4635 3995 50  0000 R CNN
-F 2 "" H 4788 3800 50  0001 C CNN
-F 3 "" H 4750 3950 50  0001 C CNN
-F 4 "" H 2300 -1200 50  0001 C CNN "Description"
-F 5 "" H 2300 -1200 50  0001 C CNN "Manufacturer"
-F 6 "" H 2300 -1200 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 2300 -1200 50  0001 C CNN "Supplier"
-F 8 "" H 2300 -1200 50  0001 C CNN "Supplier Part Number"
-	1    4750 3950
-	1    0    0    -1  
+F 0 "C?" H 6935 4154 50  0000 R CNN
+F 1 "10u" H 6935 4245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 4050 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc07_e.pdf" H 7050 4200 50  0001 C CNN
+F 4 "CAP CER 10UF 16V X5R 0805" H 4600 -950 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 4600 -950 50  0001 C CNN "Manufacturer"
+F 6 "EMK212ABJ106KD-T" H 4600 -950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 4600 -950 50  0001 C CNN "Supplier"
+F 8 "587-2980-1-ND" H 4600 -950 50  0001 C CNN "Supplier Part Number"
+	1    7050 4200
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5250 4350 4950 4350
@@ -121,25 +121,6 @@ Wire Wire Line
 	6850 3800 6850 3700
 Wire Wire Line
 	6850 3700 5900 3700
-$Comp
-L Device:C C?
-U 1 1 5CA61F1B
-P 7050 4200
-AR Path="/5C87B3B6/5CA61F1B" Ref="C?"  Part="1" 
-AR Path="/5CA59CF7/5CA61F1B" Ref="C?"  Part="1" 
-AR Path="/5CA59CFA/5CA61F1B" Ref="C?"  Part="1" 
-F 0 "C?" H 6935 4154 50  0000 R CNN
-F 1 "22u" H 6935 4245 50  0000 R CNN
-F 2 "" H 7088 4050 50  0001 C CNN
-F 3 "" H 7050 4200 50  0001 C CNN
-F 4 "" H 4600 -950 50  0001 C CNN "Description"
-F 5 "" H 4600 -950 50  0001 C CNN "Manufacturer"
-F 6 "" H 4600 -950 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 4600 -950 50  0001 C CNN "Supplier"
-F 8 "" H 4600 -950 50  0001 C CNN "Supplier Part Number"
-	1    7050 4200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 4700 7050 4700
 Wire Wire Line
@@ -276,4 +257,23 @@ Text Notes 5350 5300 0    50   ~ 0
 PGFB resistor divider enables fast startup circuitry\nuntil the upper bound threshold set by the divider
 Text Notes 5350 5100 0    50   ~ 0
 EN/UV resistor divider sets IC enable threshold
+$Comp
+L Device:C C?
+U 1 1 5D039BC5
+P 4750 3950
+AR Path="/5C87B3B6/5D039BC5" Ref="C?"  Part="1" 
+AR Path="/5C903B7C/5D039BC5" Ref="C?"  Part="1" 
+AR Path="/5CA59CFA/5D039BC5" Ref="C?"  Part="1" 
+F 0 "C?" H 4635 3904 50  0000 R CNN
+F 1 "4.7u" H 4635 3995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 3800 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" H 4750 3950 50  0001 C CNN
+F 4 "CAP CER 4.7UF 10V X5R 0805" H 1450 400 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 1450 400 50  0001 C CNN "Manufacturer"
+F 6 "LMK212BJ475KD-T" H 1450 400 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 1450 400 50  0001 C CNN "Supplier"
+F 8 "587-1297-1-ND" H 1450 400 50  0001 C CNN "Supplier Part Number"
+	1    4750 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
