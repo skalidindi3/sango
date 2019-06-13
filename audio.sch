@@ -182,12 +182,12 @@ AR Path="/5CB56C16/5CE74784" Ref="R?"  Part="1"
 F 0 "R?" V 4830 3600 50  0000 C CNN
 F 1 "3240" V 4750 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 3600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3600 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 4750 3600 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 3600 50  0001 C CNN
+F 4 "RES SMD 3.24K OHM 0.1% 1/8W 0805 Metal Film" H 4750 3600 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 3600 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 4750 3600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB3241V" H 4750 3600 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4750 3600 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 4750 3600 50  0001 C CNN "Supplier Part Number"
+F 8 "P3.24KDACT-ND" H 4750 3600 50  0001 C CNN "Supplier Part Number"
 	1    4750 3600
 	0    -1   -1   0   
 $EndComp
@@ -201,12 +201,12 @@ AR Path="/5CB56C16/5CE74B22" Ref="R?"  Part="1"
 F 0 "R?" V 4830 3800 50  0000 C CNN
 F 1 "750" V 4750 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 3800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 3800 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 4750 3800 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 3800 50  0001 C CNN
+F 4 "RES SMD 750 OHM 0.1% 1/8W 0805 Metal Film" H 4750 3800 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 3800 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 4750 3800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB751V" H 4750 3800 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4750 3800 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 4750 3800 50  0001 C CNN "Supplier Part Number"
+F 8 "P750DACT-ND" H 4750 3800 50  0001 C CNN "Supplier Part Number"
 	1    4750 3800
 	0    -1   -1   0   
 $EndComp
@@ -220,12 +220,12 @@ AR Path="/5CB56C16/5CE74BEC" Ref="R?"  Part="1"
 F 0 "R?" V 4830 4200 50  0000 C CNN
 F 1 "3240" V 4750 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 4200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 4200 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 4750 4200 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 4200 50  0001 C CNN
+F 4 "RES SMD 3.24K OHM 0.1% 1/8W 0805 Metal Film" H 4750 4200 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 4200 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 4750 4200 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB3241V" H 4750 4200 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4750 4200 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 4750 4200 50  0001 C CNN "Supplier Part Number"
+F 8 "P3.24KDACT-ND" H 4750 4200 50  0001 C CNN "Supplier Part Number"
 	1    4750 4200
 	0    -1   1    0   
 $EndComp
@@ -239,12 +239,12 @@ AR Path="/5CB56C16/5CE74C54" Ref="R?"  Part="1"
 F 0 "R?" V 4830 4400 50  0000 C CNN
 F 1 "750" V 4750 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 4400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4750 4400 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 4750 4400 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 4400 50  0001 C CNN
+F 4 "RES SMD 750 OHM 0.1% 1/8W 0805 Metal Film" H 4750 4400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4750 4400 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 4750 4400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB751V" H 4750 4400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4750 4400 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 4750 4400 50  0001 C CNN "Supplier Part Number"
+F 8 "P750DACT-ND" H 4750 4400 50  0001 C CNN "Supplier Part Number"
 	1    4750 4400
 	0    -1   1    0   
 $EndComp
@@ -297,12 +297,12 @@ AR Path="/5CB56C16/5CE77AE6" Ref="R?"  Part="1"
 F 0 "R?" V 5680 3400 50  0000 C CNN
 F 1 "4020" V 5600 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 3400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5600 3400 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 5600 3400 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5600 3400 50  0001 C CNN
+F 4 "RES SMD 4.02K OHM 0.1% 1/8W 0805 Metal Film" H 5600 3400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 5600 3400 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 5600 3400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB4021V" H 5600 3400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 5600 3400 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 5600 3400 50  0001 C CNN "Supplier Part Number"
+F 8 "P4.02KDACT-ND" H 5600 3400 50  0001 C CNN "Supplier Part Number"
 	1    5600 3400
 	0    -1   -1   0   
 $EndComp
@@ -363,12 +363,12 @@ AR Path="/5CB56C16/5CE7D4E4" Ref="R?"  Part="1"
 F 0 "R?" V 5680 4600 50  0000 C CNN
 F 1 "4020" V 5600 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 4600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5600 4600 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 5600 4600 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5600 4600 50  0001 C CNN
+F 4 "RES SMD 4.02K OHM 0.1% 1/8W 0805 Metal Film" H 5600 4600 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 5600 4600 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 5600 4600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB4021V" H 5600 4600 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 5600 4600 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 5600 4600 50  0001 C CNN "Supplier Part Number"
+F 8 "P4.02KDACT-ND" H 5600 4600 50  0001 C CNN "Supplier Part Number"
 	1    5600 4600
 	0    -1   1    0   
 $EndComp
@@ -429,12 +429,12 @@ AR Path="/5CB56C16/5CE83056" Ref="R?"  Part="1"
 F 0 "R?" V 3780 3300 50  0000 C CNN
 F 1 "20k" V 3700 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 3300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3700 3300 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 3700 3300 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3700 3300 50  0001 C CNN
+F 4 "RES SMD 20K OHM 0.1% 1/8W 0805 Metal Film" H 3700 3300 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3700 3300 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 3700 3300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB203V" H 3700 3300 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3700 3300 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 3700 3300 50  0001 C CNN "Supplier Part Number"
+F 8 "P20KDACT-ND" H 3700 3300 50  0001 C CNN "Supplier Part Number"
 	1    3700 3300
 	1    0    0    1   
 $EndComp
@@ -456,12 +456,12 @@ AR Path="/5CB56C16/5CE86205" Ref="R?"  Part="1"
 F 0 "R?" V 3230 2900 50  0000 C CNN
 F 1 "750" V 3150 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3080 2900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 2900 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 3150 2900 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3150 2900 50  0001 C CNN
+F 4 "RES SMD 750 OHM 0.1% 1/8W 0805 Metal Film" H 3150 2900 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3150 2900 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 3150 2900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB751V" H 3150 2900 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3150 2900 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 3150 2900 50  0001 C CNN "Supplier Part Number"
+F 8 "P750DACT-ND" H 3150 2900 50  0001 C CNN "Supplier Part Number"
 	1    3150 2900
 	0    -1   -1   0   
 $EndComp
@@ -506,12 +506,12 @@ AR Path="/5CB56C16/5CE8BC49" Ref="R?"  Part="1"
 F 0 "R?" V 3780 4700 50  0000 C CNN
 F 1 "20k" V 3700 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 4700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3700 4700 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 3700 4700 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3700 4700 50  0001 C CNN
+F 4 "RES SMD 20K OHM 0.1% 1/8W 0805 Metal Film" H 3700 4700 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3700 4700 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 3700 4700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB203V" H 3700 4700 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3700 4700 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 3700 4700 50  0001 C CNN "Supplier Part Number"
+F 8 "P20KDACT-ND" H 3700 4700 50  0001 C CNN "Supplier Part Number"
 	1    3700 4700
 	1    0    0    -1  
 $EndComp
@@ -533,12 +533,12 @@ AR Path="/5CB56C16/5CE8BC59" Ref="R?"  Part="1"
 F 0 "R?" V 3230 5100 50  0000 C CNN
 F 1 "750" V 3150 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3080 5100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 5100 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 3150 5100 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3150 5100 50  0001 C CNN
+F 4 "RES SMD 750 OHM 0.1% 1/8W 0805 Metal Film" H 3150 5100 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 3150 5100 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 3150 5100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB751V" H 3150 5100 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 3150 5100 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 3150 5100 50  0001 C CNN "Supplier Part Number"
+F 8 "P750DACT-ND" H 3150 5100 50  0001 C CNN "Supplier Part Number"
 	1    3150 5100
 	0    -1   1    0   
 $EndComp
@@ -613,13 +613,13 @@ AR Path="/5CA59CF7/5CE9DF83" Ref="R?"  Part="1"
 AR Path="/5CB56C16/5CE9DF83" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 2950 50  0000 C CNN
 F 1 "4" V 8700 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 2950 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8700 2950 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 8700 2950 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8700 2950 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 8700 2950 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 8700 2950 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 8700 2950 50  0001 C CNN "Supplier Part Number"
+F 2 "" V 8630 2950 50  0001 C CNN
+F 3 "" H 8700 2950 50  0001 C CNN
+F 4 "" H 8700 2950 50  0001 C CNN "Description"
+F 5 "" H 8700 2950 50  0001 C CNN "Manufacturer"
+F 6 "" H 8700 2950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 8700 2950 50  0001 C CNN "Supplier"
+F 8 "" H 8700 2950 50  0001 C CNN "Supplier Part Number"
 	1    8700 2950
 	0    -1   -1   0   
 $EndComp
@@ -637,13 +637,13 @@ AR Path="/5CA59CF7/5CEA3FB8" Ref="R?"  Part="1"
 AR Path="/5CB56C16/5CEA3FB8" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 3550 50  0000 C CNN
 F 1 "4" V 8700 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 3550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8700 3550 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 8700 3550 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8700 3550 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 8700 3550 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 8700 3550 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 8700 3550 50  0001 C CNN "Supplier Part Number"
+F 2 "" V 8630 3550 50  0001 C CNN
+F 3 "" H 8700 3550 50  0001 C CNN
+F 4 "" H 8700 3550 50  0001 C CNN "Description"
+F 5 "" H 8700 3550 50  0001 C CNN "Manufacturer"
+F 6 "" H 8700 3550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 8700 3550 50  0001 C CNN "Supplier"
+F 8 "" H 8700 3550 50  0001 C CNN "Supplier Part Number"
 	1    8700 3550
 	0    -1   1    0   
 $EndComp
@@ -705,13 +705,13 @@ AR Path="/5CA59CF7/5CEC958E" Ref="R?"  Part="1"
 AR Path="/5CB56C16/5CEC958E" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 4450 50  0000 C CNN
 F 1 "4" V 8700 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 4450 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8700 4450 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 8700 4450 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8700 4450 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 8700 4450 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 8700 4450 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 8700 4450 50  0001 C CNN "Supplier Part Number"
+F 2 "" V 8630 4450 50  0001 C CNN
+F 3 "" H 8700 4450 50  0001 C CNN
+F 4 "" H 8700 4450 50  0001 C CNN "Description"
+F 5 "" H 8700 4450 50  0001 C CNN "Manufacturer"
+F 6 "" H 8700 4450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 8700 4450 50  0001 C CNN "Supplier"
+F 8 "" H 8700 4450 50  0001 C CNN "Supplier Part Number"
 	1    8700 4450
 	0    -1   -1   0   
 $EndComp
@@ -729,13 +729,13 @@ AR Path="/5CA59CF7/5CEC959D" Ref="R?"  Part="1"
 AR Path="/5CB56C16/5CEC959D" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 5050 50  0000 C CNN
 F 1 "4" V 8700 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 5050 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8700 5050 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 8700 5050 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8700 5050 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 8700 5050 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 8700 5050 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 8700 5050 50  0001 C CNN "Supplier Part Number"
+F 2 "" V 8630 5050 50  0001 C CNN
+F 3 "" H 8700 5050 50  0001 C CNN
+F 4 "" H 8700 5050 50  0001 C CNN "Description"
+F 5 "" H 8700 5050 50  0001 C CNN "Manufacturer"
+F 6 "" H 8700 5050 50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 8700 5050 50  0001 C CNN "Supplier"
+F 8 "" H 8700 5050 50  0001 C CNN "Supplier Part Number"
 	1    8700 5050
 	0    -1   1    0   
 $EndComp
@@ -787,12 +787,12 @@ AR Path="/5CB56C16/5CEDAB07" Ref="R?"  Part="1"
 F 0 "R?" V 7430 3550 50  0000 C CNN
 F 1 "20k" V 7350 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 3550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7350 3550 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 7350 3550 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7350 3550 50  0001 C CNN
+F 4 "RES SMD 20K OHM 0.1% 1/8W 0805 Metal Film" H 7350 3550 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 7350 3550 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 7350 3550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB203V" H 7350 3550 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7350 3550 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 7350 3550 50  0001 C CNN "Supplier Part Number"
+F 8 "P20KDACT-ND" H 7350 3550 50  0001 C CNN "Supplier Part Number"
 	1    7350 3550
 	-1   0    0    -1  
 $EndComp
@@ -837,12 +837,12 @@ AR Path="/5CB56C16/5CEE5E17" Ref="R?"  Part="1"
 F 0 "R?" V 7430 4450 50  0000 C CNN
 F 1 "20k" V 7350 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 4450 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7350 4450 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 7350 4450 50  0001 C CNN "Description"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7350 4450 50  0001 C CNN
+F 4 "RES SMD 20K OHM 0.1% 1/8W 0805 Metal Film" H 7350 4450 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 7350 4450 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 7350 4450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB203V" H 7350 4450 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7350 4450 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 7350 4450 50  0001 C CNN "Supplier Part Number"
+F 8 "P20KDACT-ND" H 7350 4450 50  0001 C CNN "Supplier Part Number"
 	1    7350 4450
 	-1   0    0    1   
 $EndComp

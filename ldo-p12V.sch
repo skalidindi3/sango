@@ -67,7 +67,7 @@ F 0 "R?" V 4630 4400 50  0000 C CNN
 F 1 "121k" V 4550 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4550 4400 50  0001 C CNN
-F 4 "RES SMD 121K OHM 0.1% 1/8W 0805 Thin Film" H 4550 4400 50  0001 C CNN "Description"
+F 4 "RES SMD 121K OHM 0.1% 1/8W 0805 Metal Film" H 4550 4400 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4550 4400 50  0001 C CNN "Manufacturer"
 F 6 "ERA-6AEB1213V" H 4550 4400 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4550 4400 50  0001 C CNN "Supplier"
