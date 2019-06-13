@@ -521,11 +521,11 @@ F 0 "J?" H 7700 4300 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7700 3700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7650 4000 50  0001 C CNN
 F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 7650 4000 50  0001 C CNN
-F 4 "Sullins Connector Solutions" H 7650 4000 50  0001 C CNN "Manufacturer"
-F 5 "PRPC005DAAN-RC" H 7650 4000 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 7650 4000 50  0001 C CNN "Supplier"
-F 7 "S2011EC-05-ND" H 7650 4000 50  0001 C CNN "Supplier Part Number"
-F 8 "CONN HEADER VERT 10POS 2.54MM" H 0   0   50  0001 C CNN "Description"
+F 4 "CONN HEADER VERT 10POS 2.54MM" H 0   0   50  0001 C CNN "Description"
+F 5 "Sullins Connector Solutions" H 7650 4000 50  0001 C CNN "Manufacturer"
+F 6 "PRPC005DAAN-RC" H 7650 4000 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 7650 4000 50  0001 C CNN "Supplier"
+F 8 "S2011EC-05-ND" H 7650 4000 50  0001 C CNN "Supplier Part Number"
 	1    7650 4000
 	1    0    0    -1  
 $EndComp

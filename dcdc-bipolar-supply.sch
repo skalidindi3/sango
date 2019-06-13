@@ -360,11 +360,11 @@ F 0 "C?" H 6585 3254 50  0000 R CNN
 F 1 "0.1u" H 6585 3345 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6738 3150 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104JBCNNNC.pdf" H 6700 3300 50  0001 C CNN
-F 4 "1276-1090-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
-F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "CL21B104JBCNNNC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21B104JBCNNNC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "1276-1090-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    6700 3300
 	-1   0    0    1   
 $EndComp
