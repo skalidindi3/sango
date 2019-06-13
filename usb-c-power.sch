@@ -525,6 +525,7 @@ F 4 "Sullins Connector Solutions" H 7650 4000 50  0001 C CNN "Manufacturer"
 F 5 "PRPC005DAAN-RC" H 7650 4000 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Digi-Key" H 7650 4000 50  0001 C CNN "Supplier"
 F 7 "S2011EC-05-ND" H 7650 4000 50  0001 C CNN "Supplier Part Number"
+F 8 "CONN HEADER VERT 10POS 2.54MM" H 0   0   50  0001 C CNN "Description"
 	1    7650 4000
 	1    0    0    -1  
 $EndComp

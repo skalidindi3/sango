@@ -21,7 +21,12 @@ P 2200 4100
 F 0 "J?" H 1968 4029 50  0000 R CNN
 F 1 "AudioJack3_Switch" H 1968 4120 50  0000 R CNN
 F 2 "" H 2200 4100 50  0001 C CNN
-F 3 "~" H 2200 4100 50  0001 C CNN
+F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 2200 4100 50  0001 C CNN
+F 4 "CONN JACK STEREO 1/4\" R/A" H 0   0   50  0001 C CNN "Description"
+F 5 "Amphenol Sine Systems Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ACJS-MHDR" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "889-1817-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    2200 4100
 	1    0    0    1   
 $EndComp
@@ -56,7 +61,12 @@ P 9550 4100
 F 0 "J?" H 9318 4029 50  0000 R CNN
 F 1 "AudioJack3_Switch" H 9318 4120 50  0000 R CNN
 F 2 "" H 9550 4100 50  0001 C CNN
-F 3 "~" H 9550 4100 50  0001 C CNN
+F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 9550 4100 50  0001 C CNN
+F 4 "CONN JACK STEREO 1/4\" R/A" H 0   0   50  0001 C CNN "Description"
+F 5 "Amphenol Sine Systems Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ACJS-MHDR" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "889-1817-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    9550 4100
 	-1   0    0    1   
 $EndComp
@@ -267,13 +277,13 @@ AR Path="/5CA59CF7/5CE7733B" Ref="C?"  Part="1"
 AR Path="/5CB56C16/5CE7733B" Ref="C?"  Part="1" 
 F 0 "C?" H 5485 3554 50  0000 R CNN
 F 1 "82p" H 5485 3645 50  0000 R CNN
-F 2 "" H 5638 3450 50  0001 C CNN
-F 3 "" H 5600 3600 50  0001 C CNN
-F 4 "" H 3150 -1550 50  0001 C CNN "Description"
-F 5 "" H 3150 -1550 50  0001 C CNN "Manufacturer"
-F 6 "" H 3150 -1550 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 3150 -1550 50  0001 C CNN "Supplier"
-F 8 "" H 3150 -1550 50  0001 C CNN "Supplier Part Number"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5638 3450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 5600 3600 50  0001 C CNN
+F 4 "CAP CER 82PF 50V NPO 0805" H 3150 -1550 50  0001 C CNN "Description"
+F 5 "Yageo" H 3150 -1550 50  0001 C CNN "Manufacturer"
+F 6 "CC0805FRNPO9BN820" H 3150 -1550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 3150 -1550 50  0001 C CNN "Supplier"
+F 8 "311-4183-1-ND" H 3150 -1550 50  0001 C CNN "Supplier Part Number"
 	1    5600 3600
 	0    1    -1   0   
 $EndComp
@@ -333,13 +343,13 @@ AR Path="/5CA59CF7/5CE7D4D8" Ref="C?"  Part="1"
 AR Path="/5CB56C16/5CE7D4D8" Ref="C?"  Part="1" 
 F 0 "C?" H 5485 4354 50  0000 R CNN
 F 1 "82p" H 5485 4445 50  0000 R CNN
-F 2 "" H 5638 4250 50  0001 C CNN
-F 3 "" H 5600 4400 50  0001 C CNN
-F 4 "" H 3150 -750 50  0001 C CNN "Description"
-F 5 "" H 3150 -750 50  0001 C CNN "Manufacturer"
-F 6 "" H 3150 -750 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 3150 -750 50  0001 C CNN "Supplier"
-F 8 "" H 3150 -750 50  0001 C CNN "Supplier Part Number"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5638 4250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 5600 4400 50  0001 C CNN
+F 4 "CAP CER 82PF 50V NPO 0805" H 3150 -750 50  0001 C CNN "Description"
+F 5 "Yageo" H 3150 -750 50  0001 C CNN "Manufacturer"
+F 6 "CC0805FRNPO9BN820" H 3150 -750 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 3150 -750 50  0001 C CNN "Supplier"
+F 8 "311-4183-1-ND" H 3150 -750 50  0001 C CNN "Supplier Part Number"
 	1    5600 4400
 	0    1    1    0   
 $EndComp
@@ -399,13 +409,13 @@ AR Path="/5CA59CF7/5CE8304A" Ref="C?"  Part="1"
 AR Path="/5CB56C16/5CE8304A" Ref="C?"  Part="1" 
 F 0 "C?" H 3385 3254 50  0000 R CNN
 F 1 "82p" H 3385 3345 50  0000 R CNN
-F 2 "" H 3538 3150 50  0001 C CNN
-F 3 "" H 3500 3300 50  0001 C CNN
-F 4 "" H 1050 -1850 50  0001 C CNN "Description"
-F 5 "" H 1050 -1850 50  0001 C CNN "Manufacturer"
-F 6 "" H 1050 -1850 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 1050 -1850 50  0001 C CNN "Supplier"
-F 8 "" H 1050 -1850 50  0001 C CNN "Supplier Part Number"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3538 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 3500 3300 50  0001 C CNN
+F 4 "CAP CER 82PF 50V NPO 0805" H 1050 -1850 50  0001 C CNN "Description"
+F 5 "Yageo" H 1050 -1850 50  0001 C CNN "Manufacturer"
+F 6 "CC0805FRNPO9BN820" H 1050 -1850 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 1050 -1850 50  0001 C CNN "Supplier"
+F 8 "311-4183-1-ND" H 1050 -1850 50  0001 C CNN "Supplier Part Number"
 	1    3500 3300
 	1    0    0    1   
 $EndComp
@@ -476,13 +486,13 @@ AR Path="/5CA59CF7/5CE8BC3D" Ref="C?"  Part="1"
 AR Path="/5CB56C16/5CE8BC3D" Ref="C?"  Part="1" 
 F 0 "C?" H 3385 4654 50  0000 R CNN
 F 1 "82p" H 3385 4745 50  0000 R CNN
-F 2 "" H 3538 4550 50  0001 C CNN
-F 3 "" H 3500 4700 50  0001 C CNN
-F 4 "" H 1050 -450 50  0001 C CNN "Description"
-F 5 "" H 1050 -450 50  0001 C CNN "Manufacturer"
-F 6 "" H 1050 -450 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 1050 -450 50  0001 C CNN "Supplier"
-F 8 "" H 1050 -450 50  0001 C CNN "Supplier Part Number"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3538 4550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 3500 4700 50  0001 C CNN
+F 4 "CAP CER 82PF 50V NPO 0805" H 1050 -450 50  0001 C CNN "Description"
+F 5 "Yageo" H 1050 -450 50  0001 C CNN "Manufacturer"
+F 6 "CC0805FRNPO9BN820" H 1050 -450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 1050 -450 50  0001 C CNN "Supplier"
+F 8 "311-4183-1-ND" H 1050 -450 50  0001 C CNN "Supplier Part Number"
 	1    3500 4700
 	1    0    0    -1  
 $EndComp
@@ -562,7 +572,7 @@ Connection ~ 3700 4000
 Wire Wire Line
 	3700 4000 3700 4300
 Text Notes 3450 2450 0    50   ~ 0
-TODO: component selection\nTODO: check wattage on components\nTODO: output connector default contact to pull downs?
+TODO: component selection\nTODO: check wattage on components\nTODO: output connector default contact to pull downs?\nTODO: output stage filter (switch to 2.2u like assigned component)
 $Comp
 L Amplifier_Operational:NJM4556A U?
 U 3 1 5CE854EA
@@ -757,13 +767,13 @@ AR Path="/5CA59CF7/5CEDA2A4" Ref="C?"  Part="1"
 AR Path="/5CB56C16/5CEDA2A4" Ref="C?"  Part="1" 
 F 0 "C?" H 6785 3204 50  0000 R CNN
 F 1 "10u" H 6785 3295 50  0000 R CNN
-F 2 "" H 6938 3100 50  0001 C CNN
-F 3 "" H 6900 3250 50  0001 C CNN
-F 4 "" H 4450 -1900 50  0001 C CNN "Description"
-F 5 "" H 4450 -1900 50  0001 C CNN "Manufacturer"
-F 6 "" H 4450 -1900 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 4450 -1900 50  0001 C CNN "Supplier"
-F 8 "" H 4450 -1900 50  0001 C CNN "Supplier Part Number"
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 6938 3100 50  0001 C CNN
+F 3 "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pdf" H 6900 3250 50  0001 C CNN
+F 4 "CAP FILM 2.2UF 5% 250VDC RAD" H 4450 -1900 50  0001 C CNN "Description"
+F 5 "WIMA" H 4450 -1900 50  0001 C CNN "Manufacturer"
+F 6 "MKP4F042206B00JSSD" H 4450 -1900 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 4450 -1900 50  0001 C CNN "Supplier"
+F 8 "1928-1546-ND" H 4450 -1900 50  0001 C CNN "Supplier Part Number"
 	1    6900 3250
 	0    1    1    0   
 $EndComp
@@ -807,13 +817,13 @@ AR Path="/5CA59CF7/5CEE5E0B" Ref="C?"  Part="1"
 AR Path="/5CB56C16/5CEE5E0B" Ref="C?"  Part="1" 
 F 0 "C?" H 6785 4704 50  0000 R CNN
 F 1 "10u" H 6785 4795 50  0000 R CNN
-F 2 "" H 6938 4600 50  0001 C CNN
-F 3 "" H 6900 4750 50  0001 C CNN
-F 4 "" H 4450 -400 50  0001 C CNN "Description"
-F 5 "" H 4450 -400 50  0001 C CNN "Manufacturer"
-F 6 "" H 4450 -400 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 4450 -400 50  0001 C CNN "Supplier"
-F 8 "" H 4450 -400 50  0001 C CNN "Supplier Part Number"
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 6938 4600 50  0001 C CNN
+F 3 "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pdf" H 6900 4750 50  0001 C CNN
+F 4 "CAP FILM 2.2UF 5% 250VDC RAD" H 4450 -400 50  0001 C CNN "Description"
+F 5 "WIMA" H 4450 -400 50  0001 C CNN "Manufacturer"
+F 6 "MKP4F042206B00JSSD" H 4450 -400 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 4450 -400 50  0001 C CNN "Supplier"
+F 8 "1928-1546-ND" H 4450 -400 50  0001 C CNN "Supplier Part Number"
 	1    6900 4750
 	0    1    -1   0   
 $EndComp
