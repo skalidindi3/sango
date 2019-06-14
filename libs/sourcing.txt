@@ -4,3 +4,6 @@ Model: SnapEDA
 
 6.35mm Jack Amphenol ACJS-MHDR
 Model: Digi-Key
+
+IC Socket TE Connectivity 1-2199298-2
+Model: Assmann WSW Components A 08-LC-TT

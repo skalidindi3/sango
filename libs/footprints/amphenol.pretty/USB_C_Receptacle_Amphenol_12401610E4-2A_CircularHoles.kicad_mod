@@ -60,7 +60,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/libs/models/amphenol/12401610E4#2A.STEP
+  (model ${KIPRJMOD}/libs/models/amphenol/12401610E4-2A.STEP
     (offset (xyz 0 -5.25 1.535))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))
