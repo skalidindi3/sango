@@ -110,8 +110,13 @@ U 1 1 5CE72D33
 P 8050 2950
 F 0 "U?" H 8000 2950 50  0000 C CNN
 F 1 "NJM4556A" H 8050 3200 50  0000 C CNN
-F 2 "" H 8050 2950 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 8050 2950 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8050 2950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 8050 2950 50  0001 C CNN
+F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
+F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1-2199298-2" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "A120347-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    8050 2950
 	1    0    0    1   
 $EndComp
@@ -143,8 +148,13 @@ U 1 1 5CE73164
 P 5600 3000
 F 0 "U?" H 5550 3000 50  0000 C CNN
 F 1 "NJM2068" H 5600 3250 50  0000 C CNN
-F 2 "" H 5600 3000 50  0001 C CNN
-F 3 "" H 5600 3000 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5600 3000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5600 3000 50  0001 C CNN
+F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
+F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1-2199298-2" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "A120347-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5600 3000
 	1    0    0    -1  
 $EndComp
@@ -156,6 +166,11 @@ F 0 "U?" H 5550 5000 50  0000 C CNN
 F 1 "NJM2068" H 5600 5250 50  0000 C CNN
 F 2 "" H 5600 5000 50  0001 C CNN
 F 3 "" H 5600 5000 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Description"
+F 5 "" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 0   0   50  0001 C CNN "Supplier"
+F 8 "" H 0   0   50  0001 C CNN "Supplier Part Number"
 	2    5600 5000
 	1    0    0    1   
 $EndComp
@@ -167,6 +182,11 @@ F 0 "U?" H 1658 1346 50  0000 L CNN
 F 1 "NJM2068" H 1658 1255 50  0000 L CNN
 F 2 "" H 1700 1300 50  0001 C CNN
 F 3 "" H 1700 1300 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Description"
+F 5 "" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "" H 0   0   50  0001 C CNN "Supplier"
+F 8 "" H 0   0   50  0001 C CNN "Supplier Part Number"
 	3    1700 1300
 	1    0    0    -1  
 $EndComp
@@ -658,8 +678,13 @@ U 1 1 5CEC9571
 P 8050 4450
 F 0 "U?" H 8000 4450 50  0000 C CNN
 F 1 "NJM4556A" H 8050 4700 50  0000 C CNN
-F 2 "" H 8050 4450 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 8050 4450 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8050 4450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 8050 4450 50  0001 C CNN
+F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
+F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1-2199298-2" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
+F 8 "A120347-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    8050 4450
 	1    0    0    1   
 $EndComp
@@ -879,7 +904,7 @@ Wire Wire Line
 	8950 3550 8950 3900
 Connection ~ 8950 3550
 Wire Wire Line
-	9550 3800 9450 3800
+	9550 3800 9350 3800
 $Comp
 L Device:R_POT_Dual_Separate RV?
 U 1 1 5CF4D127
@@ -954,12 +979,12 @@ Connection ~ 9450 4100
 Wire Wire Line
 	9450 4100 9550 4100
 Wire Wire Line
-	8950 3900 9450 3900
+	8950 3900 9350 3900
 Wire Wire Line
-	9450 3800 9450 3900
-Connection ~ 9450 3900
+	9350 3800 9350 3900
+Connection ~ 9350 3900
 Wire Wire Line
-	9450 3900 9550 3900
+	9350 3900 9550 3900
 Wire Wire Line
 	7350 4000 9350 4000
 Wire Wire Line
