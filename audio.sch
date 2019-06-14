@@ -610,14 +610,14 @@ AR Path="/5C87B3B6/5CE9DF83" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CE9DF83" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CE9DF83" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 2950 50  0000 C CNN
-F 1 "4" V 8700 2950 50  0000 C CNN
-F 2 "" V 8630 2950 50  0001 C CNN
-F 3 "" H 8700 2950 50  0001 C CNN
-F 4 "" H 8700 2950 50  0001 C CNN "Description"
-F 5 "" H 8700 2950 50  0001 C CNN "Manufacturer"
-F 6 "" H 8700 2950 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 8700 2950 50  0001 C CNN "Supplier"
-F 8 "" H 8700 2950 50  0001 C CNN "Supplier Part Number"
+F 1 "2" V 8700 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 8630 2950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/MF-MFS-RK-18760.pdf" H 8700 2950 50  0001 C CNN
+F 4 "Metal Film Resistors - Through Hole 2ohms 1% 100PPM" H 8700 2950 50  0001 C CNN "Description"
+F 5 "KOA Speer" H 8700 2950 50  0001 C CNN "Manufacturer"
+F 6 "MF1/2DCT52R2R00F" H 8700 2950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 8700 2950 50  0001 C CNN "Supplier"
+F 8 "660-MF1/2DCT52R2R00F" H 8700 2950 50  0001 C CNN "Supplier Part Number"
 	1    8700 2950
 	0    -1   -1   0   
 $EndComp
@@ -634,14 +634,14 @@ AR Path="/5C87B3B6/5CEA3FB8" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEA3FB8" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEA3FB8" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 3550 50  0000 C CNN
-F 1 "4" V 8700 3550 50  0000 C CNN
-F 2 "" V 8630 3550 50  0001 C CNN
-F 3 "" H 8700 3550 50  0001 C CNN
-F 4 "" H 8700 3550 50  0001 C CNN "Description"
-F 5 "" H 8700 3550 50  0001 C CNN "Manufacturer"
-F 6 "" H 8700 3550 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 8700 3550 50  0001 C CNN "Supplier"
-F 8 "" H 8700 3550 50  0001 C CNN "Supplier Part Number"
+F 1 "2" V 8700 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 8630 3550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/MF-MFS-RK-18760.pdf" H 8700 3550 50  0001 C CNN
+F 4 "Metal Film Resistors - Through Hole 2ohms 1% 100PPM" H 8700 3550 50  0001 C CNN "Description"
+F 5 "KOA Speer" H 8700 3550 50  0001 C CNN "Manufacturer"
+F 6 "MF1/2DCT52R2R00F" H 8700 3550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 8700 3550 50  0001 C CNN "Supplier"
+F 8 "660-MF1/2DCT52R2R00F" H 8700 3550 50  0001 C CNN "Supplier Part Number"
 	1    8700 3550
 	0    -1   1    0   
 $EndComp
@@ -702,14 +702,14 @@ AR Path="/5C87B3B6/5CEC958E" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEC958E" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEC958E" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 4450 50  0000 C CNN
-F 1 "4" V 8700 4450 50  0000 C CNN
-F 2 "" V 8630 4450 50  0001 C CNN
-F 3 "" H 8700 4450 50  0001 C CNN
-F 4 "" H 8700 4450 50  0001 C CNN "Description"
-F 5 "" H 8700 4450 50  0001 C CNN "Manufacturer"
-F 6 "" H 8700 4450 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 8700 4450 50  0001 C CNN "Supplier"
-F 8 "" H 8700 4450 50  0001 C CNN "Supplier Part Number"
+F 1 "2" V 8700 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 8630 4450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/MF-MFS-RK-18760.pdf" H 8700 4450 50  0001 C CNN
+F 4 "Metal Film Resistors - Through Hole 2ohms 1% 100PPM" H 8700 4450 50  0001 C CNN "Description"
+F 5 "KOA Speer" H 8700 4450 50  0001 C CNN "Manufacturer"
+F 6 "MF1/2DCT52R2R00F" H 8700 4450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 8700 4450 50  0001 C CNN "Supplier"
+F 8 "660-MF1/2DCT52R2R00F" H 8700 4450 50  0001 C CNN "Supplier Part Number"
 	1    8700 4450
 	0    -1   -1   0   
 $EndComp
@@ -726,14 +726,14 @@ AR Path="/5C87B3B6/5CEC959D" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEC959D" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEC959D" Ref="R?"  Part="1" 
 F 0 "R?" V 8780 5050 50  0000 C CNN
-F 1 "4" V 8700 5050 50  0000 C CNN
-F 2 "" V 8630 5050 50  0001 C CNN
-F 3 "" H 8700 5050 50  0001 C CNN
-F 4 "" H 8700 5050 50  0001 C CNN "Description"
-F 5 "" H 8700 5050 50  0001 C CNN "Manufacturer"
-F 6 "" H 8700 5050 50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 8700 5050 50  0001 C CNN "Supplier"
-F 8 "" H 8700 5050 50  0001 C CNN "Supplier Part Number"
+F 1 "2" V 8700 5050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 8630 5050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/MF-MFS-RK-18760.pdf" H 8700 5050 50  0001 C CNN
+F 4 "Metal Film Resistors - Through Hole 2ohms 1% 100PPM" H 8700 5050 50  0001 C CNN "Description"
+F 5 "KOA Speer" H 8700 5050 50  0001 C CNN "Manufacturer"
+F 6 "MF1/2DCT52R2R00F" H 8700 5050 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 8700 5050 50  0001 C CNN "Supplier"
+F 8 "660-MF1/2DCT52R2R00F" H 8700 5050 50  0001 C CNN "Supplier Part Number"
 	1    8700 5050
 	0    -1   1    0   
 $EndComp
