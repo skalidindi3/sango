@@ -153,8 +153,8 @@ U 1 1 5CE73164
 P 5600 3000
 F 0 "U?" H 5550 3000 50  0000 C CNN
 F 1 "NJM2068" H 5600 3250 50  0000 C CNN
-F 2 "" H 5600 3000 50  0001 C CNN
-F 3 "" H 5600 3000 50  0001 C CNN
+F 2 "stdlibmods:DIP-8_W7.62mm_Socket_LongPads" H 5600 3000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5600 3000 50  0001 C CNN
 F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "1-2199298-2" H 0   0   50  0001 C CNN "Manufacturer Part Number"
@@ -170,7 +170,7 @@ P 5600 5000
 F 0 "U?" H 5550 5000 50  0000 C CNN
 F 1 "NJM2068" H 5600 5250 50  0000 C CNN
 F 2 "" H 5600 5000 50  0001 C CNN
-F 3 "" H 5600 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/294/NJM2068_E-364244.pdf" H 5600 5000 50  0001 C CNN
 F 4 "Op Amps Dual Low Noise" H 5650 5100 50  0001 C CNN "Description"
 F 5 "NJR" H 5750 5200 50  0001 C CNN "Manufacturer"
 F 6 "NJM2068DD" H 5850 5300 50  0001 C CNN "Manufacturer Part Number"
