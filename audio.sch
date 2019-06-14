@@ -20,7 +20,7 @@ U 1 1 5CB56C98
 P 2200 4100
 F 0 "J?" H 2200 3700 50  0000 R CNN
 F 1 "AudioJack3_Switch" H 2150 4450 50  0000 C CNN
-F 2 "" H 2200 4100 50  0001 C CNN
+F 2 "amphenol:CONN_6.35mm_Amphenol_ACJS-MHDR" H 2200 4100 50  0001 C CNN
 F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 2200 4100 50  0001 C CNN
 F 4 "CONN JACK STEREO 1/4\" R/A" H 0   0   50  0001 C CNN "Description"
 F 5 "Amphenol Sine Systems Corp" H 0   0   50  0001 C CNN "Manufacturer"
@@ -60,7 +60,7 @@ U 1 1 5CB57002
 P 9750 4100
 F 0 "J?" H 9750 3700 50  0000 R CNN
 F 1 "AudioJack3_Switch" H 9700 4450 50  0000 C CNN
-F 2 "" H 9750 4100 50  0001 C CNN
+F 2 "amphenol:CONN_6.35mm_Amphenol_ACJS-MHDR" H 9750 4100 50  0001 C CNN
 F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 9750 4100 50  0001 C CNN
 F 4 "CONN JACK STEREO 1/4\" R/A" H 200 0   50  0001 C CNN "Description"
 F 5 "Amphenol Sine Systems Corp" H 200 0   50  0001 C CNN "Manufacturer"
