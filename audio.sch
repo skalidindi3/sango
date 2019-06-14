@@ -589,8 +589,6 @@ Wire Wire Line
 Connection ~ 3700 4000
 Wire Wire Line
 	3700 4000 3700 4300
-Text Notes 3450 2450 0    50   ~ 0
-TODO: component selection\nTODO: output stage filter (switch to 2.2u like assigned component)
 $Comp
 L Amplifier_Operational:NJM4556A U?
 U 3 1 5CE854EA
@@ -794,14 +792,14 @@ AR Path="/5C87B3B6/5CEDA2A4" Ref="C?"  Part="1"
 AR Path="/5CA59CF7/5CEDA2A4" Ref="C?"  Part="1" 
 AR Path="/5CB56C16/5CEDA2A4" Ref="C?"  Part="1" 
 F 0 "C?" H 6785 3204 50  0000 R CNN
-F 1 "10u" H 6785 3295 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 6938 3100 50  0001 C CNN
-F 3 "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pdf" H 6900 3250 50  0001 C CNN
-F 4 "CAP FILM 2.2UF 5% 250VDC RAD" H 4450 -1900 50  0001 C CNN "Description"
+F 1 "4.7u" H 6785 3295 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4" H 6938 3100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf" H 6900 3250 50  0001 C CNN
+F 4 "Film Capacitors 4.7uF 250 Volts 5%" H 4450 -1900 50  0001 C CNN "Description"
 F 5 "WIMA" H 4450 -1900 50  0001 C CNN "Manufacturer"
-F 6 "MKP4F042206B00JSSD" H 4450 -1900 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 4450 -1900 50  0001 C CNN "Supplier"
-F 8 "1928-1546-ND" H 4450 -1900 50  0001 C CNN "Supplier Part Number"
+F 6 "MKP4F044706F00JSSD" H 4450 -1900 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 4450 -1900 50  0001 C CNN "Supplier"
+F 8 "505-MKP4F044706F00JS" H 4450 -1900 50  0001 C CNN "Supplier Part Number"
 	1    6900 3250
 	0    1    1    0   
 $EndComp
@@ -844,14 +842,14 @@ AR Path="/5C87B3B6/5CEE5E0B" Ref="C?"  Part="1"
 AR Path="/5CA59CF7/5CEE5E0B" Ref="C?"  Part="1" 
 AR Path="/5CB56C16/5CEE5E0B" Ref="C?"  Part="1" 
 F 0 "C?" H 6785 4704 50  0000 R CNN
-F 1 "10u" H 6785 4795 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 6938 4600 50  0001 C CNN
-F 3 "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_4.pdf" H 6900 4750 50  0001 C CNN
-F 4 "CAP FILM 2.2UF 5% 250VDC RAD" H 4450 -400 50  0001 C CNN "Description"
+F 1 "4.7u" H 6785 4795 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4" H 6938 4600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf" H 6900 4750 50  0001 C CNN
+F 4 "Film Capacitors 4.7uF 250 Volts 5%" H 4450 -400 50  0001 C CNN "Description"
 F 5 "WIMA" H 4450 -400 50  0001 C CNN "Manufacturer"
-F 6 "MKP4F042206B00JSSD" H 4450 -400 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 4450 -400 50  0001 C CNN "Supplier"
-F 8 "1928-1546-ND" H 4450 -400 50  0001 C CNN "Supplier Part Number"
+F 6 "MKP4F044706F00JSSD" H 4450 -400 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 4450 -400 50  0001 C CNN "Supplier"
+F 8 "505-MKP4F044706F00JS" H 4450 -400 50  0001 C CNN "Supplier Part Number"
 	1    6900 4750
 	0    1    -1   0   
 $EndComp
