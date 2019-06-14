@@ -7,3 +7,7 @@ Model: Digi-Key
 
 IC Socket TE Connectivity 1-2199298-2
 Model: Assmann WSW Components A 08-LC-TT
+
+Audio Potentiometer Bourns PTD902-1020K-A103
+Footprint: kicad libs (ALPS RK097 dual)
+Model: Bourns
