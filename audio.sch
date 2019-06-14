@@ -18,8 +18,8 @@ $Comp
 L Connector:AudioJack3_Switch J?
 U 1 1 5CB56C98
 P 2200 4100
-F 0 "J?" H 1968 4029 50  0000 R CNN
-F 1 "AudioJack3_Switch" H 1968 4120 50  0000 R CNN
+F 0 "J?" H 2200 3700 50  0000 R CNN
+F 1 "AudioJack3_Switch" H 2150 4450 50  0000 C CNN
 F 2 "" H 2200 4100 50  0001 C CNN
 F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 2200 4100 50  0001 C CNN
 F 4 "CONN JACK STEREO 1/4\" R/A" H 0   0   50  0001 C CNN "Description"
@@ -57,29 +57,27 @@ R_IN
 $Comp
 L Connector:AudioJack3_Switch J?
 U 1 1 5CB57002
-P 9550 4100
-F 0 "J?" H 9318 4029 50  0000 R CNN
-F 1 "AudioJack3_Switch" H 9318 4120 50  0000 R CNN
-F 2 "" H 9550 4100 50  0001 C CNN
-F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 9550 4100 50  0001 C CNN
-F 4 "CONN JACK STEREO 1/4\" R/A" H 0   0   50  0001 C CNN "Description"
-F 5 "Amphenol Sine Systems Corp" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ACJS-MHDR" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "889-1817-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
-	1    9550 4100
+P 9750 4100
+F 0 "J?" H 9750 3700 50  0000 R CNN
+F 1 "AudioJack3_Switch" H 9700 4450 50  0000 C CNN
+F 2 "" H 9750 4100 50  0001 C CNN
+F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 9750 4100 50  0001 C CNN
+F 4 "CONN JACK STEREO 1/4\" R/A" H 200 0   50  0001 C CNN "Description"
+F 5 "Amphenol Sine Systems Corp" H 200 0   50  0001 C CNN "Manufacturer"
+F 6 "ACJS-MHDR" H 200 0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 200 0   50  0001 C CNN "Supplier"
+F 8 "889-1817-ND" H 200 0   50  0001 C CNN "Supplier Part Number"
+	1    9750 4100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9350 4300 9250 4300
+	9550 4300 9350 4300
 Wire Wire Line
-	9350 4200 9250 4200
+	9550 4200 9350 4200
 Wire Wire Line
-	9250 4200 9250 4300
+	9350 4200 9350 4300
 Wire Wire Line
-	8950 4100 9350 4100
-Wire Wire Line
-	8950 3900 9350 3900
+	8950 4100 9450 4100
 Text Label 8950 3900 0    50   ~ 0
 L_OUT
 Text Label 8950 4100 0    50   ~ 0
@@ -881,17 +879,7 @@ Wire Wire Line
 	8950 3550 8950 3900
 Connection ~ 8950 3550
 Wire Wire Line
-	9350 4000 9250 4000
-Wire Wire Line
-	9250 4000 9250 4200
-Connection ~ 9250 4200
-Wire Wire Line
-	9350 3800 9250 3800
-Wire Wire Line
-	9250 3800 9250 4000
-Connection ~ 9250 4000
-Wire Wire Line
-	9250 4000 7350 4000
+	9550 3800 9450 3800
 $Comp
 L Device:R_POT_Dual_Separate RV?
 U 1 1 5CF4D127
@@ -958,4 +946,23 @@ Wire Wire Line
 	2100 1000 1600 1000
 Connection ~ 2100 1000
 Connection ~ 1600 1000
+Wire Wire Line
+	9450 4100 9450 4000
+Wire Wire Line
+	9450 4000 9550 4000
+Connection ~ 9450 4100
+Wire Wire Line
+	9450 4100 9550 4100
+Wire Wire Line
+	8950 3900 9450 3900
+Wire Wire Line
+	9450 3800 9450 3900
+Connection ~ 9450 3900
+Wire Wire Line
+	9450 3900 9550 3900
+Wire Wire Line
+	7350 4000 9350 4000
+Wire Wire Line
+	9350 4000 9350 4200
+Connection ~ 9350 4200
 $EndSCHEMATC
