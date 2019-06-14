@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name microchip)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/microchip.pretty)(options "")(descr ""))
   (lib (name amphenol)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/amphenol.pretty)(options "")(descr ""))
+  (lib (name stdlibmods)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/stdlibmods.pretty)(options "")(descr "Modifications to standard library footprints"))
 )

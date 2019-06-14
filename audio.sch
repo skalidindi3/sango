@@ -110,7 +110,7 @@ U 1 1 5CE72D33
 P 8050 2950
 F 0 "U?" H 8000 2950 50  0000 C CNN
 F 1 "NJM4556A" H 8050 3200 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8050 2950 50  0001 C CNN
+F 2 "stdlibmods:DIP-8_W7.62mm_Socket_LongPads" H 8050 2950 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 8050 2950 50  0001 C CNN
 F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
@@ -148,7 +148,7 @@ U 1 1 5CE73164
 P 5600 3000
 F 0 "U?" H 5550 3000 50  0000 C CNN
 F 1 "NJM2068" H 5600 3250 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5600 3000 50  0001 C CNN
+F 2 "stdlibmods:DIP-8_W7.62mm_Socket_LongPads" H 5600 3000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5600 3000 50  0001 C CNN
 F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
@@ -678,7 +678,7 @@ U 1 1 5CEC9571
 P 8050 4450
 F 0 "U?" H 8000 4450 50  0000 C CNN
 F 1 "NJM4556A" H 8050 4700 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8050 4450 50  0001 C CNN
+F 2 "stdlibmods:DIP-8_W7.62mm_Socket_LongPads" H 8050 4450 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 8050 4450 50  0001 C CNN
 F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
