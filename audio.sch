@@ -128,6 +128,11 @@ F 0 "U?" H 8000 3550 50  0000 C CNN
 F 1 "NJM4556A" H 8050 3800 50  0000 C CNN
 F 2 "" H 8050 3550 50  0001 C CNN
 F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 8050 3550 50  0001 C CNN
+F 4 "Op Amps Dual High Current" H 0   0   50  0001 C CNN "Description"
+F 5 "NJR" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "NJM4556ADD" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "513-NJM4556ADD" H 0   0   50  0001 C CNN "Supplier Part Number"
 	2    8050 3550
 	1    0    0    -1  
 $EndComp
@@ -138,7 +143,7 @@ P 2200 1300
 F 0 "U?" H 2158 1346 50  0000 L CNN
 F 1 "NJM4556A" H 2158 1255 50  0000 L CNN
 F 2 "" H 2200 1300 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 2200 1300 50  0001 C CNN
+F 3 "" H 2200 1300 50  0001 C CNN
 	3    2200 1300
 	1    0    0    -1  
 $EndComp
@@ -148,8 +153,8 @@ U 1 1 5CE73164
 P 5600 3000
 F 0 "U?" H 5550 3000 50  0000 C CNN
 F 1 "NJM2068" H 5600 3250 50  0000 C CNN
-F 2 "stdlibmods:DIP-8_W7.62mm_Socket_LongPads" H 5600 3000 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5600 3000 50  0001 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
 F 4 "CONN IC DIP SOCKET 8POS TIN" H 0   0   50  0001 C CNN "Description"
 F 5 "TE Connectivity AMP Connectors" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "1-2199298-2" H 0   0   50  0001 C CNN "Manufacturer Part Number"
@@ -166,11 +171,11 @@ F 0 "U?" H 5550 5000 50  0000 C CNN
 F 1 "NJM2068" H 5600 5250 50  0000 C CNN
 F 2 "" H 5600 5000 50  0001 C CNN
 F 3 "" H 5600 5000 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Description"
-F 5 "" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 0   0   50  0001 C CNN "Supplier"
-F 8 "" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 4 "Op Amps Dual Low Noise" H 5650 5100 50  0001 C CNN "Description"
+F 5 "NJR" H 5750 5200 50  0001 C CNN "Manufacturer"
+F 6 "NJM2068DD" H 5850 5300 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 5950 5400 50  0001 C CNN "Supplier"
+F 8 "513-NJM2068DD" H 6050 5500 50  0001 C CNN "Supplier Part Number"
 	2    5600 5000
 	1    0    0    1   
 $EndComp
@@ -182,11 +187,6 @@ F 0 "U?" H 1658 1346 50  0000 L CNN
 F 1 "NJM2068" H 1658 1255 50  0000 L CNN
 F 2 "" H 1700 1300 50  0001 C CNN
 F 3 "" H 1700 1300 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Description"
-F 5 "" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "" H 0   0   50  0001 C CNN "Supplier"
-F 8 "" H 0   0   50  0001 C CNN "Supplier Part Number"
 	3    1700 1300
 	1    0    0    -1  
 $EndComp
@@ -590,7 +590,7 @@ Connection ~ 3700 4000
 Wire Wire Line
 	3700 4000 3700 4300
 Text Notes 3450 2450 0    50   ~ 0
-TODO: component selection\nTODO: check wattage on components\nTODO: output connector default contact to pull downs?\nTODO: output stage filter (switch to 2.2u like assigned component)
+TODO: component selection\nTODO: output stage filter (switch to 2.2u like assigned component)
 $Comp
 L Amplifier_Operational:NJM4556A U?
 U 3 1 5CE854EA
@@ -598,7 +598,7 @@ P 2700 1300
 F 0 "U?" H 2658 1346 50  0000 L CNN
 F 1 "NJM4556A" H 2658 1255 50  0000 L CNN
 F 2 "" H 2700 1300 50  0001 C CNN
-F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 2700 1300 50  0001 C CNN
+F 3 "" H 2700 1300 50  0001 C CNN
 	3    2700 1300
 	1    0    0    -1  
 $EndComp
@@ -696,6 +696,11 @@ F 0 "U?" H 8000 5050 50  0000 C CNN
 F 1 "NJM4556A" H 8050 5300 50  0000 C CNN
 F 2 "" H 8050 5050 50  0001 C CNN
 F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 8050 5050 50  0001 C CNN
+F 4 "Op Amps Dual High Current" H 0   0   50  0001 C CNN "Description"
+F 5 "NJR" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "NJM4556ADD" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "513-NJM4556ADD" H 0   0   50  0001 C CNN "Supplier Part Number"
 	2    8050 5050
 	1    0    0    -1  
 $EndComp
