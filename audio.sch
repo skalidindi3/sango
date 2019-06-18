@@ -811,14 +811,14 @@ AR Path="/5C87B3B6/5CEDAB07" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEDAB07" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEDAB07" Ref="R?"  Part="1" 
 F 0 "R?" V 7430 3550 50  0000 C CNN
-F 1 "20k" V 7350 3550 50  0000 C CNN
+F 1 "40.2k" V 7350 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 3550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7350 3550 50  0001 C CNN
-F 4 "RES SMD 20K OHM 0.1% 1/8W 0805 Metal Film" H 7350 3550 50  0001 C CNN "Description"
+F 4 "RES SMD 40.2K OHM 0.1% 1/8W 0805 Metal Film" H 7350 3550 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 7350 3550 50  0001 C CNN "Manufacturer"
-F 6 "ERA-6AEB203V" H 7350 3550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB4022V" H 7350 3550 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7350 3550 50  0001 C CNN "Supplier"
-F 8 "P20KDACT-ND" H 7350 3550 50  0001 C CNN "Supplier Part Number"
+F 8 "P40.2KDACT-ND" H 7350 3550 50  0001 C CNN "Supplier Part Number"
 	1    7350 3550
 	-1   0    0    -1  
 $EndComp
@@ -861,14 +861,14 @@ AR Path="/5C87B3B6/5CEE5E17" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEE5E17" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEE5E17" Ref="R?"  Part="1" 
 F 0 "R?" V 7430 4450 50  0000 C CNN
-F 1 "20k" V 7350 4450 50  0000 C CNN
+F 1 "40.2k" V 7350 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 4450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7350 4450 50  0001 C CNN
-F 4 "RES SMD 20K OHM 0.1% 1/8W 0805 Metal Film" H 7350 4450 50  0001 C CNN "Description"
+F 4 "RES SMD 40.2K OHM 0.1% 1/8W 0805 Metal Film" H 7350 4450 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 7350 4450 50  0001 C CNN "Manufacturer"
-F 6 "ERA-6AEB203V" H 7350 4450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB4022V" H 7350 4450 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7350 4450 50  0001 C CNN "Supplier"
-F 8 "P20KDACT-ND" H 7350 4450 50  0001 C CNN "Supplier Part Number"
+F 8 "P40.2KDACT-ND" H 7350 4450 50  0001 C CNN "Supplier Part Number"
 	1    7350 4450
 	-1   0    0    1   
 $EndComp
