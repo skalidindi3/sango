@@ -137,14 +137,14 @@ P 6450 3900
 AR Path="/5C87B3B6/5CA5DDF4" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5DDF4" Ref="R?"  Part="1" 
 F 0 "R?" V 6530 3900 50  0000 C CNN
-F 1 "1.82M" V 6450 3900 50  0000 C CNN
+F 1 "1.91M" V 6450 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 3900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 3900 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 6450 3900 50  0001 C CNN "Description"
+F 4 "RES SMD 1.91M OHM 1% 1/8W 0805" H 6450 3900 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 6450 3900 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 6450 3900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1914V" H 6450 3900 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 6450 3900 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 6450 3900 50  0001 C CNN "Supplier Part Number"
+F 8 "P1.91BTCT-ND" H 6450 3900 50  0001 C CNN "Supplier Part Number"
 	1    6450 3900
 	-1   0    0    1   
 $EndComp
@@ -185,10 +185,8 @@ Text HLabel 6850 3650 2    50   Output ~ 0
 Wire Wire Line
 	6850 3650 6650 3650
 Connection ~ 6650 3650
-Text Notes 3900 5400 0    50   ~ 0
-NOTE: LT3045’s fast start-up circuitry increases the\nSET pin current to ~2mA while PGFB is below 300mV.
-Text Notes 3900 5550 0    50   ~ 0
-R_PG values of 1.13M & 29.4k yield fast start-up lasting ~~50ms 
+Text Notes 3950 3450 0    50   ~ 0
+LT3045 keeps IC in shutdown while EN is below 1.24V\n—> V_EN_threshold = 1.24V*(1+(432k/49.9k)) = 11.975V\n\nLT3045 fast start-up circuitry increases SET pin\ncurrent to ~~2mA while PGFB is below 300mV.\n—> V_PG_threshold = 0.3V*(1+(1.91M/49.9k)) = 11.78V
 $Comp
 L Device:R R?
 U 1 1 5CAC0D09

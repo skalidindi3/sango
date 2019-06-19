@@ -88,14 +88,14 @@ AR Path="/5C87B3B6/5CA61F03" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CA61F03" Ref="R?"  Part="1" 
 AR Path="/5CA59CFA/5CA61F03" Ref="R?"  Part="1" 
 F 0 "R?" V 6930 4450 50  0000 C CNN
-F 1 "1.82M" V 6850 4450 50  0000 C CNN
+F 1 "1.91M" V 6850 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6780 4450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6850 4450 50  0001 C CNN
-F 4 "RES SMD 1.82M OHM 1% 1/8W 0805" H 6850 4450 50  0001 C CNN "Description"
+F 4 "RES SMD 1.91M OHM 1% 1/8W 0805" H 6850 4450 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 6850 4450 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1824V" H 6850 4450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF1914V" H 6850 4450 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 6850 4450 50  0001 C CNN "Supplier"
-F 8 "P1.82BTCT-ND" H 6850 4450 50  0001 C CNN "Supplier Part Number"
+F 8 "P1.91BTCT-ND" H 6850 4450 50  0001 C CNN "Supplier Part Number"
 	1    6850 4450
 	-1   0    0    -1  
 $EndComp
@@ -160,14 +160,14 @@ AR Path="/5C87B3B6/5CAC3636" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CAC3636" Ref="R?"  Part="1" 
 AR Path="/5CA59CFA/5CAC3636" Ref="R?"  Part="1" 
 F 0 "R?" V 4430 4450 50  0000 C CNN
-F 1 "402k" V 4350 4450 50  0000 C CNN
+F 1 "422k" V 4350 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 4450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4350 4450 50  0001 C CNN
-F 4 "RES SMD 402K OHM 1% 1/8W 0805" H 4350 4450 50  0001 C CNN "Description"
+F 4 "RES SMD 422K OHM 1% 1/8W 0805" H 4350 4450 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 4350 4450 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF4023V" H 4350 4450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF4223V" H 4350 4450 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 4350 4450 50  0001 C CNN "Supplier"
-F 8 "P402KCCT-ND" H 4350 4450 50  0001 C CNN "Supplier Part Number"
+F 8 "P422KCCT-ND" H 4350 4450 50  0001 C CNN "Supplier Part Number"
 	1    4350 4450
 	-1   0    0    -1  
 $EndComp
@@ -251,12 +251,8 @@ F 8 "P121KDACT-ND" H 4950 3950 50  0001 C CNN "Supplier Part Number"
 	1    4950 3950
 	1    0    0    1   
 $EndComp
-Text Notes 5350 4950 0    50   ~ 0
-SET resistor is high-precision thin (metal) film
-Text Notes 5350 5300 0    50   ~ 0
-PGFB resistor divider enables fast startup circuitry\nuntil the upper bound threshold set by the divider
-Text Notes 5350 5100 0    50   ~ 0
-EN/UV resistor divider sets IC enable threshold
+Text Notes 4350 5350 0    50   ~ 0
+LT3094 keeps IC in shutdown while EN is above -1.26V\n—> V_EN_threshold = -1.26V*(1+(422k/49.9k)) = -11.916V\n\nLT3094 fast start-up circuitry increases SET pin\ncurrent to ~~1.8mA while PGFB is above -300mV.\n—> V_PG_threshold = -0.3V*(1+(1.91M/49.9k)) = -11.78V
 $Comp
 L Device:C C?
 U 1 1 5D039BC5
