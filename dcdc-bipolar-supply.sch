@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3200 3050 0    50   Input ~ 0
+Text HLabel 3000 3050 0    50   Input ~ 0
 5V_IN
 $Comp
 L Device:C C?
@@ -76,14 +76,14 @@ L Device:R R?
 U 1 1 5C9043E5
 P 6500 3300
 F 0 "R?" H 6570 3346 50  0000 L CNN
-F 1 "124k" H 6570 3255 50  0000 L CNN
+F 1 "49.9k" H 6570 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6500 3300 50  0001 C CNN
-F 4 "RES SMD 124K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 4 "RES SMD 49.9K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1243V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF4992V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "P124KCCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 8 "P49.9KCCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    6500 3300
 	-1   0    0    -1  
 $EndComp
@@ -92,14 +92,14 @@ L Device:R R?
 U 1 1 5C90441B
 P 6500 3800
 F 0 "R?" H 6570 3846 50  0000 L CNN
-F 1 "13.3k" H 6570 3755 50  0000 L CNN
+F 1 "5.36k" H 6570 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3800 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6500 3800 50  0001 C CNN
-F 4 "RES SMD 13.3K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 4 "RES SMD 5.36K OHM 1% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-6ENF1332V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERJ-6ENF5361V" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "P13.3KCCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 8 "P5.36KCCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    6500 3800
 	-1   0    0    -1  
 $EndComp
@@ -110,7 +110,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3550 6500 3650
 Connection ~ 6500 3550
-Text HLabel 8000 3050 2    50   Output ~ 0
+Text HLabel 7800 3050 2    50   Output ~ 0
 +13V_OUT
 Wire Wire Line
 	6500 3150 6500 3050
@@ -138,7 +138,7 @@ Wire Wire Line
 	7500 3400 7500 3050
 Connection ~ 7500 3050
 Wire Wire Line
-	7500 3050 8000 3050
+	7500 3050 7800 3050
 Wire Wire Line
 	7500 3700 7500 4050
 $Comp
@@ -307,10 +307,10 @@ Connection ~ 7500 4050
 Wire Wire Line
 	5900 3050 6500 3050
 Connection ~ 6500 3050
-Text HLabel 8000 5050 2    50   Output ~ 0
+Text HLabel 7800 5050 2    50   Output ~ 0
 -13V_OUT
 Wire Wire Line
-	7500 5050 8000 5050
+	7500 5050 7800 5050
 Connection ~ 7500 5050
 Wire Wire Line
 	4350 4150 4350 4050
@@ -327,7 +327,7 @@ Wire Wire Line
 	3700 3550 3900 3550
 Connection ~ 4100 3050
 Wire Wire Line
-	3200 3050 3300 3050
+	3000 3050 3300 3050
 Wire Wire Line
 	3300 3050 3300 3400
 Wire Wire Line
@@ -357,14 +357,14 @@ P 6700 3300
 AR Path="/5C87B3B6/5CA5C6DD" Ref="C?"  Part="1" 
 AR Path="/5C903B7C/5CA5C6DD" Ref="C?"  Part="1" 
 F 0 "C?" H 6585 3254 50  0000 R CNN
-F 1 "0.1u" H 6585 3345 50  0000 R CNN
+F 1 "82p" H 6585 3345 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6738 3150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104JBCNNNC.pdf" H 6700 3300 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
-F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "CL21B104JBCNNNC" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 6700 3300 50  0001 C CNN
+F 4 "CAP CER 82PF 50V NPO 0805" H 0   0   50  0001 C CNN "Description"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CC0805FRNPO9BN820" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "1276-1090-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 8 "311-4183-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    6700 3300
 	-1   0    0    1   
 $EndComp
@@ -377,10 +377,6 @@ Wire Wire Line
 Connection ~ 6700 3050
 Wire Wire Line
 	6700 3050 7500 3050
-Text Notes 6500 2950 0    50   ~ 0
-1.255V * (1 + (124k/13.3k)) = 12.956V
-Text Notes 6500 5200 0    50   ~ 0
-NOTE: reaches +/- 12.4V in 45ms
-Text Notes 6500 2800 0    50   ~ 0
-Current in the resistor divider chain: 1.255V/13.3k = 94.7µA
+Text Notes 3000 5050 0    50   ~ 0
+V_o = 1.255V*(1+(49.9k/5.36k)) = 12.94V\nI_fb = 1.255V/5.36k = 234.1µA\nphase lead f_z = 1/(2*pi*49.9k*82p) = 38.9kHz\n\nsimulation reaches +/-12.9V in <2.5ms
 $EndSCHEMATC

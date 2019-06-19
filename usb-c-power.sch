@@ -467,8 +467,6 @@ F 3 "~" H 9050 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5350 4100
-Text Notes 2400 2500 0    50   ~ 0
-TODO: Add cap on output ?
 Wire Wire Line
 	8650 3150 8650 3550
 Wire Wire Line
