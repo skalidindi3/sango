@@ -29,8 +29,8 @@ F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" H 3300 3550 50  0
 F 4 "CAP CER 4.7UF 10V X5R 0805" H 0   0   50  0001 C CNN "Description"
 F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "LMK212BJ475KD-T" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "587-1297-1-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "963-LMK212BJ475KD-T" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    3300 3550
 	1    0    0    1   
 $EndComp
@@ -345,8 +345,8 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1930f.p
 F 4 "1A Step-Up DC/DC Switching Regulator" H 0   0   50  0001 C CNN "Description"
 F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "LT1930ES5#TRPBF" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "LT1930ES5#TRPBFCT-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "584-LT1930ES5#TRPBF" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    4350 3450
 	1    0    0    -1  
 $EndComp

@@ -295,8 +295,8 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/UTC2000%20DS%2000001957C.pd
 F 4 "Basic USB Type-C Controller" H 6250 3250 60  0001 C CNN "Description"
 F 5 "Microchip Technology" H 6250 3250 60  0001 C CNN "Manufacturer"
 F 6 "UTC2000-I/MG" H 6250 3250 60  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 6250 3250 60  0001 C CNN "Supplier"
-F 8 "UTC2000-I/MG-ND" H 6250 3250 60  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 6250 3250 60  0001 C CNN "Supplier"
+F 8 "579-UTC2000-I/MG" H 6250 3250 60  0001 C CNN "Supplier Part Number"
 	1    6250 4000
 	1    0    0    -1  
 $EndComp
@@ -311,8 +311,8 @@ F 3 "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF" H 8650 2950 50  0001 L
 F 4 "MOSFET P-CH 8V 3.7A SOT-23" H 8650 2950 50  0001 L CNN "Description"
 F 5 "ON Semiconductor" H 8650 2950 50  0001 L CNN "Manufacturer"
 F 6 "NTR2101PT1G" H 8650 2950 50  0001 L CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 8650 2950 50  0001 L CNN "Supplier"
-F 8 "NTR2101PT1GOSCT-ND" H 8650 2950 50  0001 L CNN "Supplier Part Number"
+F 7 "Mouser" H 8650 2950 50  0001 L CNN "Supplier"
+F 8 "863-NTR2101PT1G" H 8650 2950 50  0001 L CNN "Supplier Part Number"
 	1    8650 2950
 	0    1    -1   0   
 $EndComp
@@ -621,8 +621,8 @@ F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401610e4x2a.pdf"
 F 4 "CONN RCP USB3.1 TYPEC 24P SMD RA" H -150 -50 50  0001 C CNN "Description"
 F 5 "Amphenol ICC (Commercial Products)" H -150 -50 50  0001 C CNN "Manufacturer"
 F 6 "12401610E4#2A" H -150 -50 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H -150 -50 50  0001 C CNN "Supplier"
-F 8 "12401610E4#2ACT-ND" H -150 -50 50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H -150 -50 50  0001 C CNN "Supplier"
+F 8 "523-12401610E4#2A" H -150 -50 50  0001 C CNN "Supplier Part Number"
 	1    2700 3850
 	1    0    0    -1  
 $EndComp

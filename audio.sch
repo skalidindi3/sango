@@ -25,8 +25,8 @@ F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 2200 4100 50  
 F 4 "CONN JACK STEREO 1/4\" R/A" H 0   0   50  0001 C CNN "Description"
 F 5 "Amphenol Sine Systems Corp" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ACJS-MHDR" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "889-1817-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "523-ACJS-MHDR" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    2200 4100
 	1    0    0    1   
 $EndComp
@@ -65,8 +65,8 @@ F 3 "https://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDR.pdf" H 9750 4100 50  
 F 4 "CONN JACK STEREO 1/4\" R/A" H 200 0   50  0001 C CNN "Description"
 F 5 "Amphenol Sine Systems Corp" H 200 0   50  0001 C CNN "Manufacturer"
 F 6 "ACJS-MHDR" H 200 0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 200 0   50  0001 C CNN "Supplier"
-F 8 "889-1817-ND" H 200 0   50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 200 0   50  0001 C CNN "Supplier"
+F 8 "523-ACJS-MHDR" H 200 0   50  0001 C CNN "Supplier Part Number"
 	1    9750 4100
 	-1   0    0    1   
 $EndComp

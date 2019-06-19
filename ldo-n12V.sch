@@ -147,8 +147,8 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.
 F 4 "500mA Negative Linear Voltage Regulator" H 0   0   50  0001 C CNN "Description"
 F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "LT3094EMSE#PBF" H 0   0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 0   0   50  0001 C CNN "Supplier"
-F 8 "LT3094EMSE#PBF-ND" H 0   0   50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "584-LT3094EMSE#PBF" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    5900 4450
 	1    0    0    -1  
 $EndComp
@@ -271,8 +271,8 @@ F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" H 4750 3950 50  0
 F 4 "CAP CER 4.7UF 10V X5R 0805" H 1450 400 50  0001 C CNN "Description"
 F 5 "Taiyo Yuden" H 1450 400 50  0001 C CNN "Manufacturer"
 F 6 "LMK212BJ475KD-T" H 1450 400 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 1450 400 50  0001 C CNN "Supplier"
-F 8 "587-1297-1-ND" H 1450 400 50  0001 C CNN "Supplier Part Number"
+F 7 "Mouser" H 1450 400 50  0001 C CNN "Supplier"
+F 8 "963-LMK212BJ475KD-T" H 1450 400 50  0001 C CNN "Supplier Part Number"
 	1    4750 3950
 	1    0    0    -1  
 $EndComp
