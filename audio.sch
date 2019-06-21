@@ -88,8 +88,13 @@ U 1 1 5CB5715A
 P 4300 3700
 F 0 "SW?" H 4050 3800 50  0000 L CNN
 F 1 "SW_DPDT_x2" H 4050 3900 50  0000 L CNN
-F 2 "" H 4300 3700 50  0001 C CNN
-F 3 "" H 4300 3700 50  0001 C CNN
+F 2 "c&k:PN22SJSA03QE" H 4300 3700 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1413/pn.pdf" H 4300 3700 50  0001 C CNN
+F 4 "Push Button Switch DPDT ON-OFF" H 0   0   50  0001 C CNN "Description"
+F 5 "C&K" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PN22SJSA03QE" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "611-PN22SJSA03QE" H 0   0   50  0001 C CNN "Supplier Part Number"
 	1    4300 3700
 	1    0    0    -1  
 $EndComp
@@ -100,7 +105,12 @@ P 4300 4300
 F 0 "SW?" H 4050 4200 50  0000 L CNN
 F 1 "SW_DPDT_x2" H 4050 4100 50  0000 L CNN
 F 2 "" H 4300 4300 50  0001 C CNN
-F 3 "" H 4300 4300 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1413/pn.pdf" H 4300 4300 50  0001 C CNN
+F 4 "PUSH BUTTON CAP" H 0   0   50  0001 C CNN "Description"
+F 5 "C&K" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "G003A" H 0   0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 0   0   50  0001 C CNN "Supplier"
+F 8 "611-G003A" H 0   0   50  0001 C CNN "Supplier Part Number"
 	2    4300 4300
 	1    0    0    -1  
 $EndComp

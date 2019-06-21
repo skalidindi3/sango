@@ -11,3 +11,6 @@ Model: Assmann WSW Components A 08-LC-TT
 Audio Potentiometer Bourns PTD902-1020K-A103
 Footprint: kicad libs (ALPS RK097 dual)
 Model: Bourns
+
+Pushbutton DPDT C&K PN22SJSA03QE
+Model: C&K
