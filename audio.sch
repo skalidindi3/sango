@@ -821,7 +821,7 @@ AR Path="/5C87B3B6/5CEDAB07" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEDAB07" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEDAB07" Ref="R?"  Part="1" 
 F 0 "R?" V 7430 3550 50  0000 C CNN
-F 1 "40.2k" V 7350 3550 50  0000 C CNN
+F 1 "40.2k" V 7350 3550 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 3550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7350 3550 50  0001 C CNN
 F 4 "RES SMD 40.2K OHM 0.1% 1/8W 0805 Metal Film" H 7350 3550 50  0001 C CNN "Description"
@@ -871,7 +871,7 @@ AR Path="/5C87B3B6/5CEE5E17" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEE5E17" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEE5E17" Ref="R?"  Part="1" 
 F 0 "R?" V 7430 4450 50  0000 C CNN
-F 1 "40.2k" V 7350 4450 50  0000 C CNN
+F 1 "40.2k" V 7350 4450 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 4450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7350 4450 50  0001 C CNN
 F 4 "RES SMD 40.2K OHM 0.1% 1/8W 0805 Metal Film" H 7350 4450 50  0001 C CNN "Description"
@@ -923,7 +923,7 @@ L Device:R_POT_Dual_Separate RV?
 U 1 1 5CF4D127
 P 6300 3250
 F 0 "RV?" V 6200 3150 50  0000 L CNN
-F 1 "R_POT_Dual_Separate" V 6400 3350 50  0000 L CNN
+F 1 "5k" V 6300 3250 50  0000 C CNN
 F 2 "stdlibmods:Potentiometer_PTD902-1015K-A502" H 6300 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/PTD90.pdf" H 6300 3250 50  0001 C CNN
 F 4 "Potentiometer 2 Gang Audio Taper 5kOhms" H 0   0   50  0001 C CNN "Description"
@@ -946,7 +946,7 @@ L Device:R_POT_Dual_Separate RV?
 U 2 1 5CF90CC4
 P 6300 4750
 F 0 "RV?" V 6200 4650 50  0000 L CNN
-F 1 "R_POT_Dual_Separate" V 6400 4850 50  0000 L CNN
+F 1 "5k" V 6300 4750 50  0000 C CNN
 F 2 "" H 6300 4750 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sparkfun-electronics/COM-10002/1568-1601-ND/7229871" H 6300 4750 50  0001 C CNN
 F 4 "KNOB KNURLED 0.236\" METAL" H 0   0   50  0001 C CNN "Description"

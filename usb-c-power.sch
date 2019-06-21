@@ -184,7 +184,7 @@ L Device:R R?
 U 1 1 5C87BA5D
 P 4000 3700
 F 0 "R?" V 4080 3700 50  0000 C CNN
-F 1 "35.7k" V 4000 3700 50  0000 C CNN
+F 1 "35.7k" V 4000 3700 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 3700 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4000 3700 50  0001 C CNN
 F 4 "RES SMD 35.7K OHM 1% 1/8W 0805" H 4000 3700 50  0001 C CNN "Description"

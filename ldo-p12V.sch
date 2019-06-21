@@ -64,7 +64,7 @@ P 4550 4400
 AR Path="/5C87B3B6/5CA5D410" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5D410" Ref="R?"  Part="1" 
 F 0 "R?" V 4630 4400 50  0000 C CNN
-F 1 "121k" V 4550 4400 50  0000 C CNN
+F 1 "121k" V 4550 4400 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4550 4400 50  0001 C CNN
 F 4 "RES SMD 121K OHM 0.1% 1/8W 0805 Metal Film" H 4550 4400 50  0001 C CNN "Description"
@@ -119,7 +119,7 @@ P 6450 4400
 AR Path="/5C87B3B6/5CA5DD37" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5DD37" Ref="R?"  Part="1" 
 F 0 "R?" V 6530 4400 50  0000 C CNN
-F 1 "49.9k" V 6450 4400 50  0000 C CNN
+F 1 "49.9k" V 6450 4400 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 4400 50  0001 C CNN
 F 4 "RES SMD 49.9K OHM 1% 1/8W 0805" H 6450 4400 50  0001 C CNN "Description"
@@ -137,7 +137,7 @@ P 6450 3900
 AR Path="/5C87B3B6/5CA5DDF4" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CA5DDF4" Ref="R?"  Part="1" 
 F 0 "R?" V 6530 3900 50  0000 C CNN
-F 1 "1.91M" V 6450 3900 50  0000 C CNN
+F 1 "1.91M" V 6450 3900 43  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 3900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 3900 50  0001 C CNN
 F 4 "RES SMD 1.91M OHM 1% 1/8W 0805" H 6450 3900 50  0001 C CNN "Description"
@@ -194,7 +194,7 @@ P 3950 4400
 AR Path="/5C87B3B6/5CAC0D09" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CAC0D09" Ref="R?"  Part="1" 
 F 0 "R?" V 4030 4400 50  0000 C CNN
-F 1 "49.9k" V 3950 4400 50  0000 C CNN
+F 1 "49.9k" V 3950 4400 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 4400 50  0001 C CNN
 F 4 "RES SMD 49.9K OHM 1% 1/8W 0805" H 3950 4400 50  0001 C CNN "Description"
@@ -212,7 +212,7 @@ P 3950 3900
 AR Path="/5C87B3B6/5CAC0D15" Ref="R?"  Part="1" 
 AR Path="/5CA59CF7/5CAC0D15" Ref="R?"  Part="1" 
 F 0 "R?" V 4030 3900 50  0000 C CNN
-F 1 "432k" V 3950 3900 50  0000 C CNN
+F 1 "432k" V 3950 3900 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3950 3900 50  0001 C CNN
 F 4 "RES SMD 432K OHM 1% 1/8W 0805" H 3950 3900 50  0001 C CNN "Description"
