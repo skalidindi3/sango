@@ -186,7 +186,7 @@ Wire Wire Line
 	6850 3650 6650 3650
 Connection ~ 6650 3650
 Text Notes 3950 3450 0    50   ~ 0
-LT3045 keeps IC in shutdown while EN is below 1.24V\n—> V_EN_threshold = 1.24V*(1+(432k/49.9k)) = 11.975V\n\nLT3045 fast start-up circuitry increases SET pin\ncurrent to ~~2mA while PGFB is below 300mV.\n—> V_PG_threshold = 0.3V*(1+(1.91M/49.9k)) = 11.78V
+LT3045 keeps IC in shutdown while EN is below 1.24V\n—> V_EN_threshold = 1.24V*(1+(432k/49.9k)) = 11.975V\n\nLT3045 fast start-up circuitry increases SET pin\ncurrent to ~~2mA while PGFB is below 300mV.\n—> V_PG_threshold = 0.3V*(1+(1.91M/49.9k)) = 11.78V\n\nV_o = I_SET * R_SET = 100uA * 121k = 12.1V
 $Comp
 L Device:R R?
 U 1 1 5CAC0D09

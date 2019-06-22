@@ -1013,4 +1013,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 4000 9350 4200
 Connection ~ 9350 4200
+Text Notes 5100 7550 0    50   ~ 0
+gain stage IN LPF:\n- f_p = 2.86 MHz\n- input RF noise filter\n\ngain stage FB LPF:\n- f_p = 483 kHz\n- phase @ 20kHz = -1.7 deg [low gain]\n- phase @ 20kHz = -2.4 deg [high gain]\n\noutput stage IN HPF:\n- f_p = 0.84 Hz\n- phase @ 20Hz = 2.4 deg
 $EndSCHEMATC

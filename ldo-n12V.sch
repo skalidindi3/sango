@@ -251,8 +251,8 @@ F 8 "P121KDACT-ND" H 4950 3950 50  0001 C CNN "Supplier Part Number"
 	1    4950 3950
 	1    0    0    1   
 $EndComp
-Text Notes 4350 5350 0    50   ~ 0
-LT3094 keeps IC in shutdown while EN is above -1.26V\n—> V_EN_threshold = -1.26V*(1+(422k/49.9k)) = -11.916V\n\nLT3094 fast start-up circuitry increases SET pin\ncurrent to ~~1.8mA while PGFB is above -300mV.\n—> V_PG_threshold = -0.3V*(1+(1.91M/49.9k)) = -11.78V
+Text Notes 4350 5500 0    50   ~ 0
+LT3094 keeps IC in shutdown while EN is above -1.26V\n—> V_EN_threshold = -1.26V*(1+(422k/49.9k)) = -11.916V\n\nLT3094 fast start-up circuitry increases SET pin\ncurrent to ~~1.8mA while PGFB is above -300mV.\n—> V_PG_threshold = -0.3V*(1+(1.91M/49.9k)) = -11.78V\n\nV_o = -I_SET * R_SET = -100uA * 121k = -12.1V
 $Comp
 L Device:C C?
 U 1 1 5D039BC5

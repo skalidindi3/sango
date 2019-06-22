@@ -378,5 +378,5 @@ Connection ~ 6700 3050
 Wire Wire Line
 	6700 3050 7500 3050
 Text Notes 3000 5050 0    50   ~ 0
-V_o = 1.255V*(1+(49.9k/5.36k)) = 12.94V\nI_fb = 1.255V/5.36k = 234.1µA\nphase lead f_z = 1/(2*pi*49.9k*82p) = 38.9kHz\n\nsimulation reaches +/-12.9V in <2.5ms
+V_o = 1.255V*(1+(49.9k/5.36k)) = 12.94V\nI_fb = 1.255V/5.36k = 234.1µA\n\nphase lead f_z = 1/(2*pi*49.9k*82p) = 38.9kHz\n—> within the recommended range (35kHz-55kHz)\n\nsimulation reaches +/-12.9V in <2.5ms
 $EndSCHEMATC
