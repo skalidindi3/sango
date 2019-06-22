@@ -516,7 +516,7 @@ L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5C8B0D5D
 P 7650 4000
 F 0 "J?" H 7700 4300 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7700 3700 50  0000 C CNN
+F 1 "USB_Indicators" H 7700 3700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7650 4000 50  0001 C CNN
 F 3 "https://drawings-pdf.s3.amazonaws.com/11636.pdf" H 7650 4000 50  0001 C CNN
 F 4 "CONN HEADER VERT 10POS 2.54MM" H 0   0   50  0001 C CNN "Description"
@@ -580,7 +580,6 @@ Wire Wire Line
 Connection ~ 8050 4200
 Wire Wire Line
 	8050 4200 8650 4200
-NoConn ~ 7950 4100
 $Comp
 L Device:R R?
 U 1 1 5C8C8D41
@@ -638,4 +637,8 @@ Wire Wire Line
 Wire Wire Line
 	3500 2850 3700 2850
 Connection ~ 3700 2850
+Wire Wire Line
+	7950 4100 8050 4100
+Wire Wire Line
+	8050 4100 8050 4200
 $EndSCHEMATC
