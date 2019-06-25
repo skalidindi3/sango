@@ -142,7 +142,7 @@ U 1 1 5CA624E4
 P 6200 3950
 F 0 "U?" H 6200 3850 60  0000 C CNN
 F 1 "LT3094" H 6200 3950 60  0000 C CNN
-F 2 "Housings_SSOP:MSOP-12-1EP_3x4mm_Pitch0.65mm" H 6200 3450 60  0001 C CNN
+F 2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" H 6200 3450 60  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf" H 6200 3550 60  0001 C CNN
 F 4 "500mA Negative Linear Voltage Regulator" H 300 -500 50  0001 C CNN "Description"
 F 5 "Linear Technology" H 300 -500 50  0001 C CNN "Manufacturer"

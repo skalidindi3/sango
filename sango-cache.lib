@@ -319,7 +319,7 @@ ENDDEF
 DEF linear_technology_LT3045 U 0 40 Y Y 1 F N
 F0 "U" 0 100 60 H V C CNN
 F1 "linear_technology_LT3045" 0 0 60 H V C CNN
-F2 "Housings_SSOP:MSOP-12-1EP_3x4mm_Pitch0.65mm" 0 500 60 H I C CNN
+F2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" 0 500 60 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf" 0 400 60 H I C CNN
 $FPLIST
  MSOP*
@@ -347,7 +347,7 @@ ENDDEF
 DEF linear_technology_LT3094 U 0 40 Y Y 1 F N
 F0 "U" 0 -100 60 H V C CNN
 F1 "linear_technology_LT3094" 0 0 60 H V C CNN
-F2 "Housings_SSOP:MSOP-12-1EP_3x4mm_Pitch0.65mm" 0 -500 60 H I C CNN
+F2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" 0 -500 60 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf" 0 -400 60 H I C CNN
 $FPLIST
  MSOP*
