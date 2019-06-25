@@ -1,6 +1,6 @@
 USB Type-C Receptacle Amphenol 12401610E4-2A
 Footprint: kicad libs
-Model: SnapEDA
+Model: Digi-Key
 
 6.35mm Jack Amphenol ACJS-MHDR
 Model: Digi-Key
