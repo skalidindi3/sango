@@ -6,11 +6,16 @@ Model: Digi-Key
 Model: Digi-Key
 
 IC Socket TE Connectivity 1-2199298-2
+Footprint: kicad libs
 Model: Assmann WSW Components A 08-LC-TT
 
 Audio Potentiometer Bourns PTD902-1020K-A103
-Footprint: kicad libs (ALPS RK097 dual)
+Footprint: kicad libs (from ALPS RK097 dual)
 Model: Bourns
 
 Pushbutton DPDT C&K PN22SJSA03QE
 Model: C&K
+
+Inductor SMT Bourns SRU5028A-100Y
+Footprint: kicad libs (from SRU8043)
+Model: Bourns

@@ -882,7 +882,7 @@ U 1 1 5CF4D127
 P 6300 2650
 F 0 "RV?" V 6200 2550 50  0000 L CNN
 F 1 "5k" V 6300 2650 50  0000 C CNN
-F 2 "stdlibmods:Potentiometer_PTD902-1015K-A502" H 6300 2650 50  0001 C CNN
+F 2 "bourns:PTD902-1015K-A502" H 6300 2650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/PTD90.pdf" H 6300 2650 50  0001 C CNN
 F 4 "Potentiometer 2 Gang Audio Taper 5kOhms" H 0   -600 50  0001 C CNN "Description"
 F 5 "Bourns" H 0   -600 50  0001 C CNN "Manufacturer"
