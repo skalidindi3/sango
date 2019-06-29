@@ -40,13 +40,13 @@ U 1 1 5C904175
 P 4650 3050
 F 0 "L?" V 4875 3050 50  0000 C CNN
 F 1 "10u Ferrite" V 4784 3050 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering" H 4650 3050 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf" H 4650 3050 50  0001 C CNN
-F 4 "FIXED IND 10UH 2.4A 59.8 MOHM" H 300 0   50  0001 C CNN "Description"
-F 5 "Taiyo Yuden" H 300 0   50  0001 C CNN "Manufacturer"
-F 6 "NRS6045T100MMGK" H 300 0   50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 300 0   50  0001 C CNN "Supplier"
-F 8 "587-2946-1-ND" H 300 0   50  0001 C CNN "Supplier Part Number"
+F 2 "bourns:SRU5028A" H 4650 3050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRU5028A.pdf" H 4650 3050 50  0001 C CNN
+F 4 "Fixed Inductors 10uH 30% SMD 5028 AEC-Q200" H 300 0   50  0001 C CNN "Description"
+F 5 "Bourns" H 300 0   50  0001 C CNN "Manufacturer"
+F 6 "SRU5028A-100Y" H 300 0   50  0001 C CNN "Manufacturer Part Number"
+F 7 "Mouser" H 300 0   50  0001 C CNN "Supplier"
+F 8 "652-SRU5028A-100Y" H 300 0   50  0001 C CNN "Supplier Part Number"
 	1    4650 3050
 	0    -1   -1   0   
 $EndComp
