@@ -762,14 +762,14 @@ AR Path="/5C87B3B6/5CEDA2A4" Ref="C?"  Part="1"
 AR Path="/5CA59CF7/5CEDA2A4" Ref="C?"  Part="1" 
 AR Path="/5CB56C16/5CEDA2A4" Ref="C?"  Part="1" 
 F 0 "C?" H 6735 2604 50  0000 R CNN
-F 1 "4.7u" H 6735 2695 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4" H 6888 2500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf" H 6850 2650 50  0001 C CNN
-F 4 "Film Capacitors 4.7uF 250 Volts 5%" H 4400 -2500 50  0001 C CNN "Description"
-F 5 "WIMA" H 4400 -2500 50  0001 C CNN "Manufacturer"
-F 6 "MKP4F044706F00JSSD" H 4400 -2500 50  0001 C CNN "Manufacturer Part Number"
+F 1 "1u" H 6735 2695 50  0000 R CNN
+F 2 "" H 6888 2500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_F3065_F611_F612-1103659.pdf" H 6850 2650 50  0001 C CNN
+F 4 "Film Capacitors 100V 1uF 5%" H 4400 -2500 50  0001 C CNN "Description"
+F 5 "KEMET" H 4400 -2500 50  0001 C CNN "Manufacturer"
+F 6 "F612JT105J100R" H 4400 -2500 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Mouser" H 4400 -2500 50  0001 C CNN "Supplier"
-F 8 "505-MKP4F044706F00JS" H 4400 -2500 50  0001 C CNN "Supplier Part Number"
+F 8 "80-F612JT105J100R" H 4400 -2500 50  0001 C CNN "Supplier Part Number"
 	1    6850 2650
 	0    1    1    0   
 $EndComp
@@ -781,14 +781,14 @@ AR Path="/5C87B3B6/5CEDAB07" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEDAB07" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEDAB07" Ref="R?"  Part="1" 
 F 0 "R?" V 7380 2950 50  0000 C CNN
-F 1 "40.2k" V 7300 2950 45  0000 C CNN
+F 1 "274k" V 7300 2950 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7230 2950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7300 2950 50  0001 C CNN
-F 4 "RES SMD 40.2K OHM 0.1% 1/8W 0805 Metal Film" H 7300 2950 50  0001 C CNN "Description"
+F 4 "RES SMD 274K OHM 0.1% 1/8W 0805 Metal Film" H 7300 2950 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 7300 2950 50  0001 C CNN "Manufacturer"
-F 6 "ERA-6AEB4022V" H 7300 2950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB2743V" H 7300 2950 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7300 2950 50  0001 C CNN "Supplier"
-F 8 "P40.2KDACT-ND" H 7300 2950 50  0001 C CNN "Supplier Part Number"
+F 8 "P274KDACT-ND" H 7300 2950 50  0001 C CNN "Supplier Part Number"
 	1    7300 2950
 	-1   0    0    -1  
 $EndComp
@@ -812,14 +812,14 @@ AR Path="/5C87B3B6/5CEE5E0B" Ref="C?"  Part="1"
 AR Path="/5CA59CF7/5CEE5E0B" Ref="C?"  Part="1" 
 AR Path="/5CB56C16/5CEE5E0B" Ref="C?"  Part="1" 
 F 0 "C?" H 6735 4104 50  0000 R CNN
-F 1 "4.7u" H 6735 4195 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4" H 6888 4000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf" H 6850 4150 50  0001 C CNN
-F 4 "Film Capacitors 4.7uF 250 Volts 5%" H 4400 -1000 50  0001 C CNN "Description"
-F 5 "WIMA" H 4400 -1000 50  0001 C CNN "Manufacturer"
-F 6 "MKP4F044706F00JSSD" H 4400 -1000 50  0001 C CNN "Manufacturer Part Number"
+F 1 "1u" H 6735 4195 50  0000 R CNN
+F 2 "" H 6888 4000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_F3065_F611_F612-1103659.pdf" H 6850 4150 50  0001 C CNN
+F 4 "Film Capacitors 100V 1uF 5%" H 4400 -1000 50  0001 C CNN "Description"
+F 5 "KEMET" H 4400 -1000 50  0001 C CNN "Manufacturer"
+F 6 "F612JT105J100R" H 4400 -1000 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Mouser" H 4400 -1000 50  0001 C CNN "Supplier"
-F 8 "505-MKP4F044706F00JS" H 4400 -1000 50  0001 C CNN "Supplier Part Number"
+F 8 "80-F612JT105J100R" H 4400 -1000 50  0001 C CNN "Supplier Part Number"
 	1    6850 4150
 	0    1    -1   0   
 $EndComp
@@ -831,14 +831,14 @@ AR Path="/5C87B3B6/5CEE5E17" Ref="R?"  Part="1"
 AR Path="/5CA59CF7/5CEE5E17" Ref="R?"  Part="1" 
 AR Path="/5CB56C16/5CEE5E17" Ref="R?"  Part="1" 
 F 0 "R?" V 7380 3850 50  0000 C CNN
-F 1 "40.2k" V 7300 3850 45  0000 C CNN
+F 1 "274k" V 7300 3850 45  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7230 3850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7300 3850 50  0001 C CNN
-F 4 "RES SMD 40.2K OHM 0.1% 1/8W 0805 Metal Film" H 7300 3850 50  0001 C CNN "Description"
+F 4 "RES SMD 274K OHM 0.1% 1/8W 0805 Metal Film" H 7300 3850 50  0001 C CNN "Description"
 F 5 "Panasonic Electronic Components" H 7300 3850 50  0001 C CNN "Manufacturer"
-F 6 "ERA-6AEB4022V" H 7300 3850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ERA-6AEB2743V" H 7300 3850 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Digi-Key" H 7300 3850 50  0001 C CNN "Supplier"
-F 8 "P40.2KDACT-ND" H 7300 3850 50  0001 C CNN "Supplier Part Number"
+F 8 "P274KDACT-ND" H 7300 3850 50  0001 C CNN "Supplier Part Number"
 	1    7300 3850
 	-1   0    0    1   
 $EndComp
@@ -969,7 +969,7 @@ Wire Wire Line
 	9300 3400 9300 3600
 Connection ~ 9300 3600
 Text Notes 4800 7550 0    50   ~ 0
-gain stage input low-pass:\n- pole @ 2.86 MHz\n- input RF noise filter\n\ngain stage feedback low-pass:\n- pole @ 483 kHz\n- phase @ 20kHz = -1.7 deg [low gain]\n- phase @ 20kHz = -2.4 deg [high gain]\n\noutput stage input high-pass:\n- pole @ 0.84 Hz\n- phase @ 20Hz = 2.4 deg
+gain stage input low-pass:\n- pole @ 2.86 MHz\n- input RF noise filter\n\ngain stage feedback low-pass:\n- pole @ 483 kHz\n- phase @ 20kHz = -1.7 deg [low gain]\n- phase @ 20kHz = -2.4 deg [high gain]\n\noutput stage input high-pass:\n- pole @ 0.58 Hz\n- phase @ 20Hz = 1.7 deg
 Wire Wire Line
 	4800 2900 5000 2900
 Connection ~ 4800 2900
