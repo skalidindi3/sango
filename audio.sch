@@ -881,14 +881,14 @@ L Device:R_POT_Dual_Separate RV?
 U 1 1 5CF4D127
 P 6300 2650
 F 0 "RV?" V 6200 2550 50  0000 L CNN
-F 1 "5k" V 6300 2650 50  0000 C CNN
-F 2 "bourns:PTD902-1015K-A502" H 6300 2650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/PTD90.pdf" H 6300 2650 50  0001 C CNN
-F 4 "Potentiometer 2 Gang Audio Taper 5kOhms" H 0   -600 50  0001 C CNN "Description"
-F 5 "Bourns" H 0   -600 50  0001 C CNN "Manufacturer"
-F 6 "PTD902-1015K-A502" H 0   -600 50  0001 C CNN "Manufacturer Part Number"
+F 1 "10k" V 6300 2650 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal" H 6300 2650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/RK097-1370742.pdf" H 6300 2650 50  0001 C CNN
+F 4 "Potentiometer 15mm 10k 2-Gang Audio Taper" H 0   -600 50  0001 C CNN "Description"
+F 5 "ALPS" H 0   -600 50  0001 C CNN "Manufacturer"
+F 6 "RK09712200MC" H 0   -600 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Mouser" H 0   -600 50  0001 C CNN "Supplier"
-F 8 "652-PTD9021015KA502" H 0   -600 50  0001 C CNN "Supplier Part Number"
+F 8 "688-RK09712200MC" H 0   -600 50  0001 C CNN "Supplier Part Number"
 	1    6300 2650
 	1    0    0    -1  
 $EndComp
@@ -904,14 +904,9 @@ L Device:R_POT_Dual_Separate RV?
 U 2 1 5CF90CC4
 P 6300 4150
 F 0 "RV?" V 6200 4050 50  0000 L CNN
-F 1 "5k" V 6300 4150 50  0000 C CNN
-F 2 "" H 6300 4150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sparkfun-electronics/COM-10002/1568-1601-ND/7229871" H 6300 4150 50  0001 C CNN
-F 4 "KNOB KNURLED 0.236\" METAL" H 0   -600 50  0001 C CNN "Description"
-F 5 "SparkFun Electronics" H 0   -600 50  0001 C CNN "Manufacturer"
-F 6 "COM-10002" H 0   -600 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 0   -600 50  0001 C CNN "Supplier"
-F 8 "1568-1601-ND" H 0   -600 50  0001 C CNN "Supplier Part Number"
+F 1 "10k" V 6300 4150 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal" H 6300 4150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/RK097-1370742.pdf" H 6300 4150 50  0001 C CNN
 	2    6300 4150
 	1    0    0    1   
 $EndComp
