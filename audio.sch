@@ -764,12 +764,12 @@ AR Path="/5CB56C16/5CEDA2A4" Ref="C?"  Part="1"
 F 0 "C?" H 6735 2604 50  0000 R CNN
 F 1 "1u" H 6735 2695 50  0000 R CNN
 F 2 "" H 6888 2500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_F3065_F611_F612-1103659.pdf" H 6850 2650 50  0001 C CNN
-F 4 "Film Capacitors 100V 1uF 5%" H 4400 -2500 50  0001 C CNN "Description"
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_F3028_F461-464-1103031.pdf" H 6850 2650 50  0001 C CNN
+F 4 "Film Capacitors 400V 1uF 2%" H 4400 -2500 50  0001 C CNN "Description"
 F 5 "KEMET" H 4400 -2500 50  0001 C CNN "Manufacturer"
-F 6 "F612JT105J100R" H 4400 -2500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "F461DP105G400L" H 4400 -2500 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Mouser" H 4400 -2500 50  0001 C CNN "Supplier"
-F 8 "80-F612JT105J100R" H 4400 -2500 50  0001 C CNN "Supplier Part Number"
+F 8 "80-F461DP105G400L" H 4400 -2500 50  0001 C CNN "Supplier Part Number"
 	1    6850 2650
 	0    1    1    0   
 $EndComp
@@ -814,12 +814,12 @@ AR Path="/5CB56C16/5CEE5E0B" Ref="C?"  Part="1"
 F 0 "C?" H 6735 4104 50  0000 R CNN
 F 1 "1u" H 6735 4195 50  0000 R CNN
 F 2 "" H 6888 4000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_F3065_F611_F612-1103659.pdf" H 6850 4150 50  0001 C CNN
-F 4 "Film Capacitors 100V 1uF 5%" H 4400 -1000 50  0001 C CNN "Description"
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_F3028_F461-464-1103031.pdf" H 6850 4150 50  0001 C CNN
+F 4 "Film Capacitors 400V 1uF 2%" H 4400 -1000 50  0001 C CNN "Description"
 F 5 "KEMET" H 4400 -1000 50  0001 C CNN "Manufacturer"
-F 6 "F612JT105J100R" H 4400 -1000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "F461DP105G400L" H 4400 -1000 50  0001 C CNN "Manufacturer Part Number"
 F 7 "Mouser" H 4400 -1000 50  0001 C CNN "Supplier"
-F 8 "80-F612JT105J100R" H 4400 -1000 50  0001 C CNN "Supplier Part Number"
+F 8 "80-F461DP105G400L" H 4400 -1000 50  0001 C CNN "Supplier Part Number"
 	1    6850 4150
 	0    1    -1   0   
 $EndComp
